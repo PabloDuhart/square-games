@@ -7,17 +7,34 @@ public class projectile_Script : MonoBehaviour
 
 	private bool aiming = false;
 
-	private Rigidbody2D rb;
-    
-    void Start()
-    {
-       
-    }
+	public Rigidbody2D rigidBody;
 
-	private
+	public SpringJoint2D springJoint;
+
+	public double distanceOffset = 0;
    
     void Update()
     {
-        
+        if (aiming)
+		{
+			rigidBody.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		}
     }
+
+
+	void OnMouseDown()
+	{
+		aiming = true;
+		rigidBody.isKinematic = true;
+	}
+
+	void OnMouseUp()
+	{
+		aiming = false;
+		rigidBody.isKinematic = false;
+		if (springJoint.distance > distanceOffset)
+		{
+			springJoint.enabled = false;
+		}
+	}
 }
