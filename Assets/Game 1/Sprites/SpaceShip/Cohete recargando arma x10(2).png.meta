@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: 7381409fbdc15fc4a97d6009b691b2a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -32448933355448034
+    second: Cohete recargando arma x10(2)_0
+  - first:
+      213: 5861314540552916598
+    second: Cohete recargando arma x10(2)_1
+  - first:
+      213: 7523393632037154977
+    second: Cohete recargando arma x10(2)_2
+  - first:
+      213: -7825603171836257537
+    second: Cohete recargando arma x10(2)_3
+  - first:
+      213: 8263939342359403023
+    second: Cohete recargando arma x10(2)_4
+  - first:
+      213: 4087144015694253699
+    second: Cohete recargando arma x10(2)_5
+  - first:
+      213: -7427647801145910316
+    second: Cohete recargando arma x10(2)_6
+  - first:
+      213: 6539696424582987515
+    second: Cohete recargando arma x10(2)_7
+  - first:
+      213: -255767737822675912
+    second: Cohete recargando arma x10(2)_8
+  - first:
+      213: 1078162436554645991
+    second: Cohete recargando arma x10(2)_9
+  - first:
+      213: -2884932151605733295
+    second: Cohete recargando arma x10(2)_10
+  - first:
+      213: -3527358991912007635
+    second: Cohete recargando arma x10(2)_11
+  - first:
+      213: 4126285101439447640
+    second: Cohete recargando arma x10(2)_12
+  - first:
+      213: 7499337336353502363
+    second: Cohete recargando arma x10(2)_13
+  - first:
+      213: -3702292994001707928
+    second: Cohete recargando arma x10(2)_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2440
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e191206fdd7bc8ff0800000000000000
+      internalID: -32448933355448034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2440
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e0d722582975150800000000000000
+      internalID: 5861314540552916598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2440
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0b20fc5a6786860800000000000000
+      internalID: 7523393632037154977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_3
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2440
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa9785806fd56390800000000000000
+      internalID: -7825603171836257537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1220
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a15b23c096fa270800000000000000
+      internalID: 8263939342359403023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1220
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec151e3d378b830800000000000000
+      internalID: 4087144015694253699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1220
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db9cff9da1bbe890800000000000000
+      internalID: -7427647801145910316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_7
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1220
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3926df3ba1ca50800000000000000
+      internalID: 6539696424582987515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf21af894537cf0800000000000000
+      internalID: -255767737822675912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e16201160766fe00800000000000000
+      internalID: 1078162436554645991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158df6e3e79a6f7d0800000000000000
+      internalID: -2884932151605733295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cohete recargando arma x10(2)_11
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 900
+        height: 1220
+      alignment: 9
+      pivot: {x: 0.555, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d280ec38fad4c0fc0800000000000000
+      internalID: -3527358991912007635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
