@@ -23,12 +23,11 @@ public class projectile_Script : MonoBehaviour
 
 	public float nextBallDelay = 2f;
 
-    public int projectileCant;
 
-    
-    void Update()
+
+	void Update()
     {
-        
+
         if (aiming)
 		{
 			Vector2 projectilePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -43,6 +42,7 @@ public class projectile_Script : MonoBehaviour
 			}
 		}
     }
+
 
 	void OnMouseDown()
 	{
@@ -66,37 +66,19 @@ public class projectile_Script : MonoBehaviour
 		yield return new WaitForSeconds(launchDelay);
 		springJoint.enabled = false;
 		launching = true;
-        yield return new WaitForSeconds(nextBallDelay);
-        if (nextBall == null)
-        {
-            //Here the player losses because he/she doesn't have any ammo left, this part of the script is subceptible to changes because of the way it handdles the ammo
-            //For now this is how we are going to test the game, if the reader has any other better way of implementing this action please inform to the rest of the team
-        }
-        else
-        {
-            //Projectile Respawn Code
-            nextBall.SetActive(true);
-            nextBall.transform.position = new Vector2(-4.7f,-1.72f);
-            gameObject.SetActive(false);
-            springJoint.enabled = true;
-            aiming = false;
-            launching = false;
-            
-
-        }
-
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //Projectile Respawn Code
-        nextBall.SetActive(true);
-        nextBall.transform.position = new Vector2(-4.7f, -1.72f);
-        gameObject.SetActive(false);
-        springJoint.enabled = true;
-        aiming = false;
-        launching = false;
-        rigidBody.isKinematic = true;
-    }
+		yield return new WaitForSeconds(nextBallDelay);
+		if(nextBall == null)
+		{
+			//Here the player losses because he/she doesn't have any ammo left, this part of the script is subceptible to changes because of the way it handdles the ammo
+			//For now this is how we are going to test the game, if the reader has any other better way of implementing this action please inform to the rest of the team
+		}
+		else
+		{
+			gameObject.SetActive(false);
+			nextBall.SetActive(true);
+		}
+		
+	}
 
 
 
