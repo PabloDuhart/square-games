@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-	public float health = 2f;
+    public float enemyContact = 2f; //enemy lifes
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if( collision.relativeVelocity.magnitude > health)
-		{
-			Die();
-		}
-	}
-	void Die()
-	{
-		//Here you've to animate the death of the enemy
-		Destroy(gameObject);
-	}
+	    if (collision.collider.CompareTag("projectil")){
+            //Enemy damaged, here you can put the animation.
+            enemyContact--;
+        }
+        else
+        {
+            //Enemy damaged, here you can put the animation.
+            enemyContact -= 0.5f;
+        }
+        if (enemyContact <= 0)
+        {
+            //Enemy die, here you can put the animation.
+            Destroy(gameObject);
+        }
+    }
 }
