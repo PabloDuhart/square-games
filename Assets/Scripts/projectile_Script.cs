@@ -87,7 +87,7 @@ public class projectile_Script : MonoBehaviour
 		yield return new WaitForSeconds(nextProjectileDelay);
         //Projectil respawn code
 		nextProjectile.SetActive(true);
-        nextProjectile.transform.position = new Vector3(-4.7f, -1.72f,-1);
+        nextProjectile.transform.position = new Vector3(-5.2f, 2f, 0);
         gameObject.SetActive(false);
         springJoint.enabled = true;
         aiming = false;
