@@ -24,7 +24,7 @@ public class enemy : MonoBehaviour
         {
             //Enemy damaged, here you can put the animation.
             enemyContact -= 0.5f;
-            anim.SetBool("HitDamage", true);
+            anim.SetBool("HitDamage", false);
             anim.SetFloat("EnemyLife", enemyContact);
         }
         if (enemyContact <= 0)
