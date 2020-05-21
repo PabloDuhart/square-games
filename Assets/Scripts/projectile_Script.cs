@@ -7,7 +7,7 @@ public class projectile_Script : MonoBehaviour
 
 	private bool aiming = false;
 
-	private bool launching = false;
+	protected bool launching = false;
 
 	public Rigidbody2D rigidBody;
 
@@ -28,6 +28,9 @@ public class projectile_Script : MonoBehaviour
     public projectile_Script nextProjectilCode;//The "projectile_Script" of the next projectil, we need this for change vars
 
     private GameObject[] enemys;//list of enemys 
+
+    public Vector3 projectilePosition;
+
 
     void Update()
     {
@@ -87,7 +90,7 @@ public class projectile_Script : MonoBehaviour
 		yield return new WaitForSeconds(nextProjectileDelay);
         //Projectil respawn code
 		nextProjectile.SetActive(true);
-        nextProjectile.transform.position = new Vector3(-5.2f, 2f, 0);
+        nextProjectile.transform.position = projectilePosition;
         gameObject.SetActive(false);
         springJoint.enabled = true;
         aiming = false;
@@ -103,7 +106,7 @@ public class projectile_Script : MonoBehaviour
         yield return new WaitForSeconds(nextProjectileDelay);
         //Projectil respawn code
         nextProjectile.SetActive(true);
-        nextProjectile.transform.position = new Vector3(-4.7f, -1.72f,-1);
+        nextProjectile.transform.position = projectilePosition;
         gameObject.SetActive(false);
         springJoint.enabled = true;
         aiming = false;
@@ -113,6 +116,16 @@ public class projectile_Script : MonoBehaviour
         Debug.Log("Player lifes: " + playerLifes);//Delete this before a sprint
         Debug.Log("Enemy count: " + enemys.Length);//Delete this before a sprint
     }
-
-
+    private bool getLaunching()
+    {
+        return launching;
+    }
+    public bool getLaunchAnimation()
+    {
+        if (launching || nextProjectilCode.getLaunching())
+        {
+            return true;
+        }
+        return false;
+    }
 }

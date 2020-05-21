@@ -16,6 +16,7 @@ public class SpaceShip_Controller : MonoBehaviour
     public Vector3 spaceShipScale;
     private float groundPositionY;
     private bool toSpace;
+    public projectile_Script proyectil;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -29,6 +30,8 @@ public class SpaceShip_Controller : MonoBehaviour
         distance = 0;
         anim.SetBool("Flying", true);
         toSpace = true;
+        anim.SetBool("Reload", false);
+        anim.SetBool("Attack", false);
         groundPositionY = ground.y;
     }
 
@@ -71,10 +74,15 @@ public class SpaceShip_Controller : MonoBehaviour
             gameObject.transform.localPosition = Vector3.MoveTowards(preLanding, ground, distance);
             distance += velocity;
         }
-        if ((Mathf.Abs(gameObject.transform.position.y - groundPositionY)) == 0)
+        if ((Mathf.Abs(gameObject.transform.position.y - groundPositionY)) == 0 && !anim.GetBool("FirstReload"))
         {
             //anim.SetBool("Grounded", true);
             StartCoroutine(Wait());
+        }
+        if (proyectil.getLaunchAnimation())
+        {
+            anim.SetBool("Attack", true);
+            StartCoroutine(WaitAttack());
         }
         
     }
@@ -87,5 +95,15 @@ public class SpaceShip_Controller : MonoBehaviour
     {
         yield return new WaitForSeconds(6.05f);
         anim.SetBool("FirstReload", true);
+        yield return new WaitForSeconds(1.2f);
+        anim.SetBool("Idle", true);
+    }
+    IEnumerator WaitAttack()
+    {
+        yield return new WaitForSeconds(0.4f);
+        anim.SetBool("Attack", false);
+        anim.SetBool("Reload", true);
+        yield return new WaitForSeconds(1.2f);
+        anim.SetBool("Reload", false);
     }
 }

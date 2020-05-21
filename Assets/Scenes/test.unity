@@ -180,6 +180,7 @@ MonoBehaviour:
   nextProjectileDelay: 2
   playerLifes: 5
   nextProjectilCode: {fileID: 2451942267262227923}
+  projectilePosition: {x: -4.6192, y: -1.5662, z: -1}
 --- !u!231 &629198559
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -278,7 +279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -3455904423669685724, guid: 2030ec1060d16a74c96815b501bc2760,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -868,7 +869,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -3455904423669685724, guid: 2030ec1060d16a74c96815b501bc2760,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -943,6 +944,7 @@ MonoBehaviour:
   nextProjectileDelay: 2
   playerLifes: 5
   nextProjectilCode: {fileID: 629198558}
+  projectilePosition: {x: -4.6192, y: -1.5662, z: -1}
 --- !u!231 &2451942267262227924
 SpringJoint2D:
   m_ObjectHideFlags: 0
