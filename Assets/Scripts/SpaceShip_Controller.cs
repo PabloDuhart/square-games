@@ -38,7 +38,7 @@ public class SpaceShip_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log((Mathf.Abs(gameObject.transform.position.y - groundPositionY)));
+        //Debug.Log((Mathf.Abs(gameObject.transform.position.y - groundPositionY)));
         if (toSpace)
         {
             if (gameObject.transform.localPosition.Equals(preLanding))
@@ -79,11 +79,11 @@ public class SpaceShip_Controller : MonoBehaviour
             //anim.SetBool("Grounded", true);
             StartCoroutine(Wait());
         }
-        if (proyectil.getLaunchAnimation())
-        {
-            anim.SetBool("Attack", true);
-            StartCoroutine(WaitAttack());
-        }
+        //if (proyectil.getLaunchAnimation())
+        //{
+        //    anim.SetBool("Attack", true);
+         //   StartCoroutine(WaitAttack());
+        //}
         
     }
     IEnumerator WaitLanding()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class projectile_Script : MonoBehaviour
 {
@@ -23,16 +24,19 @@ public class projectile_Script : MonoBehaviour
 
 	public float nextProjectileDelay = 2f;
 
-    public int playerLifes;//Projectiles left.
+	public int playerLifes;//Projectiles left.
 
-    public projectile_Script nextProjectilCode;//The "projectile_Script" of the next projectil, we need this for change vars
+	public projectile_Script nextProjectilCode;//The "projectile_Script" of the next projectil, we need this for change vars
 
-    private GameObject[] enemys;//list of enemys 
+	private GameObject[] enemys;//list of enemys 
 
-    public Vector3 projectilePosition;
+	public Vector3 projectilePosition;
+
+	public Text projectilesText;
+	public Text enemiesText;
 
 
-    void Update()
+	void Update()
     {
         enemys = GameObject.FindGameObjectsWithTag("enemy");
         if (aiming)
@@ -48,7 +52,13 @@ public class projectile_Script : MonoBehaviour
 				rigidBody.position = projectilePosition;
 			}
 		}
-        if (playerLifes <= 0 & enemys.Length>0)//if projectiles left its 0 and the scene have more enemys, the player lose.
+
+		projectilesText.text = "Projectiles left: " + playerLifes.ToString();
+		enemiesText.text = "Enemies left: " + (enemys.Length).ToString();
+
+
+
+		if (playerLifes <= 0 & enemys.Length>0)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
             gameObject.SetActive(false);
             Debug.Log("YOU LOSE AJAJAJAJAJAJ");
