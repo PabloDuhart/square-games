@@ -5,9 +5,9 @@ using UnityEngine;
 public class SpaceShip_Controller : MonoBehaviour
 {
     private Animator anim;
-    public Vector2 start;
-    public Vector2 preLanding;
-    public Vector2 ground;
+    public Vector3 start;
+    public Vector3 preLanding;
+    public Vector3 ground;
     public float startDelay;
     private float distance;
     public float velocity;
@@ -48,13 +48,13 @@ public class SpaceShip_Controller : MonoBehaviour
             }
             else
             {
-                gameObject.transform.localPosition = Vector2.MoveTowards(start, preLanding, distance);
+                gameObject.transform.localPosition = Vector3.MoveTowards(start, preLanding, distance);
                 distance += velocity;
             }
         }
         if (preLand)
         {
-            gameObject.transform.localPosition = Vector2.MoveTowards(preLanding, ground, distance);
+            gameObject.transform.localPosition = Vector3.MoveTowards(preLanding, ground, distance);
             distance += velocity;
         }
         if ((Mathf.Abs(gameObject.transform.position.y-groundPositionY))<1f & (Mathf.Abs(gameObject.transform.position.y - groundPositionY))!=0 & !landing)
@@ -62,13 +62,13 @@ public class SpaceShip_Controller : MonoBehaviour
             preLand = false;
             landing = true;
             anim.SetBool("Flying", false);
-            gameObject.transform.localPosition = Vector2.MoveTowards(preLanding, ground, distance);
+            gameObject.transform.localPosition = Vector3.MoveTowards(preLanding, ground, distance);
             distance += velocity;
             StartCoroutine(WaitLanding());
         }
         if (landing)
         {
-            gameObject.transform.localPosition = Vector2.MoveTowards(preLanding, ground, distance);
+            gameObject.transform.localPosition = Vector3.MoveTowards(preLanding, ground, distance);
             distance += velocity;
         }
         if ((Mathf.Abs(gameObject.transform.position.y - groundPositionY)) == 0)
