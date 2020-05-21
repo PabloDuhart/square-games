@@ -29,6 +29,2451 @@ TextureImporter:
   - first:
       213: -5601875040849304328
     second: CoheteVolando x10_8
+  - first:
+      213: 367557798057089042
+    second: CoheteVolando x10_0
+  - first:
+      213: 6735123655034788719
+    second: CoheteVolando x10_1
+  - first:
+      213: 8811805241573907102
+    second: CoheteVolando x10_2
+  - first:
+      213: 7655038715579863665
+    second: CoheteVolando x10_3
+  - first:
+      213: -2327271192375286513
+    second: CoheteVolando x10_4
+  - first:
+      213: 7025730008898969016
+    second: CoheteVolando x10_5
+  - first:
+      213: -4784476403016102967
+    second: CoheteVolando x10_6
+  - first:
+      213: -5231772895466235473
+    second: CoheteVolando x10_7
+  - first:
+      213: 7194893255006220087
+    second: CoheteVolando x10_9
+  - first:
+      213: -2210936683012203480
+    second: CoheteVolando x10_10
+  - first:
+      213: 6275800485389118022
+    second: CoheteVolando x10_11
+  - first:
+      213: 2606846753023058301
+    second: CoheteVolando x10_12
+  - first:
+      213: 7002323286810189483
+    second: CoheteVolando x10_13
+  - first:
+      213: -7199423531522782671
+    second: CoheteVolando x10_14
+  - first:
+      213: 6378078550539023634
+    second: CoheteVolando x10_15
+  - first:
+      213: 3004207303794017534
+    second: CoheteVolando x10_16
+  - first:
+      213: -2991123299406832962
+    second: CoheteVolando x10_17
+  - first:
+      213: -1536405009316396970
+    second: CoheteVolando x10_18
+  - first:
+      213: 4606726673212615111
+    second: CoheteVolando x10_19
+  - first:
+      213: -791641492525360109
+    second: CoheteVolando x10_20
+  - first:
+      213: -2543601445551953316
+    second: CoheteVolando x10_21
+  - first:
+      213: -196792422184962497
+    second: CoheteVolando x10_22
+  - first:
+      213: 4199402499491749368
+    second: CoheteVolando x10_23
+  - first:
+      213: -5424261384104303595
+    second: CoheteVolando x10_24
+  - first:
+      213: 5346031779045344526
+    second: CoheteVolando x10_25
+  - first:
+      213: 4916970866108221050
+    second: CoheteVolando x10_26
+  - first:
+      213: 3760530835443408660
+    second: CoheteVolando x10_27
+  - first:
+      213: 6786693069464297049
+    second: CoheteVolando x10_28
+  - first:
+      213: 1899015292351786970
+    second: CoheteVolando x10_29
+  - first:
+      213: 7947701797116768416
+    second: CoheteVolando x10_30
+  - first:
+      213: -4010899511672458640
+    second: CoheteVolando x10_31
+  - first:
+      213: -1444332970998015544
+    second: CoheteVolando x10_32
+  - first:
+      213: 5573302218647019479
+    second: CoheteVolando x10_33
+  - first:
+      213: -7042021183263187145
+    second: CoheteVolando x10_34
+  - first:
+      213: 1694646071107891851
+    second: CoheteVolando x10_35
+  - first:
+      213: -2547777059182434659
+    second: CoheteVolando x10_36
+  - first:
+      213: -855636857828973792
+    second: CoheteVolando x10_37
+  - first:
+      213: -1719133148760375194
+    second: CoheteVolando x10_38
+  - first:
+      213: -3147833180183845021
+    second: CoheteVolando x10_39
+  - first:
+      213: -5098622169251061077
+    second: CoheteVolando x10_40
+  - first:
+      213: 3699803230735548225
+    second: CoheteVolando x10_41
+  - first:
+      213: 2826475191286255524
+    second: CoheteVolando x10_42
+  - first:
+      213: -7288203709635914149
+    second: CoheteVolando x10_43
+  - first:
+      213: -3569831602864577392
+    second: CoheteVolando x10_44
+  - first:
+      213: -5357388693266627393
+    second: CoheteVolando x10_45
+  - first:
+      213: -7113972341652173028
+    second: CoheteVolando x10_46
+  - first:
+      213: -5059682677383719802
+    second: CoheteVolando x10_47
+  - first:
+      213: -1895087217004778426
+    second: CoheteVolando x10_48
+  - first:
+      213: 6006852375723456882
+    second: CoheteVolando x10_49
+  - first:
+      213: -3899398844612919321
+    second: CoheteVolando x10_50
+  - first:
+      213: 3408024620570601085
+    second: CoheteVolando x10_51
+  - first:
+      213: -4520303594881181393
+    second: CoheteVolando x10_52
+  - first:
+      213: 4618640857179790033
+    second: CoheteVolando x10_53
+  - first:
+      213: -7613423475876149854
+    second: CoheteVolando x10_54
+  - first:
+      213: 2910971630590876204
+    second: CoheteVolando x10_55
+  - first:
+      213: -1723896963790978925
+    second: CoheteVolando x10_56
+  - first:
+      213: -7357745302475746696
+    second: CoheteVolando x10_57
+  - first:
+      213: 6502628825289903628
+    second: CoheteVolando x10_58
+  - first:
+      213: -7897486390102102337
+    second: CoheteVolando x10_59
+  - first:
+      213: -4771413007872404881
+    second: CoheteVolando x10_60
+  - first:
+      213: -8451023201483911042
+    second: CoheteVolando x10_61
+  - first:
+      213: -482514525687021446
+    second: CoheteVolando x10_62
+  - first:
+      213: 2853931084131489101
+    second: CoheteVolando x10_63
+  - first:
+      213: 8991405588244695178
+    second: CoheteVolando x10_64
+  - first:
+      213: -6961166170041461130
+    second: CoheteVolando x10_65
+  - first:
+      213: 777487955967512524
+    second: CoheteVolando x10_66
+  - first:
+      213: -5728759420555153747
+    second: CoheteVolando x10_67
+  - first:
+      213: -6842213884901479731
+    second: CoheteVolando x10_68
+  - first:
+      213: 2797882695444224096
+    second: CoheteVolando x10_69
+  - first:
+      213: 8415269110764672631
+    second: CoheteVolando x10_70
+  - first:
+      213: 2470041554514959617
+    second: CoheteVolando x10_71
+  - first:
+      213: 2401182449242453426
+    second: CoheteVolando x10_72
+  - first:
+      213: -7527071942781940146
+    second: CoheteVolando x10_73
+  - first:
+      213: -8637095909776008105
+    second: CoheteVolando x10_74
+  - first:
+      213: -5243500760095343112
+    second: CoheteVolando x10_75
+  - first:
+      213: -1312139463003460541
+    second: CoheteVolando x10_76
+  - first:
+      213: 3556789918243993534
+    second: CoheteVolando x10_77
+  - first:
+      213: -8177905008468790989
+    second: CoheteVolando x10_78
+  - first:
+      213: -1295999549538363651
+    second: CoheteVolando x10_79
+  - first:
+      213: 6034705665400289877
+    second: CoheteVolando x10_80
+  - first:
+      213: -5309277117725289266
+    second: CoheteVolando x10_81
+  - first:
+      213: -1969972357268319050
+    second: CoheteVolando x10_82
+  - first:
+      213: -360184710545934055
+    second: CoheteVolando x10_83
+  - first:
+      213: 4278242658107293620
+    second: CoheteVolando x10_84
+  - first:
+      213: 4495193618859694859
+    second: CoheteVolando x10_85
+  - first:
+      213: 1470890200477130473
+    second: CoheteVolando x10_86
+  - first:
+      213: -2055988424040941774
+    second: CoheteVolando x10_87
+  - first:
+      213: -6341004410086998178
+    second: CoheteVolando x10_88
+  - first:
+      213: 3336387973076609475
+    second: CoheteVolando x10_89
+  - first:
+      213: -1541255490896399912
+    second: CoheteVolando x10_90
+  - first:
+      213: -1122427411960583878
+    second: CoheteVolando x10_91
+  - first:
+      213: -7517555563433751122
+    second: CoheteVolando x10_92
+  - first:
+      213: 4607853442077553072
+    second: CoheteVolando x10_93
+  - first:
+      213: -1285270642900819860
+    second: CoheteVolando x10_94
+  - first:
+      213: 37518292190279228
+    second: CoheteVolando x10_95
+  - first:
+      213: -1453972448864713043
+    second: CoheteVolando x10_96
+  - first:
+      213: 2346889285541450945
+    second: CoheteVolando x10_97
+  - first:
+      213: 8012068489116322112
+    second: CoheteVolando x10_98
+  - first:
+      213: 9155083461086568041
+    second: CoheteVolando x10_99
+  - first:
+      213: -7119105002256795531
+    second: CoheteVolando x10_100
+  - first:
+      213: -4838583280399517890
+    second: CoheteVolando x10_101
+  - first:
+      213: -4349600171050969203
+    second: CoheteVolando x10_102
+  - first:
+      213: 241634841106665950
+    second: CoheteVolando x10_103
+  - first:
+      213: -5368191024153914096
+    second: CoheteVolando x10_104
+  - first:
+      213: 1498672729981175366
+    second: CoheteVolando x10_105
+  - first:
+      213: -3560775284855047639
+    second: CoheteVolando x10_106
+  - first:
+      213: 2383907686292893829
+    second: CoheteVolando x10_107
+  - first:
+      213: -9132720809934134027
+    second: CoheteVolando x10_108
+  - first:
+      213: -4812413322212211898
+    second: CoheteVolando x10_109
+  - first:
+      213: 3519124573278132879
+    second: CoheteVolando x10_110
+  - first:
+      213: 1284908343033951070
+    second: CoheteVolando x10_111
+  - first:
+      213: -3892327289587568418
+    second: CoheteVolando x10_112
+  - first:
+      213: 6523453192814207134
+    second: CoheteVolando x10_113
+  - first:
+      213: 8399590379185468371
+    second: CoheteVolando x10_114
+  - first:
+      213: 8781406856301789949
+    second: CoheteVolando x10_115
+  - first:
+      213: 5491471205115608547
+    second: CoheteVolando x10_116
+  - first:
+      213: 968355906758745669
+    second: CoheteVolando x10_117
+  - first:
+      213: -9185256032217340406
+    second: CoheteVolando x10_118
+  - first:
+      213: -9090209493278255267
+    second: CoheteVolando x10_119
+  - first:
+      213: -1997150247412174995
+    second: CoheteVolando x10_120
+  - first:
+      213: 4391786017434701525
+    second: CoheteVolando x10_121
+  - first:
+      213: 597077411366393120
+    second: CoheteVolando x10_122
+  - first:
+      213: 1616051919615894179
+    second: CoheteVolando x10_123
+  - first:
+      213: 8480388006207430744
+    second: CoheteVolando x10_124
+  - first:
+      213: -464012571361209279
+    second: CoheteVolando x10_125
+  - first:
+      213: -6816282343220427335
+    second: CoheteVolando x10_126
+  - first:
+      213: -7003522740663104166
+    second: CoheteVolando x10_127
+  - first:
+      213: -8479480379633373416
+    second: CoheteVolando x10_128
+  - first:
+      213: -4574571923432698280
+    second: CoheteVolando x10_129
+  - first:
+      213: -7000629388335964959
+    second: CoheteVolando x10_130
+  - first:
+      213: -7251277122091082687
+    second: CoheteVolando x10_131
+  - first:
+      213: -3957991946725311938
+    second: CoheteVolando x10_132
+  - first:
+      213: 7989657689195245708
+    second: CoheteVolando x10_133
+  - first:
+      213: 2859120050714067553
+    second: CoheteVolando x10_134
+  - first:
+      213: 9060899198476067707
+    second: CoheteVolando x10_135
+  - first:
+      213: 2875906370688151913
+    second: CoheteVolando x10_136
+  - first:
+      213: 1230817181981376170
+    second: CoheteVolando x10_137
+  - first:
+      213: 5620469255702688713
+    second: CoheteVolando x10_138
+  - first:
+      213: 4592183063811316762
+    second: CoheteVolando x10_139
+  - first:
+      213: -775068884744138524
+    second: CoheteVolando x10_140
+  - first:
+      213: -5665010140248155195
+    second: CoheteVolando x10_141
+  - first:
+      213: -7032459833492471057
+    second: CoheteVolando x10_142
+  - first:
+      213: -6877351124844143434
+    second: CoheteVolando x10_143
+  - first:
+      213: 2498822574270472371
+    second: CoheteVolando x10_144
+  - first:
+      213: 7909561654173342575
+    second: CoheteVolando x10_145
+  - first:
+      213: -3452624642930890525
+    second: CoheteVolando x10_146
+  - first:
+      213: 5313178648044860085
+    second: CoheteVolando x10_147
+  - first:
+      213: -7001575364709737237
+    second: CoheteVolando x10_148
+  - first:
+      213: -1807180540054412277
+    second: CoheteVolando x10_149
+  - first:
+      213: -8348531885246903802
+    second: CoheteVolando x10_150
+  - first:
+      213: -9114183053401684444
+    second: CoheteVolando x10_151
+  - first:
+      213: 3799580116492090977
+    second: CoheteVolando x10_152
+  - first:
+      213: 7488523614665683712
+    second: CoheteVolando x10_153
+  - first:
+      213: 996557674410141898
+    second: CoheteVolando x10_154
+  - first:
+      213: -6463930937873776539
+    second: CoheteVolando x10_155
+  - first:
+      213: -7223406140950737090
+    second: CoheteVolando x10_156
+  - first:
+      213: -1865727687727345002
+    second: CoheteVolando x10_157
+  - first:
+      213: 8127356518409297196
+    second: CoheteVolando x10_158
+  - first:
+      213: -5471911978800710015
+    second: CoheteVolando x10_159
+  - first:
+      213: 4344020258172509371
+    second: CoheteVolando x10_160
+  - first:
+      213: -125660070996753326
+    second: CoheteVolando x10_161
+  - first:
+      213: 8913295134049838761
+    second: CoheteVolando x10_162
+  - first:
+      213: -3640019246905331825
+    second: CoheteVolando x10_163
+  - first:
+      213: -1100545148409720497
+    second: CoheteVolando x10_164
+  - first:
+      213: -542986181891999654
+    second: CoheteVolando x10_165
+  - first:
+      213: -9011071353915329355
+    second: CoheteVolando x10_166
+  - first:
+      213: 9159189210216118397
+    second: CoheteVolando x10_167
+  - first:
+      213: 2756371995572217120
+    second: CoheteVolando x10_168
+  - first:
+      213: -7888112547044021743
+    second: CoheteVolando x10_169
+  - first:
+      213: -1998602893702013829
+    second: CoheteVolando x10_170
+  - first:
+      213: 1736510950503846838
+    second: CoheteVolando x10_171
+  - first:
+      213: 8459072141031686685
+    second: CoheteVolando x10_172
+  - first:
+      213: 7596586144463650976
+    second: CoheteVolando x10_173
+  - first:
+      213: -7810119324546945530
+    second: CoheteVolando x10_174
+  - first:
+      213: 2885430444786162360
+    second: CoheteVolando x10_175
+  - first:
+      213: -6691145520431510342
+    second: CoheteVolando x10_176
+  - first:
+      213: -493433399663998379
+    second: CoheteVolando x10_177
+  - first:
+      213: -1714600467672694088
+    second: CoheteVolando x10_178
+  - first:
+      213: 2932018392932971817
+    second: CoheteVolando x10_179
+  - first:
+      213: 1502294665594289808
+    second: CoheteVolando x10_180
+  - first:
+      213: 6650890413373668489
+    second: CoheteVolando x10_181
+  - first:
+      213: -7848158142978902952
+    second: CoheteVolando x10_182
+  - first:
+      213: 4861120041304665415
+    second: CoheteVolando x10_183
+  - first:
+      213: 1490387831728430789
+    second: CoheteVolando x10_184
+  - first:
+      213: -6691877907548061707
+    second: CoheteVolando x10_185
+  - first:
+      213: 4953197421223879341
+    second: CoheteVolando x10_186
+  - first:
+      213: 2703038782871510392
+    second: CoheteVolando x10_187
+  - first:
+      213: -7717717920597757136
+    second: CoheteVolando x10_188
+  - first:
+      213: 4269747892978000925
+    second: CoheteVolando x10_189
+  - first:
+      213: 7363318923282603035
+    second: CoheteVolando x10_190
+  - first:
+      213: -8813739563507007021
+    second: CoheteVolando x10_191
+  - first:
+      213: 6759326918234118282
+    second: CoheteVolando x10_192
+  - first:
+      213: 6862905770998548282
+    second: CoheteVolando x10_193
+  - first:
+      213: -4488763965391442427
+    second: CoheteVolando x10_194
+  - first:
+      213: 4146890146069963654
+    second: CoheteVolando x10_195
+  - first:
+      213: -8181567528194327687
+    second: CoheteVolando x10_196
+  - first:
+      213: -4194233030997200013
+    second: CoheteVolando x10_197
+  - first:
+      213: 4480540650412113425
+    second: CoheteVolando x10_198
+  - first:
+      213: 4337809731617037196
+    second: CoheteVolando x10_199
+  - first:
+      213: -6144392136024091344
+    second: CoheteVolando x10_200
+  - first:
+      213: 6425132290328198337
+    second: CoheteVolando x10_201
+  - first:
+      213: -1671088819407669133
+    second: CoheteVolando x10_202
+  - first:
+      213: 7023324232399454351
+    second: CoheteVolando x10_203
+  - first:
+      213: -991739235941561734
+    second: CoheteVolando x10_204
+  - first:
+      213: 3323858152233145181
+    second: CoheteVolando x10_205
+  - first:
+      213: 1003736157010988298
+    second: CoheteVolando x10_206
+  - first:
+      213: 1751812224797321337
+    second: CoheteVolando x10_207
+  - first:
+      213: 3347428197112103910
+    second: CoheteVolando x10_208
+  - first:
+      213: -906586486847056222
+    second: CoheteVolando x10_209
+  - first:
+      213: -5543428418416524126
+    second: CoheteVolando x10_210
+  - first:
+      213: -4476332770389064185
+    second: CoheteVolando x10_211
+  - first:
+      213: -4771642981203869992
+    second: CoheteVolando x10_212
+  - first:
+      213: 1371067338239819052
+    second: CoheteVolando x10_213
+  - first:
+      213: -4012144644223864019
+    second: CoheteVolando x10_214
+  - first:
+      213: -3074396740927994674
+    second: CoheteVolando x10_215
+  - first:
+      213: 9195099590509793036
+    second: CoheteVolando x10_216
+  - first:
+      213: 6066927745404701979
+    second: CoheteVolando x10_217
+  - first:
+      213: -3026086391010362306
+    second: CoheteVolando x10_218
+  - first:
+      213: -4185834969474150375
+    second: CoheteVolando x10_219
+  - first:
+      213: -6099754604986435477
+    second: CoheteVolando x10_220
+  - first:
+      213: -8278771742644991131
+    second: CoheteVolando x10_221
+  - first:
+      213: 4955506387218077861
+    second: CoheteVolando x10_222
+  - first:
+      213: -1042097081803256122
+    second: CoheteVolando x10_223
+  - first:
+      213: -4930941455230684909
+    second: CoheteVolando x10_224
+  - first:
+      213: -4118237183688431717
+    second: CoheteVolando x10_225
+  - first:
+      213: 1611471154721342998
+    second: CoheteVolando x10_226
+  - first:
+      213: -7493935917164766100
+    second: CoheteVolando x10_227
+  - first:
+      213: 5419848801729917312
+    second: CoheteVolando x10_228
+  - first:
+      213: 2724003306084103006
+    second: CoheteVolando x10_229
+  - first:
+      213: 4793491438535285439
+    second: CoheteVolando x10_230
+  - first:
+      213: 2753913105084543346
+    second: CoheteVolando x10_231
+  - first:
+      213: -8755094481029488144
+    second: CoheteVolando x10_232
+  - first:
+      213: -314481361876988912
+    second: CoheteVolando x10_233
+  - first:
+      213: -7068811434718865773
+    second: CoheteVolando x10_234
+  - first:
+      213: -3836255956354710939
+    second: CoheteVolando x10_235
+  - first:
+      213: 7663010683549018703
+    second: CoheteVolando x10_236
+  - first:
+      213: -7957951219274461348
+    second: CoheteVolando x10_237
+  - first:
+      213: -8223001375632525513
+    second: CoheteVolando x10_238
+  - first:
+      213: -2847405191568637182
+    second: CoheteVolando x10_239
+  - first:
+      213: 5191124772386856256
+    second: CoheteVolando x10_240
+  - first:
+      213: 6956084576521861601
+    second: CoheteVolando x10_241
+  - first:
+      213: 6544878468131185438
+    second: CoheteVolando x10_242
+  - first:
+      213: -3116587618275455566
+    second: CoheteVolando x10_243
+  - first:
+      213: 5096915236074480482
+    second: CoheteVolando x10_244
+  - first:
+      213: -928525000524251217
+    second: CoheteVolando x10_245
+  - first:
+      213: -9090378197163788012
+    second: CoheteVolando x10_246
+  - first:
+      213: -8208066491123418530
+    second: CoheteVolando x10_247
+  - first:
+      213: -5622095110409595634
+    second: CoheteVolando x10_248
+  - first:
+      213: 8544435494110381681
+    second: CoheteVolando x10_249
+  - first:
+      213: -7638154063303805009
+    second: CoheteVolando x10_250
+  - first:
+      213: -349661638641239937
+    second: CoheteVolando x10_251
+  - first:
+      213: 8426210464826810269
+    second: CoheteVolando x10_252
+  - first:
+      213: 4140494041041801951
+    second: CoheteVolando x10_253
+  - first:
+      213: -2421964120107190679
+    second: CoheteVolando x10_254
+  - first:
+      213: -4293274305907598775
+    second: CoheteVolando x10_255
+  - first:
+      213: -3245873954547165935
+    second: CoheteVolando x10_256
+  - first:
+      213: 3048522170313939334
+    second: CoheteVolando x10_257
+  - first:
+      213: 2906892963989179253
+    second: CoheteVolando x10_258
+  - first:
+      213: 5470016021837937304
+    second: CoheteVolando x10_259
+  - first:
+      213: -5456145350665967025
+    second: CoheteVolando x10_260
+  - first:
+      213: 4996982503154025662
+    second: CoheteVolando x10_261
+  - first:
+      213: 2966909326874103811
+    second: CoheteVolando x10_262
+  - first:
+      213: -188787940122554052
+    second: CoheteVolando x10_263
+  - first:
+      213: 4016870333254701164
+    second: CoheteVolando x10_264
+  - first:
+      213: 3506267136541113114
+    second: CoheteVolando x10_265
+  - first:
+      213: 344900604938381932
+    second: CoheteVolando x10_266
+  - first:
+      213: -8125478044962930678
+    second: CoheteVolando x10_267
+  - first:
+      213: -3037961600284174794
+    second: CoheteVolando x10_268
+  - first:
+      213: -6722547094055683884
+    second: CoheteVolando x10_269
+  - first:
+      213: 4698015208228679164
+    second: CoheteVolando x10_270
+  - first:
+      213: 3188094824225226177
+    second: CoheteVolando x10_271
+  - first:
+      213: -6361786608465047860
+    second: CoheteVolando x10_272
+  - first:
+      213: -1375905405858064737
+    second: CoheteVolando x10_273
+  - first:
+      213: 5707045078710921227
+    second: CoheteVolando x10_274
+  - first:
+      213: -7596068897528999795
+    second: CoheteVolando x10_275
+  - first:
+      213: -6813911326546963719
+    second: CoheteVolando x10_276
+  - first:
+      213: 8807143865451533532
+    second: CoheteVolando x10_277
+  - first:
+      213: 8370043767539957085
+    second: CoheteVolando x10_278
+  - first:
+      213: 8310050474476025099
+    second: CoheteVolando x10_279
+  - first:
+      213: 2273986785095194760
+    second: CoheteVolando x10_280
+  - first:
+      213: 4417630848500973207
+    second: CoheteVolando x10_281
+  - first:
+      213: -6129788662154228748
+    second: CoheteVolando x10_282
+  - first:
+      213: 2986312006827660863
+    second: CoheteVolando x10_283
+  - first:
+      213: 1391251769021317143
+    second: CoheteVolando x10_284
+  - first:
+      213: -4383138984435814570
+    second: CoheteVolando x10_285
+  - first:
+      213: -8664419932830766154
+    second: CoheteVolando x10_286
+  - first:
+      213: -4925259846040836584
+    second: CoheteVolando x10_287
+  - first:
+      213: 6654768377482848251
+    second: CoheteVolando x10_288
+  - first:
+      213: 2695726864122599843
+    second: CoheteVolando x10_289
+  - first:
+      213: -437816967939196295
+    second: CoheteVolando x10_290
+  - first:
+      213: 3248438887765716672
+    second: CoheteVolando x10_291
+  - first:
+      213: -3289575866807588516
+    second: CoheteVolando x10_292
+  - first:
+      213: 3239066717929829417
+    second: CoheteVolando x10_293
+  - first:
+      213: 208433851849858382
+    second: CoheteVolando x10_294
+  - first:
+      213: -4682416413162355134
+    second: CoheteVolando x10_295
+  - first:
+      213: -6844524373303201159
+    second: CoheteVolando x10_296
+  - first:
+      213: -1442954018577117203
+    second: CoheteVolando x10_297
+  - first:
+      213: -6487964361163003476
+    second: CoheteVolando x10_298
+  - first:
+      213: 4156385019025695596
+    second: CoheteVolando x10_299
+  - first:
+      213: -7995646766900937077
+    second: CoheteVolando x10_300
+  - first:
+      213: -8057923036665210847
+    second: CoheteVolando x10_301
+  - first:
+      213: -3958165744989870336
+    second: CoheteVolando x10_302
+  - first:
+      213: 5765358564006973793
+    second: CoheteVolando x10_303
+  - first:
+      213: -3423901552902901470
+    second: CoheteVolando x10_304
+  - first:
+      213: 6698752036583347844
+    second: CoheteVolando x10_305
+  - first:
+      213: -751852584550758787
+    second: CoheteVolando x10_306
+  - first:
+      213: -5354816272351707252
+    second: CoheteVolando x10_307
+  - first:
+      213: -4719976698552664903
+    second: CoheteVolando x10_308
+  - first:
+      213: 2485940570159049393
+    second: CoheteVolando x10_309
+  - first:
+      213: -762015683992731377
+    second: CoheteVolando x10_310
+  - first:
+      213: -7910382146296207084
+    second: CoheteVolando x10_311
+  - first:
+      213: 8506067466124834019
+    second: CoheteVolando x10_312
+  - first:
+      213: -6077974983646284374
+    second: CoheteVolando x10_313
+  - first:
+      213: 5287275689148913579
+    second: CoheteVolando x10_314
+  - first:
+      213: 4431544919348108121
+    second: CoheteVolando x10_315
+  - first:
+      213: 8731322625373016261
+    second: CoheteVolando x10_316
+  - first:
+      213: 7067333737603014497
+    second: CoheteVolando x10_317
+  - first:
+      213: -4039397472598504735
+    second: CoheteVolando x10_318
+  - first:
+      213: 4540330547090212968
+    second: CoheteVolando x10_319
+  - first:
+      213: 1317071972180991667
+    second: CoheteVolando x10_320
+  - first:
+      213: -6040227446239138916
+    second: CoheteVolando x10_321
+  - first:
+      213: 4064644643937336988
+    second: CoheteVolando x10_322
+  - first:
+      213: 708280670953056543
+    second: CoheteVolando x10_323
+  - first:
+      213: 1593477234012071971
+    second: CoheteVolando x10_324
+  - first:
+      213: -3495872303284078489
+    second: CoheteVolando x10_325
+  - first:
+      213: 4479268287371438154
+    second: CoheteVolando x10_326
+  - first:
+      213: 4088451176429393808
+    second: CoheteVolando x10_327
+  - first:
+      213: 5348752287148950130
+    second: CoheteVolando x10_328
+  - first:
+      213: -4369428709385116382
+    second: CoheteVolando x10_329
+  - first:
+      213: -3345921615998494790
+    second: CoheteVolando x10_330
+  - first:
+      213: -3276067279459113534
+    second: CoheteVolando x10_331
+  - first:
+      213: 2103876685855001165
+    second: CoheteVolando x10_332
+  - first:
+      213: 982044444424401286
+    second: CoheteVolando x10_333
+  - first:
+      213: -332462632536660640
+    second: CoheteVolando x10_334
+  - first:
+      213: -7775100239260008531
+    second: CoheteVolando x10_335
+  - first:
+      213: -1471495514016283776
+    second: CoheteVolando x10_336
+  - first:
+      213: 6744252492545656190
+    second: CoheteVolando x10_337
+  - first:
+      213: 3672403666652988948
+    second: CoheteVolando x10_338
+  - first:
+      213: 6727518590007085898
+    second: CoheteVolando x10_339
+  - first:
+      213: -947912793017125881
+    second: CoheteVolando x10_340
+  - first:
+      213: -5931090376467300764
+    second: CoheteVolando x10_341
+  - first:
+      213: -182167099527900815
+    second: CoheteVolando x10_342
+  - first:
+      213: -1976697990420325547
+    second: CoheteVolando x10_343
+  - first:
+      213: -1745814101956435692
+    second: CoheteVolando x10_344
+  - first:
+      213: 940952380380955852
+    second: CoheteVolando x10_345
+  - first:
+      213: 7532243462013036274
+    second: CoheteVolando x10_346
+  - first:
+      213: 4725656494383862233
+    second: CoheteVolando x10_347
+  - first:
+      213: -2930673327115922060
+    second: CoheteVolando x10_348
+  - first:
+      213: 9029463740561230361
+    second: CoheteVolando x10_349
+  - first:
+      213: 2075331021455617993
+    second: CoheteVolando x10_350
+  - first:
+      213: -7126776275149296200
+    second: CoheteVolando x10_351
+  - first:
+      213: 484247400145451529
+    second: CoheteVolando x10_352
+  - first:
+      213: -1728983155677850145
+    second: CoheteVolando x10_353
+  - first:
+      213: 1317920024429151850
+    second: CoheteVolando x10_354
+  - first:
+      213: -8737320861335941143
+    second: CoheteVolando x10_355
+  - first:
+      213: -2146985992416217107
+    second: CoheteVolando x10_356
+  - first:
+      213: 5036424769813493977
+    second: CoheteVolando x10_357
+  - first:
+      213: 494035130771347672
+    second: CoheteVolando x10_358
+  - first:
+      213: -1033869026562448689
+    second: CoheteVolando x10_359
+  - first:
+      213: 7298625789020208183
+    second: CoheteVolando x10_360
+  - first:
+      213: 5493633075789420942
+    second: CoheteVolando x10_361
+  - first:
+      213: -6229133858345990914
+    second: CoheteVolando x10_362
+  - first:
+      213: -8776595470126984982
+    second: CoheteVolando x10_363
+  - first:
+      213: -1744495992927225454
+    second: CoheteVolando x10_364
+  - first:
+      213: 4656293926373986366
+    second: CoheteVolando x10_365
+  - first:
+      213: -1193618354170615919
+    second: CoheteVolando x10_366
+  - first:
+      213: -1628336015778110154
+    second: CoheteVolando x10_367
+  - first:
+      213: -6704384067641164968
+    second: CoheteVolando x10_368
+  - first:
+      213: 3447309539753552460
+    second: CoheteVolando x10_369
+  - first:
+      213: 3507563984630120401
+    second: CoheteVolando x10_370
+  - first:
+      213: 5951199848770001095
+    second: CoheteVolando x10_371
+  - first:
+      213: -4765906103506787619
+    second: CoheteVolando x10_372
+  - first:
+      213: -5826433934795951519
+    second: CoheteVolando x10_373
+  - first:
+      213: -6773472173292298575
+    second: CoheteVolando x10_374
+  - first:
+      213: 6936588000130971224
+    second: CoheteVolando x10_375
+  - first:
+      213: -3655541582775785798
+    second: CoheteVolando x10_376
+  - first:
+      213: -5896478300546378630
+    second: CoheteVolando x10_377
+  - first:
+      213: 2983241294758777351
+    second: CoheteVolando x10_378
+  - first:
+      213: -2293640655500366730
+    second: CoheteVolando x10_379
+  - first:
+      213: -7850035974356852081
+    second: CoheteVolando x10_380
+  - first:
+      213: 1547484939740481883
+    second: CoheteVolando x10_381
+  - first:
+      213: -5586866286096013423
+    second: CoheteVolando x10_382
+  - first:
+      213: -3806723201231638566
+    second: CoheteVolando x10_383
+  - first:
+      213: -6313790385323442249
+    second: CoheteVolando x10_384
+  - first:
+      213: 4991494293223670570
+    second: CoheteVolando x10_385
+  - first:
+      213: -1167347793390825050
+    second: CoheteVolando x10_386
+  - first:
+      213: -469075367848837737
+    second: CoheteVolando x10_387
+  - first:
+      213: -6550257252786310320
+    second: CoheteVolando x10_388
+  - first:
+      213: 1396066431875069540
+    second: CoheteVolando x10_389
+  - first:
+      213: 7648396831801304967
+    second: CoheteVolando x10_390
+  - first:
+      213: 8278117290481397613
+    second: CoheteVolando x10_391
+  - first:
+      213: -6619045525115106313
+    second: CoheteVolando x10_392
+  - first:
+      213: 8561255424850933276
+    second: CoheteVolando x10_393
+  - first:
+      213: -4404664027987986308
+    second: CoheteVolando x10_394
+  - first:
+      213: 5643972996925179874
+    second: CoheteVolando x10_395
+  - first:
+      213: 7208187738925345881
+    second: CoheteVolando x10_396
+  - first:
+      213: -4433270232967786563
+    second: CoheteVolando x10_397
+  - first:
+      213: 8544919628805368364
+    second: CoheteVolando x10_398
+  - first:
+      213: -299597631220534363
+    second: CoheteVolando x10_399
+  - first:
+      213: -4130941790584789904
+    second: CoheteVolando x10_400
+  - first:
+      213: 2372469373078207730
+    second: CoheteVolando x10_401
+  - first:
+      213: -5062952281424602244
+    second: CoheteVolando x10_402
+  - first:
+      213: 1495375918031915660
+    second: CoheteVolando x10_403
+  - first:
+      213: -3739273750197964518
+    second: CoheteVolando x10_404
+  - first:
+      213: 6861873340540619244
+    second: CoheteVolando x10_405
+  - first:
+      213: 900693298538832611
+    second: CoheteVolando x10_406
+  - first:
+      213: 2909556839334713986
+    second: CoheteVolando x10_407
+  - first:
+      213: -2921709200959114042
+    second: CoheteVolando x10_408
+  - first:
+      213: 240834990674654485
+    second: CoheteVolando x10_409
+  - first:
+      213: -8176244822574602000
+    second: CoheteVolando x10_410
+  - first:
+      213: -8796269518823457442
+    second: CoheteVolando x10_411
+  - first:
+      213: -6520115639314235203
+    second: CoheteVolando x10_412
+  - first:
+      213: 7294407750822628241
+    second: CoheteVolando x10_413
+  - first:
+      213: -3664581849544312490
+    second: CoheteVolando x10_414
+  - first:
+      213: 1386143892882989699
+    second: CoheteVolando x10_415
+  - first:
+      213: -972341353316300697
+    second: CoheteVolando x10_416
+  - first:
+      213: 3702701008329495953
+    second: CoheteVolando x10_417
+  - first:
+      213: -6674046058322172053
+    second: CoheteVolando x10_418
+  - first:
+      213: 1120042736154919813
+    second: CoheteVolando x10_419
+  - first:
+      213: 6186298626320339996
+    second: CoheteVolando x10_420
+  - first:
+      213: -2822715679556786189
+    second: CoheteVolando x10_421
+  - first:
+      213: 2885466774556417981
+    second: CoheteVolando x10_422
+  - first:
+      213: -9159259906552730096
+    second: CoheteVolando x10_423
+  - first:
+      213: 308659860554590676
+    second: CoheteVolando x10_424
+  - first:
+      213: -5482211430739385182
+    second: CoheteVolando x10_425
+  - first:
+      213: 3219094273642436888
+    second: CoheteVolando x10_426
+  - first:
+      213: 8947854208351164360
+    second: CoheteVolando x10_427
+  - first:
+      213: -4126557493855809285
+    second: CoheteVolando x10_428
+  - first:
+      213: -2935767555756203368
+    second: CoheteVolando x10_429
+  - first:
+      213: -2915248349666341123
+    second: CoheteVolando x10_430
+  - first:
+      213: -1934386708019750820
+    second: CoheteVolando x10_431
+  - first:
+      213: 6344504546218046872
+    second: CoheteVolando x10_432
+  - first:
+      213: 927046052224764487
+    second: CoheteVolando x10_433
+  - first:
+      213: 3447568015348778672
+    second: CoheteVolando x10_434
+  - first:
+      213: 957001364328759338
+    second: CoheteVolando x10_435
+  - first:
+      213: 4502556682227573996
+    second: CoheteVolando x10_436
+  - first:
+      213: -6365268839685394319
+    second: CoheteVolando x10_437
+  - first:
+      213: 4789947970166803355
+    second: CoheteVolando x10_438
+  - first:
+      213: -1839931808234573563
+    second: CoheteVolando x10_439
+  - first:
+      213: 8310938280988714871
+    second: CoheteVolando x10_440
+  - first:
+      213: 7094269805906176569
+    second: CoheteVolando x10_441
+  - first:
+      213: -4374068773494871306
+    second: CoheteVolando x10_442
+  - first:
+      213: -4491927347477722857
+    second: CoheteVolando x10_443
+  - first:
+      213: 6125634191479971554
+    second: CoheteVolando x10_444
+  - first:
+      213: -2139078569862124913
+    second: CoheteVolando x10_445
+  - first:
+      213: -4215792057060020589
+    second: CoheteVolando x10_446
+  - first:
+      213: 7907812130058331538
+    second: CoheteVolando x10_447
+  - first:
+      213: -6255209413477601130
+    second: CoheteVolando x10_448
+  - first:
+      213: 6922905902929185225
+    second: CoheteVolando x10_449
+  - first:
+      213: 5816133997872481561
+    second: CoheteVolando x10_450
+  - first:
+      213: 898153595854483452
+    second: CoheteVolando x10_451
+  - first:
+      213: 8861028402563841977
+    second: CoheteVolando x10_452
+  - first:
+      213: -8796674062082600283
+    second: CoheteVolando x10_453
+  - first:
+      213: 6563757245663909195
+    second: CoheteVolando x10_454
+  - first:
+      213: -6260020209916199038
+    second: CoheteVolando x10_455
+  - first:
+      213: -3808487081982086230
+    second: CoheteVolando x10_456
+  - first:
+      213: -4586977419492158692
+    second: CoheteVolando x10_457
+  - first:
+      213: -9018015980248205395
+    second: CoheteVolando x10_458
+  - first:
+      213: -8907933924827758542
+    second: CoheteVolando x10_459
+  - first:
+      213: -4739302885695952757
+    second: CoheteVolando x10_460
+  - first:
+      213: 4724526998563303234
+    second: CoheteVolando x10_461
+  - first:
+      213: 155375296069639257
+    second: CoheteVolando x10_462
+  - first:
+      213: -3695065865599479740
+    second: CoheteVolando x10_463
+  - first:
+      213: -6449274704686198951
+    second: CoheteVolando x10_464
+  - first:
+      213: 4403558026096014260
+    second: CoheteVolando x10_465
+  - first:
+      213: 2217585621501806068
+    second: CoheteVolando x10_466
+  - first:
+      213: 354168447650697757
+    second: CoheteVolando x10_467
+  - first:
+      213: -3436668798363362704
+    second: CoheteVolando x10_468
+  - first:
+      213: 5669088308762459971
+    second: CoheteVolando x10_469
+  - first:
+      213: 7549586462267156294
+    second: CoheteVolando x10_470
+  - first:
+      213: 3512900943270042824
+    second: CoheteVolando x10_471
+  - first:
+      213: -7938676431336967742
+    second: CoheteVolando x10_472
+  - first:
+      213: -3072393728952711775
+    second: CoheteVolando x10_473
+  - first:
+      213: -5712366260308291050
+    second: CoheteVolando x10_474
+  - first:
+      213: -4708307779480157023
+    second: CoheteVolando x10_475
+  - first:
+      213: -2331016513866900647
+    second: CoheteVolando x10_476
+  - first:
+      213: 3750101916447039080
+    second: CoheteVolando x10_477
+  - first:
+      213: 3130379269002369087
+    second: CoheteVolando x10_478
+  - first:
+      213: -168942389366349600
+    second: CoheteVolando x10_479
+  - first:
+      213: 3561787019969777885
+    second: CoheteVolando x10_480
+  - first:
+      213: 6679324755143058399
+    second: CoheteVolando x10_481
+  - first:
+      213: -6840570880223010840
+    second: CoheteVolando x10_482
+  - first:
+      213: -6088675969553204521
+    second: CoheteVolando x10_483
+  - first:
+      213: -3116847558829724742
+    second: CoheteVolando x10_484
+  - first:
+      213: 2672110810754366809
+    second: CoheteVolando x10_485
+  - first:
+      213: 5809673681295626061
+    second: CoheteVolando x10_486
+  - first:
+      213: -2274170106569295801
+    second: CoheteVolando x10_487
+  - first:
+      213: -5836012399394021808
+    second: CoheteVolando x10_488
+  - first:
+      213: 9092426779988050102
+    second: CoheteVolando x10_489
+  - first:
+      213: 1826423942746545308
+    second: CoheteVolando x10_490
+  - first:
+      213: -2161097718367439540
+    second: CoheteVolando x10_491
+  - first:
+      213: -2955020194387272224
+    second: CoheteVolando x10_492
+  - first:
+      213: 293109092204522839
+    second: CoheteVolando x10_493
+  - first:
+      213: 7633105526168531294
+    second: CoheteVolando x10_494
+  - first:
+      213: 9167453383493336103
+    second: CoheteVolando x10_495
+  - first:
+      213: -7419414450168520434
+    second: CoheteVolando x10_496
+  - first:
+      213: -3316056168856448997
+    second: CoheteVolando x10_497
+  - first:
+      213: 6052424616094345509
+    second: CoheteVolando x10_498
+  - first:
+      213: -2325098180601641059
+    second: CoheteVolando x10_499
+  - first:
+      213: 7236862157696041008
+    second: CoheteVolando x10_500
+  - first:
+      213: 319449415573752723
+    second: CoheteVolando x10_501
+  - first:
+      213: 5412251864489156484
+    second: CoheteVolando x10_502
+  - first:
+      213: 5317978488567677571
+    second: CoheteVolando x10_503
+  - first:
+      213: -7438346179261169058
+    second: CoheteVolando x10_504
+  - first:
+      213: -4637481490201444274
+    second: CoheteVolando x10_505
+  - first:
+      213: 8551916062278795150
+    second: CoheteVolando x10_506
+  - first:
+      213: -3778443407881169199
+    second: CoheteVolando x10_507
+  - first:
+      213: 3041297106419448668
+    second: CoheteVolando x10_508
+  - first:
+      213: 6414681277046697796
+    second: CoheteVolando x10_509
+  - first:
+      213: -3783805911093015463
+    second: CoheteVolando x10_510
+  - first:
+      213: 2549814639911189773
+    second: CoheteVolando x10_511
+  - first:
+      213: -926837887182146510
+    second: CoheteVolando x10_512
+  - first:
+      213: 4368235411045479296
+    second: CoheteVolando x10_513
+  - first:
+      213: -1608226883320518011
+    second: CoheteVolando x10_514
+  - first:
+      213: 484106757318045171
+    second: CoheteVolando x10_515
+  - first:
+      213: -8793081038255136074
+    second: CoheteVolando x10_516
+  - first:
+      213: -8406622843650121866
+    second: CoheteVolando x10_517
+  - first:
+      213: -1250875929489492506
+    second: CoheteVolando x10_518
+  - first:
+      213: 7679712861710936499
+    second: CoheteVolando x10_519
+  - first:
+      213: -1314459867212570520
+    second: CoheteVolando x10_520
+  - first:
+      213: 6321308563101795621
+    second: CoheteVolando x10_521
+  - first:
+      213: 6513945287241824657
+    second: CoheteVolando x10_522
+  - first:
+      213: -9160085430569407294
+    second: CoheteVolando x10_523
+  - first:
+      213: -5150374943325584658
+    second: CoheteVolando x10_524
+  - first:
+      213: -2419815657789828979
+    second: CoheteVolando x10_525
+  - first:
+      213: 3898836426847747760
+    second: CoheteVolando x10_526
+  - first:
+      213: 7453139991830021184
+    second: CoheteVolando x10_527
+  - first:
+      213: -1815822628038119992
+    second: CoheteVolando x10_528
+  - first:
+      213: -8271352575334194361
+    second: CoheteVolando x10_529
+  - first:
+      213: 6542860953614290107
+    second: CoheteVolando x10_530
+  - first:
+      213: 3839460956399702587
+    second: CoheteVolando x10_531
+  - first:
+      213: -542913533748662037
+    second: CoheteVolando x10_532
+  - first:
+      213: 4249944689351964968
+    second: CoheteVolando x10_533
+  - first:
+      213: -6128842496508678499
+    second: CoheteVolando x10_534
+  - first:
+      213: 2940323859950685544
+    second: CoheteVolando x10_535
+  - first:
+      213: -4954199434854945317
+    second: CoheteVolando x10_536
+  - first:
+      213: -9086023610863127641
+    second: CoheteVolando x10_537
+  - first:
+      213: -3731074676669913128
+    second: CoheteVolando x10_538
+  - first:
+      213: -9061725573495592260
+    second: CoheteVolando x10_539
+  - first:
+      213: -7587714594153373268
+    second: CoheteVolando x10_540
+  - first:
+      213: 1170843015629086710
+    second: CoheteVolando x10_541
+  - first:
+      213: -2847811714453032051
+    second: CoheteVolando x10_542
+  - first:
+      213: 934784457932753771
+    second: CoheteVolando x10_543
+  - first:
+      213: 122473873422327532
+    second: CoheteVolando x10_544
+  - first:
+      213: 4180603890509079382
+    second: CoheteVolando x10_545
+  - first:
+      213: 4795254234172795617
+    second: CoheteVolando x10_546
+  - first:
+      213: -8084318645618031113
+    second: CoheteVolando x10_547
+  - first:
+      213: -2994892409310392561
+    second: CoheteVolando x10_548
+  - first:
+      213: 4632082565345211816
+    second: CoheteVolando x10_549
+  - first:
+      213: -6029133855030222228
+    second: CoheteVolando x10_550
+  - first:
+      213: 7007724009597195465
+    second: CoheteVolando x10_551
+  - first:
+      213: 6231439105092223868
+    second: CoheteVolando x10_552
+  - first:
+      213: 2580308458882812519
+    second: CoheteVolando x10_553
+  - first:
+      213: 791250848671873890
+    second: CoheteVolando x10_554
+  - first:
+      213: -37273512136513500
+    second: CoheteVolando x10_555
+  - first:
+      213: 5083712817365667857
+    second: CoheteVolando x10_556
+  - first:
+      213: -327913825078868384
+    second: CoheteVolando x10_557
+  - first:
+      213: 1929923999492450992
+    second: CoheteVolando x10_558
+  - first:
+      213: 5870838876535277769
+    second: CoheteVolando x10_559
+  - first:
+      213: 508726626574320169
+    second: CoheteVolando x10_560
+  - first:
+      213: 1908093758041438846
+    second: CoheteVolando x10_561
+  - first:
+      213: 2203513855335237538
+    second: CoheteVolando x10_562
+  - first:
+      213: 3496920141668801960
+    second: CoheteVolando x10_563
+  - first:
+      213: -7256755803400074563
+    second: CoheteVolando x10_564
+  - first:
+      213: -512501933497669094
+    second: CoheteVolando x10_565
+  - first:
+      213: -3696263840704807334
+    second: CoheteVolando x10_566
+  - first:
+      213: -6713803444926979326
+    second: CoheteVolando x10_567
+  - first:
+      213: -3576064663581584442
+    second: CoheteVolando x10_568
+  - first:
+      213: 2415079925057106425
+    second: CoheteVolando x10_569
+  - first:
+      213: 6752022508548933467
+    second: CoheteVolando x10_570
+  - first:
+      213: 3998263826528741306
+    second: CoheteVolando x10_571
+  - first:
+      213: 393102727223948466
+    second: CoheteVolando x10_572
+  - first:
+      213: 3616863372940908716
+    second: CoheteVolando x10_573
+  - first:
+      213: 5243409748771535086
+    second: CoheteVolando x10_574
+  - first:
+      213: -6298199145242944703
+    second: CoheteVolando x10_575
+  - first:
+      213: -41271129654305253
+    second: CoheteVolando x10_576
+  - first:
+      213: -9892281039607503
+    second: CoheteVolando x10_577
+  - first:
+      213: 9169602430640104031
+    second: CoheteVolando x10_578
+  - first:
+      213: 4084508147100342461
+    second: CoheteVolando x10_579
+  - first:
+      213: -6338608586113381396
+    second: CoheteVolando x10_580
+  - first:
+      213: -6000103250762944008
+    second: CoheteVolando x10_581
+  - first:
+      213: 3768685630608206426
+    second: CoheteVolando x10_582
+  - first:
+      213: -2428489682444049070
+    second: CoheteVolando x10_583
+  - first:
+      213: -8751650638885901064
+    second: CoheteVolando x10_584
+  - first:
+      213: 5107817949583049026
+    second: CoheteVolando x10_585
+  - first:
+      213: -65711931394849664
+    second: CoheteVolando x10_586
+  - first:
+      213: -6053431405902181273
+    second: CoheteVolando x10_587
+  - first:
+      213: -1914274889819879319
+    second: CoheteVolando x10_588
+  - first:
+      213: 8281810928084717560
+    second: CoheteVolando x10_589
+  - first:
+      213: 1163751581422462031
+    second: CoheteVolando x10_590
+  - first:
+      213: -3535875738716512707
+    second: CoheteVolando x10_591
+  - first:
+      213: -4738394207240669614
+    second: CoheteVolando x10_592
+  - first:
+      213: 4943775533673063816
+    second: CoheteVolando x10_593
+  - first:
+      213: 5281617768233981844
+    second: CoheteVolando x10_594
+  - first:
+      213: -8874684205216279266
+    second: CoheteVolando x10_595
+  - first:
+      213: -1248503900758937142
+    second: CoheteVolando x10_596
+  - first:
+      213: -7763137515469456710
+    second: CoheteVolando x10_597
+  - first:
+      213: -424389002033639299
+    second: CoheteVolando x10_598
+  - first:
+      213: 4575086635972965203
+    second: CoheteVolando x10_599
+  - first:
+      213: -6369941690127346803
+    second: CoheteVolando x10_600
+  - first:
+      213: -3504923086896194614
+    second: CoheteVolando x10_601
+  - first:
+      213: -841252622849022362
+    second: CoheteVolando x10_602
+  - first:
+      213: 8064725697562974713
+    second: CoheteVolando x10_603
+  - first:
+      213: 3006677527494786357
+    second: CoheteVolando x10_604
+  - first:
+      213: -4734117366377112734
+    second: CoheteVolando x10_605
+  - first:
+      213: 2617356488098291958
+    second: CoheteVolando x10_606
+  - first:
+      213: 6568364461350619203
+    second: CoheteVolando x10_607
+  - first:
+      213: 1443307320518095164
+    second: CoheteVolando x10_608
+  - first:
+      213: 6257525661118218939
+    second: CoheteVolando x10_609
+  - first:
+      213: 8321245474525646001
+    second: CoheteVolando x10_610
+  - first:
+      213: -3293476966746399848
+    second: CoheteVolando x10_611
+  - first:
+      213: -3850100793820388970
+    second: CoheteVolando x10_612
+  - first:
+      213: 1863278282628894319
+    second: CoheteVolando x10_613
+  - first:
+      213: 574062393145849525
+    second: CoheteVolando x10_614
+  - first:
+      213: 1980399982998446005
+    second: CoheteVolando x10_615
+  - first:
+      213: -6280405943282898052
+    second: CoheteVolando x10_616
+  - first:
+      213: -1658504295144081413
+    second: CoheteVolando x10_617
+  - first:
+      213: 4879253313130847622
+    second: CoheteVolando x10_618
+  - first:
+      213: -6378069344599037324
+    second: CoheteVolando x10_619
+  - first:
+      213: 6477371041082735933
+    second: CoheteVolando x10_620
+  - first:
+      213: -3753469717241887509
+    second: CoheteVolando x10_621
+  - first:
+      213: -1945382945947279513
+    second: CoheteVolando x10_622
+  - first:
+      213: 2841709833436192832
+    second: CoheteVolando x10_623
+  - first:
+      213: -4978876079736244506
+    second: CoheteVolando x10_624
+  - first:
+      213: 5300089114823396853
+    second: CoheteVolando x10_625
+  - first:
+      213: -6645633572258419004
+    second: CoheteVolando x10_626
+  - first:
+      213: -4966939693150812232
+    second: CoheteVolando x10_627
+  - first:
+      213: -7105771703594266917
+    second: CoheteVolando x10_628
+  - first:
+      213: -7293719603814265727
+    second: CoheteVolando x10_629
+  - first:
+      213: 2952609225724897307
+    second: CoheteVolando x10_630
+  - first:
+      213: 2733773732743912514
+    second: CoheteVolando x10_631
+  - first:
+      213: -9123242651355523857
+    second: CoheteVolando x10_632
+  - first:
+      213: -8090055514897231024
+    second: CoheteVolando x10_633
+  - first:
+      213: -8061057130256620087
+    second: CoheteVolando x10_634
+  - first:
+      213: -8420681952487428050
+    second: CoheteVolando x10_635
+  - first:
+      213: 3184120739275770592
+    second: CoheteVolando x10_636
+  - first:
+      213: 8785778349665083249
+    second: CoheteVolando x10_637
+  - first:
+      213: 3127387401419662204
+    second: CoheteVolando x10_638
+  - first:
+      213: 989138184028306402
+    second: CoheteVolando x10_639
+  - first:
+      213: 6150091826097905123
+    second: CoheteVolando x10_640
+  - first:
+      213: -837118831469359935
+    second: CoheteVolando x10_641
+  - first:
+      213: -5715843906309489145
+    second: CoheteVolando x10_642
+  - first:
+      213: -5989486355831647728
+    second: CoheteVolando x10_643
+  - first:
+      213: -3671934131291937399
+    second: CoheteVolando x10_644
+  - first:
+      213: -3291609239593717912
+    second: CoheteVolando x10_645
+  - first:
+      213: 3183338398793325382
+    second: CoheteVolando x10_646
+  - first:
+      213: 3002154676807843739
+    second: CoheteVolando x10_647
+  - first:
+      213: -582040053727974107
+    second: CoheteVolando x10_648
+  - first:
+      213: -7256251577620175579
+    second: CoheteVolando x10_649
+  - first:
+      213: 9117982190589051049
+    second: CoheteVolando x10_650
+  - first:
+      213: -6751320434632062286
+    second: CoheteVolando x10_651
+  - first:
+      213: -4600525459379870507
+    second: CoheteVolando x10_652
+  - first:
+      213: -22282470096643496
+    second: CoheteVolando x10_653
+  - first:
+      213: 8919710159148733242
+    second: CoheteVolando x10_654
+  - first:
+      213: 6816919504990855517
+    second: CoheteVolando x10_655
+  - first:
+      213: 2669860289759852605
+    second: CoheteVolando x10_656
+  - first:
+      213: 2038012756131735175
+    second: CoheteVolando x10_657
+  - first:
+      213: 4300462087632597767
+    second: CoheteVolando x10_658
+  - first:
+      213: 4459877800795619108
+    second: CoheteVolando x10_659
+  - first:
+      213: 2284814438203799632
+    second: CoheteVolando x10_660
+  - first:
+      213: 2952056300859277247
+    second: CoheteVolando x10_661
+  - first:
+      213: 5714034220518208984
+    second: CoheteVolando x10_662
+  - first:
+      213: -8433134093096445722
+    second: CoheteVolando x10_663
+  - first:
+      213: 1784275682481257584
+    second: CoheteVolando x10_664
+  - first:
+      213: 1174992761539658355
+    second: CoheteVolando x10_665
+  - first:
+      213: 5181902113522635838
+    second: CoheteVolando x10_666
+  - first:
+      213: -2306103799829586938
+    second: CoheteVolando x10_667
+  - first:
+      213: -4307179644218250319
+    second: CoheteVolando x10_668
+  - first:
+      213: 2707691019659062180
+    second: CoheteVolando x10_669
+  - first:
+      213: 6111549219164643222
+    second: CoheteVolando x10_670
+  - first:
+      213: -1621058284079634947
+    second: CoheteVolando x10_671
+  - first:
+      213: 5842093346001807057
+    second: CoheteVolando x10_672
+  - first:
+      213: 8736907929455104072
+    second: CoheteVolando x10_673
+  - first:
+      213: -2723153290998212620
+    second: CoheteVolando x10_674
+  - first:
+      213: -7594024191525137392
+    second: CoheteVolando x10_675
+  - first:
+      213: -180508638156563008
+    second: CoheteVolando x10_676
+  - first:
+      213: 7361443722006203920
+    second: CoheteVolando x10_677
+  - first:
+      213: -1534938534983483355
+    second: CoheteVolando x10_678
+  - first:
+      213: 4534976658992344746
+    second: CoheteVolando x10_679
+  - first:
+      213: -6870634741823203731
+    second: CoheteVolando x10_680
+  - first:
+      213: 4034871710805754706
+    second: CoheteVolando x10_681
+  - first:
+      213: 2395511113736874778
+    second: CoheteVolando x10_682
+  - first:
+      213: 3478889765934959038
+    second: CoheteVolando x10_683
+  - first:
+      213: 4010961471306998332
+    second: CoheteVolando x10_684
+  - first:
+      213: -5794318387806941640
+    second: CoheteVolando x10_685
+  - first:
+      213: 723312708794900598
+    second: CoheteVolando x10_686
+  - first:
+      213: -6277501155887201826
+    second: CoheteVolando x10_687
+  - first:
+      213: -3466497815350290628
+    second: CoheteVolando x10_688
+  - first:
+      213: -1476970463285492446
+    second: CoheteVolando x10_689
+  - first:
+      213: 1721427677844823153
+    second: CoheteVolando x10_690
+  - first:
+      213: -7933650707998678460
+    second: CoheteVolando x10_691
+  - first:
+      213: 6221110036585639297
+    second: CoheteVolando x10_692
+  - first:
+      213: -8467172121166659349
+    second: CoheteVolando x10_693
+  - first:
+      213: -7310665260735482787
+    second: CoheteVolando x10_694
+  - first:
+      213: 4957436570942996416
+    second: CoheteVolando x10_695
+  - first:
+      213: 7039525616926997053
+    second: CoheteVolando x10_696
+  - first:
+      213: -3941943258701796401
+    second: CoheteVolando x10_697
+  - first:
+      213: -9139730280312074791
+    second: CoheteVolando x10_698
+  - first:
+      213: -3022263517252497787
+    second: CoheteVolando x10_699
+  - first:
+      213: -8637745966911007568
+    second: CoheteVolando x10_700
+  - first:
+      213: -8060582072326258791
+    second: CoheteVolando x10_701
+  - first:
+      213: 5555121707122811248
+    second: CoheteVolando x10_702
+  - first:
+      213: 4624987878539340489
+    second: CoheteVolando x10_703
+  - first:
+      213: 7916276863971944303
+    second: CoheteVolando x10_704
+  - first:
+      213: -5286129622147732126
+    second: CoheteVolando x10_705
+  - first:
+      213: 7903763851973859634
+    second: CoheteVolando x10_706
+  - first:
+      213: 8118706830394777257
+    second: CoheteVolando x10_707
+  - first:
+      213: -3928969328306392417
+    second: CoheteVolando x10_708
+  - first:
+      213: -2968676056161880412
+    second: CoheteVolando x10_709
+  - first:
+      213: -6045836169628796441
+    second: CoheteVolando x10_710
+  - first:
+      213: 4803284901765784518
+    second: CoheteVolando x10_711
+  - first:
+      213: -7221458737739607977
+    second: CoheteVolando x10_712
+  - first:
+      213: 8460033295115999220
+    second: CoheteVolando x10_713
+  - first:
+      213: -5840647257308884307
+    second: CoheteVolando x10_714
+  - first:
+      213: -8152868714741990111
+    second: CoheteVolando x10_715
+  - first:
+      213: 9061187679104983493
+    second: CoheteVolando x10_716
+  - first:
+      213: 4953762533577233163
+    second: CoheteVolando x10_717
+  - first:
+      213: 5260578963649159493
+    second: CoheteVolando x10_718
+  - first:
+      213: 1202280982726496392
+    second: CoheteVolando x10_719
+  - first:
+      213: -8757020112378291992
+    second: CoheteVolando x10_720
+  - first:
+      213: -7094279430211587627
+    second: CoheteVolando x10_721
+  - first:
+      213: -5027812949992673882
+    second: CoheteVolando x10_722
+  - first:
+      213: -7233466563244995216
+    second: CoheteVolando x10_723
+  - first:
+      213: -5434387079876104383
+    second: CoheteVolando x10_724
+  - first:
+      213: -9041522579992670909
+    second: CoheteVolando x10_725
+  - first:
+      213: 1569217116798337768
+    second: CoheteVolando x10_726
+  - first:
+      213: -8259377945720805792
+    second: CoheteVolando x10_727
+  - first:
+      213: 4684464221415321517
+    second: CoheteVolando x10_728
+  - first:
+      213: 8981354570072136736
+    second: CoheteVolando x10_729
+  - first:
+      213: -4580608454998643259
+    second: CoheteVolando x10_730
+  - first:
+      213: -6202634005482979075
+    second: CoheteVolando x10_731
+  - first:
+      213: 2945773898141950372
+    second: CoheteVolando x10_732
+  - first:
+      213: 1230953530430400716
+    second: CoheteVolando x10_733
+  - first:
+      213: -3758024222284778245
+    second: CoheteVolando x10_734
+  - first:
+      213: 3089174968397590767
+    second: CoheteVolando x10_735
+  - first:
+      213: -4169054810922312116
+    second: CoheteVolando x10_736
+  - first:
+      213: 1974676209920892629
+    second: CoheteVolando x10_737
+  - first:
+      213: 8459910368818675948
+    second: CoheteVolando x10_738
+  - first:
+      213: -4428974874955949118
+    second: CoheteVolando x10_739
+  - first:
+      213: 2255572015882176489
+    second: CoheteVolando x10_740
+  - first:
+      213: -6095949264058489651
+    second: CoheteVolando x10_741
+  - first:
+      213: 4387501557258612390
+    second: CoheteVolando x10_742
+  - first:
+      213: -2051507012455018672
+    second: CoheteVolando x10_743
+  - first:
+      213: 7932047539735259491
+    second: CoheteVolando x10_744
+  - first:
+      213: -338294614607612411
+    second: CoheteVolando x10_745
+  - first:
+      213: -3694035491621861607
+    second: CoheteVolando x10_746
+  - first:
+      213: -5646779083001245258
+    second: CoheteVolando x10_747
+  - first:
+      213: -3114626820175885435
+    second: CoheteVolando x10_748
+  - first:
+      213: 2238059356132156131
+    second: CoheteVolando x10_749
+  - first:
+      213: 3884933021966691084
+    second: CoheteVolando x10_750
+  - first:
+      213: 4296369705938428086
+    second: CoheteVolando x10_751
+  - first:
+      213: -1862541125641177891
+    second: CoheteVolando x10_752
+  - first:
+      213: 4311460193934298273
+    second: CoheteVolando x10_753
+  - first:
+      213: 2315625911374008883
+    second: CoheteVolando x10_754
+  - first:
+      213: -5000702068425684143
+    second: CoheteVolando x10_755
+  - first:
+      213: -1983596875467395844
+    second: CoheteVolando x10_756
+  - first:
+      213: 5638908247563450476
+    second: CoheteVolando x10_757
+  - first:
+      213: -6281228328674023231
+    second: CoheteVolando x10_758
+  - first:
+      213: 1667038094835829863
+    second: CoheteVolando x10_759
+  - first:
+      213: -8647888413993719808
+    second: CoheteVolando x10_760
+  - first:
+      213: 1776147739887258572
+    second: CoheteVolando x10_761
+  - first:
+      213: 8427011653349068160
+    second: CoheteVolando x10_762
+  - first:
+      213: 1378282350926290363
+    second: CoheteVolando x10_763
+  - first:
+      213: -6219575463848959122
+    second: CoheteVolando x10_764
+  - first:
+      213: 17062816687934307
+    second: CoheteVolando x10_765
+  - first:
+      213: -4761524198848805910
+    second: CoheteVolando x10_766
+  - first:
+      213: 6765696867264471706
+    second: CoheteVolando x10_767
+  - first:
+      213: -1172055263499668292
+    second: CoheteVolando x10_768
+  - first:
+      213: 389066625227245195
+    second: CoheteVolando x10_769
+  - first:
+      213: -2856907218995124916
+    second: CoheteVolando x10_770
+  - first:
+      213: 6178282623864897572
+    second: CoheteVolando x10_771
+  - first:
+      213: 547208558396248552
+    second: CoheteVolando x10_772
+  - first:
+      213: 3813345419786885578
+    second: CoheteVolando x10_773
+  - first:
+      213: 970520894371408112
+    second: CoheteVolando x10_774
+  - first:
+      213: 1672180033954274399
+    second: CoheteVolando x10_775
+  - first:
+      213: -613864410087526163
+    second: CoheteVolando x10_776
+  - first:
+      213: -2709355397149402155
+    second: CoheteVolando x10_777
+  - first:
+      213: 840140215365843549
+    second: CoheteVolando x10_778
+  - first:
+      213: 481070450521810607
+    second: CoheteVolando x10_779
+  - first:
+      213: 8834201350581671783
+    second: CoheteVolando x10_780
+  - first:
+      213: -4450578706754128132
+    second: CoheteVolando x10_781
+  - first:
+      213: 9037951723327286944
+    second: CoheteVolando x10_782
+  - first:
+      213: 8440685962651705022
+    second: CoheteVolando x10_783
+  - first:
+      213: -1337835408542134118
+    second: CoheteVolando x10_784
+  - first:
+      213: 2915118336704737786
+    second: CoheteVolando x10_785
+  - first:
+      213: 602767209495723615
+    second: CoheteVolando x10_786
+  - first:
+      213: -3316057563362650495
+    second: CoheteVolando x10_787
+  - first:
+      213: 3002661712993927106
+    second: CoheteVolando x10_788
+  - first:
+      213: -5043512102978435559
+    second: CoheteVolando x10_789
+  - first:
+      213: -2305574450046452093
+    second: CoheteVolando x10_790
+  - first:
+      213: -2293663421214382670
+    second: CoheteVolando x10_791
+  - first:
+      213: 9191397177229727047
+    second: CoheteVolando x10_792
+  - first:
+      213: -5212760952367535960
+    second: CoheteVolando x10_793
+  - first:
+      213: 555019132454026979
+    second: CoheteVolando x10_794
+  - first:
+      213: 6393621447693082317
+    second: CoheteVolando x10_795
+  - first:
+      213: 6982893522719775440
+    second: CoheteVolando x10_796
+  - first:
+      213: -8292673150837013543
+    second: CoheteVolando x10_797
+  - first:
+      213: 2752773986492185968
+    second: CoheteVolando x10_798
+  - first:
+      213: 4090118388898179479
+    second: CoheteVolando x10_799
+  - first:
+      213: -3690491431080163710
+    second: CoheteVolando x10_800
+  - first:
+      213: -2095429447321140338
+    second: CoheteVolando x10_801
+  - first:
+      213: -3023987209839477277
+    second: CoheteVolando x10_802
+  - first:
+      213: 4666863222969806487
+    second: CoheteVolando x10_803
+  - first:
+      213: 999920083522952781
+    second: CoheteVolando x10_804
+  - first:
+      213: 6412251799203208865
+    second: CoheteVolando x10_805
+  - first:
+      213: 1427323142262459682
+    second: CoheteVolando x10_806
+  - first:
+      213: -524075966073590440
+    second: CoheteVolando x10_807
+  - first:
+      213: 4060449821297781211
+    second: CoheteVolando x10_808
+  - first:
+      213: 2355532760034935488
+    second: CoheteVolando x10_809
+  - first:
+      213: 3035787294268713518
+    second: CoheteVolando x10_810
+  - first:
+      213: 2545521630193572437
+    second: CoheteVolando x10_811
+  - first:
+      213: 8738662750652482087
+    second: CoheteVolando x10_812
+  - first:
+      213: -4654820168957528032
+    second: CoheteVolando x10_813
+  - first:
+      213: -6584399435207357714
+    second: CoheteVolando x10_814
+  - first:
+      213: -5653672037563357605
+    second: CoheteVolando x10_815
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,15 +2578,15 @@ TextureImporter:
         y: 1180
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1125aef247e26b6c0800000000000000
-      internalID: -4128060931883511279
+      spriteID: 2181e93bed3d91500800000000000000
+      internalID: 367557798057089042
       vertices: []
       indices: 
       edges: []
@@ -154,15 +2599,15 @@ TextureImporter:
         y: 1180
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e5b3e92d99f1f840800000000000000
-      internalID: 5256256693526050281
+      spriteID: f6bdda0b747f77d50800000000000000
+      internalID: 6735123655034788719
       vertices: []
       indices: 
       edges: []
@@ -175,15 +2620,15 @@ TextureImporter:
         y: 1180
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 241f1f5b4600923e0800000000000000
-      internalID: -2078129320505511614
+      spriteID: e9a10f52e22d94a70800000000000000
+      internalID: 8811805241573907102
       vertices: []
       indices: 
       edges: []
@@ -196,15 +2641,15 @@ TextureImporter:
         y: 1180
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ed4b245d3d0226d0800000000000000
-      internalID: -3016834243328520731
+      spriteID: 172100857292c3a60800000000000000
+      internalID: 7655038715579863665
       vertices: []
       indices: 
       edges: []
@@ -217,15 +2662,15 @@ TextureImporter:
         y: 0
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6104d61fd786c790800000000000000
-      internalID: -7510165936363273877
+      spriteID: f05a8725e2fd3bfd0800000000000000
+      internalID: -2327271192375286513
       vertices: []
       indices: 
       edges: []
@@ -238,15 +2683,15 @@ TextureImporter:
         y: 0
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be812083e9d4749c0800000000000000
-      internalID: -3943097606799746837
+      spriteID: 8bd993c1838608160800000000000000
+      internalID: 7025730008898969016
       vertices: []
       indices: 
       edges: []
@@ -259,15 +2704,15 @@ TextureImporter:
         y: 0
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f2e62568fd3141d0800000000000000
-      internalID: -3368342909238189321
+      spriteID: 9cb8cf98f002a9db0800000000000000
+      internalID: -4784476403016102967
       vertices: []
       indices: 
       edges: []
@@ -280,15 +2725,15 @@ TextureImporter:
         y: 0
         width: 560
         height: 1180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5001103, y: 0.57655}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02336880ecc850730800000000000000
-      internalID: 3964729863503754016
+      spriteID: fa9d73c45420567b0800000000000000
+      internalID: -5231772895466235473
       vertices: []
       indices: 
       edges: []

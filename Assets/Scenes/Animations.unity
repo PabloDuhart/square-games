@@ -219,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52581290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.13, y: -1.65, z: 0.0000000014393815}
+  m_LocalPosition: {x: 2.05, y: -1.71, z: 0.0000000014393815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -239,8 +239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {x: -10.75, y: 1}
   preLanding: {x: -5.47, y: 7.48}
-  ground: {x: -5.47, y: -3.37}
+  ground: {x: -5.47, y: -2.37}
   startDelay: 2
+  velocity: 0.03
   spaceShipScale: {x: 1, y: 1, z: 1}
 --- !u!61 &52581295
 BoxCollider2D:
@@ -258,7 +259,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -1.99}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5001103, y: 0.57655}
     oldSize: {x: 2.2401564, y: 4.7200003}
     newSize: {x: 2.48, y: 4}
     adaptiveTilingThreshold: 0.5
@@ -402,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602637991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.17, y: -5.5, z: 0}
+  m_LocalPosition: {x: -5.36, y: -5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -532,7 +533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3192285474766979879}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 1.86, z: 0}
+  m_LocalPosition: {x: -2.67, y: -2.53, z: 0}
   m_LocalScale: {x: 1.6929516, y: 1.6929516, z: 1.6929516}
   m_Children: []
   m_Father: {fileID: 0}
