@@ -35328,7 +35328,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.24
+  m_Radius: 0.61
 --- !u!114 &909747265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35341,6 +35341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43107383d31f5f4baa6ac0fef666194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColliderCircular: {fileID: 909747264}
   rigidBody: {fileID: 909747267}
   projectileBase: {fileID: 3812358489016075479}
   springJoint: {fileID: 909747266}
@@ -35350,7 +35351,7 @@ MonoBehaviour:
   nextProjectileDelay: 2.5
   playerLifes: 10
   nextProjectilCode: {fileID: 455288810918092139}
-  projectilePosition: {x: -11.598, y: -3.363, z: -4}
+  projectilePosition: {x: -9.43, y: -3.363, z: -4}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
@@ -35373,7 +35374,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -11.60895, y: -3.301479}
+  m_ConnectedAnchor: {x: -9.43, y: -3.301479}
   m_AutoConfigureDistance: 0
   m_Distance: 0.1
   m_DampingRatio: 0
@@ -35456,8 +35457,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3455904423669685724, guid: 2030ec1060d16a74c96815b501bc2760,
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 2953405237775003591, guid: 1cc82eaef7a601b4da7599e64cd8c39c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35477,7 +35478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909747263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.598, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 1596468874}
@@ -43531,7 +43532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455288810918092138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.598, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 1596468874}
@@ -43575,8 +43576,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -3455904423669685724, guid: 2030ec1060d16a74c96815b501bc2760,
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 2953405237775003591, guid: 1cc82eaef7a601b4da7599e64cd8c39c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -43641,6 +43642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43107383d31f5f4baa6ac0fef666194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColliderCircular: {fileID: 455288810918092142}
   rigidBody: {fileID: 455288810918092141}
   projectileBase: {fileID: 3812358489016075479}
   springJoint: {fileID: 455288810918092140}
@@ -43650,7 +43652,7 @@ MonoBehaviour:
   nextProjectileDelay: 2.5
   playerLifes: 10
   nextProjectilCode: {fileID: 909747265}
-  projectilePosition: {x: -11.598, y: -3.363, z: -4}
+  projectilePosition: {x: -9.43, y: -3.363, z: -4}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
@@ -43673,7 +43675,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -11.608951, y: -3.3014793}
+  m_ConnectedAnchor: {x: -9.43, y: -3.363}
   m_AutoConfigureDistance: 0
   m_Distance: 0.1
   m_DampingRatio: 0
@@ -43714,7 +43716,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.24
+  m_Radius: 0.9
 --- !u!1 &880492332283697936
 GameObject:
   m_ObjectHideFlags: 0
@@ -45618,7 +45620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3812358489016075478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.598, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1596468874}
@@ -45713,10 +45715,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start: {x: -15.47, y: -0.87, z: -3}
-  preLanding: {x: -11.6, y: 6.36, z: -3}
-  ground: {x: -11.6, y: -4.649, z: -3}
+  preLanding: {x: -9.43, y: 6.36, z: -3}
+  ground: {x: -9.43, y: -4.649, z: -3}
   startDelay: 2
-  velocity: 0.05
+  velocity: 0.03
   spaceShipScale: {x: 0.8, y: 0.8, z: 0.8}
   proyectil: {fileID: 455288810918092139}
   canvasInterface: {fileID: 1078639953844505235}
@@ -45763,7 +45765,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -4128060931883511279, guid: b4ce1b96f8b382a4da40fdbcbcf8e22e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -45784,7 +45786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6626185555480428376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.6, y: -4.649, z: -3}
+  m_LocalPosition: {x: -9.43, y: -4.72, z: -3}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}

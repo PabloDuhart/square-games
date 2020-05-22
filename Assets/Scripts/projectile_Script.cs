@@ -10,6 +10,8 @@ public class projectile_Script : MonoBehaviour
 
 	protected bool launching = false;
 
+    public CircleCollider2D ColliderCircular;
+
 	public Rigidbody2D rigidBody;
 
 	public Rigidbody2D projectileBase;
@@ -97,6 +99,7 @@ public class projectile_Script : MonoBehaviour
 	{
 		aiming = false;
 		rigidBody.isKinematic = false;
+        ColliderCircular.radius = 0.25f;
 		StartCoroutine(Launch());
 	}
 
@@ -123,6 +126,7 @@ public class projectile_Script : MonoBehaviour
 
 		yield return new WaitForSeconds(fadingDelay);
 		gameObject.transform.position = new Vector2(-18.69f, 5.78f);//Tp far away
+        ColliderCircular.radius = 0.9f;
 		yield return new WaitForSeconds(nextProjectileDelay);
 
 		
