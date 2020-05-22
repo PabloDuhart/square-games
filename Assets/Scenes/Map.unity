@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 320809}
   m_Layer: 0
   m_Name: Vertical Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 51252138}
   m_Layer: 0
   m_Name: Horizontal Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 145707356}
   m_Layer: 0
   m_Name: Horizontal Platform 3
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 204784795}
   m_Layer: 0
   m_Name: 'Vertical Platform 2 '
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1096,7 +1096,7 @@ GameObject:
   - component: {fileID: 317311946}
   m_Layer: 0
   m_Name: Enemies
-  m_TagString: enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1356,7 +1356,7 @@ GameObject:
   - component: {fileID: 333458177}
   m_Layer: 0
   m_Name: Horizontal Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1975,7 +1975,7 @@ GameObject:
   - component: {fileID: 401568801}
   m_Layer: 0
   m_Name: Vertical Platform 2
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23990,7 +23990,7 @@ GameObject:
   - component: {fileID: 567732648}
   m_Layer: 0
   m_Name: Vertical Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24168,7 +24168,7 @@ GameObject:
   - component: {fileID: 599033208}
   m_Layer: 0
   m_Name: Vertical Platform 6
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25646,13 +25646,15 @@ MonoBehaviour:
   launchDelay: 0.2
   aimLimit: 2.5
   nextProjectileDelay: 2.5
-  playerLifes: 5
+  playerLifes: 20
   nextProjectilCode: {fileID: 455288810918092139}
   projectilePosition: {x: -11.4, y: -3.9, z: -4}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
   youWinCanvas: {fileID: 1060496837}
+  addForce: 5
+  forceToDestroy: 10
 --- !u!231 &909747266
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -25685,7 +25687,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -26318,7 +26320,7 @@ GameObject:
   - component: {fileID: 975125416}
   m_Layer: 0
   m_Name: Vertical Platform 3
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27068,7 +27070,7 @@ GameObject:
   - component: {fileID: 1171082199}
   m_Layer: 0
   m_Name: Horizontal Platform 4
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27717,7 +27719,7 @@ GameObject:
   - component: {fileID: 1304344400}
   m_Layer: 0
   m_Name: Vertical Platform 5
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27895,7 +27897,7 @@ GameObject:
   - component: {fileID: 1317260750}
   m_Layer: 0
   m_Name: Vertical Platform 5
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28506,7 +28508,7 @@ GameObject:
   - component: {fileID: 1411451097}
   m_Layer: 0
   m_Name: Vertical Platform 4
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29390,7 +29392,7 @@ GameObject:
   - component: {fileID: 1489839503}
   m_Layer: 0
   m_Name: Horizontal Platform 2
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29698,7 +29700,7 @@ GameObject:
   - component: {fileID: 1529503877}
   m_Layer: 0
   m_Name: Horizontal Platform 3
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29781,7 +29783,7 @@ GameObject:
   - component: {fileID: 1548853493}
   m_Layer: 0
   m_Name: Vertical Platform 2
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29863,7 +29865,7 @@ GameObject:
   - component: {fileID: 1572119264}
   m_Layer: 0
   m_Name: Horizontal Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31244,7 +31246,7 @@ GameObject:
   - component: {fileID: 1787596974}
   m_Layer: 0
   m_Name: Horizontal Platform 2
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31518,7 +31520,7 @@ GameObject:
   - component: {fileID: 1835310344}
   m_Layer: 0
   m_Name: Vertical Platform 3
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32965,7 +32967,7 @@ GameObject:
   - component: {fileID: 2051844241}
   m_Layer: 0
   m_Name: Vertical Platform 4
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33456,7 +33458,7 @@ GameObject:
   - component: {fileID: 2093430042}
   m_Layer: 0
   m_Name: Vertical Platform 1
-  m_TagString: Untagged
+  m_TagString: EnemyStructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33893,7 +33895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &455288810918092139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33913,13 +33915,15 @@ MonoBehaviour:
   launchDelay: 0.2
   aimLimit: 2.5
   nextProjectileDelay: 2.5
-  playerLifes: 5
+  playerLifes: 20
   nextProjectilCode: {fileID: 909747265}
   projectilePosition: {x: -11.4, y: -3.9, z: -4}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
   youWinCanvas: {fileID: 1060496837}
+  addForce: 5
+  forceToDestroy: 10
 --- !u!231 &455288810918092140
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -33952,7 +33956,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -34249,8 +34253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.83, y: 144.53}
-  m_SizeDelta: {x: 356.96844, y: 48.260124}
+  m_AnchoredPosition: {x: -204.23, y: 144.53}
+  m_SizeDelta: {x: 664.83777, y: 48.260124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1078639953227857599
 GameObject:
@@ -34363,8 +34367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -250.22546, y: 170.57983}
-  m_SizeDelta: {x: 414.73187, y: 46.48987}
+  m_AnchoredPosition: {x: -204.41, y: 170.57983}
+  m_SizeDelta: {x: 663.92267, y: 46.48987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1078639953400108749
 GameObject:
@@ -35936,7 +35940,6 @@ GameObject:
   - component: {fileID: 6626185555480428382}
   - component: {fileID: 6626185555480428377}
   - component: {fileID: 6626185555480428380}
-  - component: {fileID: 6626185555480428381}
   m_Layer: 0
   m_Name: SpaceShip
   m_TagString: Player
@@ -35988,32 +35991,6 @@ MonoBehaviour:
   finalCameraPosition: {x: 3.53, y: 2.84, z: -10}
   cameraVelocity: 0.04
   projectile: {fileID: 455288810918092138}
---- !u!61 &6626185555480428381
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6626185555480428376}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.99}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5001103, y: 0.57655}
-    oldSize: {x: 2.2401564, y: 4.7200003}
-    newSize: {x: 2.48, y: 4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.86, y: 0.77}
-  m_EdgeRadius: 0
 --- !u!212 &6626185555480428382
 SpriteRenderer:
   m_ObjectHideFlags: 0

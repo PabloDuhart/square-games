@@ -37,7 +37,8 @@ public class projectile_Script : MonoBehaviour
 
 	public GameObject gameOverCanvas;
 	public GameObject youWinCanvas;
-
+    public float addForce;
+    public float forceToDestroy;
 
 	void Update()
     {
@@ -102,29 +103,26 @@ public class projectile_Script : MonoBehaviour
 
 	IEnumerator Launch()
 	{
+        
         yield return new WaitForSeconds(launchDelay);
 		springJoint.enabled = false;
 		launching = true;
-		yield return new WaitForSeconds(nextProjectileDelay);
-        //Projectil respawn code
-		nextProjectile.SetActive(true);
-        nextProjectile.transform.position = projectilePosition;
-        gameObject.SetActive(false);
-        springJoint.enabled = true;
-        aiming = false;
-        launching = false;
-		playerLifes--;
-		nextProjectilCode.playerLifes--;
-	}
+        rigidBody.velocity += new Vector2(addForce, addForce);
+
+
+    }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.otherCollider.CompareTag("EnemyStructure"))// falta ponerle el tag a cada uno de los tiles, nose como se hace eso uwu
+        if (collision.collider.gameObject.CompareTag("EnemyStructure"))// falta ponerle el tag a cada uno de los tiles, nose como se hace eso uwu
         {
-            Debug.Log("yes");
-            Destroy(collision.otherCollider.gameObject);
+            Debug.Log(collision.relativeVelocity.magnitude);
+            if (collision.relativeVelocity.magnitude > forceToDestroy)
+            {
+                Destroy(collision.gameObject);
+            }
         }
-        gameObject.transform.position = new Vector2(-1111111, -111111111);//Tp the object far away jejejejejejej
         yield return new WaitForSeconds(nextProjectileDelay);
+        gameObject.transform.position = new Vector2(-1111111, -111111111);//Tp far away
         //Projectil respawn code
         nextProjectile.SetActive(true);
         nextProjectile.transform.position = projectilePosition;

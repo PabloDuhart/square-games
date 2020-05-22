@@ -66,7 +66,6 @@ public class SpaceShip_Controller : MonoBehaviour
         if (cameraSized)
         {
             camera.orthographicSize += 0.02f;
-            Debug.Log(camera.orthographicSize);
             if (camera.orthographicSize > 10f)
             {
                 cameraSized = false;
@@ -133,7 +132,7 @@ public class SpaceShip_Controller : MonoBehaviour
         anim.SetBool("FirstReload", true);
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Idle", true);
-        //projectile.SetActive(true); comentado porque vuelve a activar el proyectil en momentos erroneos
+        projectile.SetActive(true);
     }
     IEnumerator WaitAttack()
     {
