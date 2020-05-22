@@ -35,9 +35,14 @@ public class projectile_Script : MonoBehaviour
 	public Text projectilesText;
 	public Text enemiesText;
 
+	public GameObject gameOverCanvas;
+	public GameObject youWinCanvas;
+
 
 	void Update()
     {
+
+
         enemys = GameObject.FindGameObjectsWithTag("enemy");
         if (aiming)
 		{
@@ -53,6 +58,7 @@ public class projectile_Script : MonoBehaviour
 			}
 		}
 
+
 		projectilesText.text = "Projectiles left: " + playerLifes.ToString();
 		enemiesText.text = "Enemies left: " + (enemys.Length).ToString();
 
@@ -61,13 +67,15 @@ public class projectile_Script : MonoBehaviour
 		if (playerLifes <= 0 & enemys.Length>0)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
             gameObject.SetActive(false);
-            Debug.Log("YOU LOSE AJAJAJAJAJAJ");
-            //Here the player losses because he/she doesn't have any ammo left
-            //Call dead menu
+			Time.timeScale = 0f;
+			gameOverCanvas.SetActive(true);
+            
         }
         if (enemys.Length==0 & playerLifes >= 0)
         {
             gameObject.SetActive(false);
+			Time.timeScale = 0f;
+			youWinCanvas.SetActive(true);
             Debug.Log("You WIN THE GAME");
             //Here the player win the game
             //Call win menu or canvas. 
@@ -105,10 +113,9 @@ public class projectile_Script : MonoBehaviour
         springJoint.enabled = true;
         aiming = false;
         launching = false;
-        playerLifes--;
-        nextProjectilCode.playerLifes--;
-       
-    }
+		playerLifes--;
+		nextProjectilCode.playerLifes--;
+	}
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.otherCollider.CompareTag("EnemyStructure"))// falta ponerle el tag a cada uno de los tiles, nose como se hace eso uwu
