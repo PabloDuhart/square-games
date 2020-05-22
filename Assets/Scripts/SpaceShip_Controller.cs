@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class SpaceShip_Controller : MonoBehaviour
 {
-    private Animator anim;
+    
     public Vector3 start;
     public Vector3 preLanding;
     public Vector3 ground;
     public float startDelay;
-    private float distance;
-    public float velocity;
+	public float velocity;
+	public Vector3 spaceShipScale;
+	public projectile_Script proyectil;
+	public GameObject canvasInterface;
+
+	private Animator anim;
+	private float distance;
     private bool preLand;
     private bool landing;
-    public Vector3 spaceShipScale;
     private float groundPositionY;
     private bool toSpace;
-    public projectile_Script proyectil;
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -38,7 +42,7 @@ public class SpaceShip_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log((Mathf.Abs(gameObject.transform.position.y - groundPositionY)));
+        
         if (toSpace)
         {
             if (gameObject.transform.localPosition.Equals(preLanding))
@@ -90,6 +94,7 @@ public class SpaceShip_Controller : MonoBehaviour
     {
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Grounded", true);
+		canvasInterface.SetActive(true);
     }
     IEnumerator Wait()
     {

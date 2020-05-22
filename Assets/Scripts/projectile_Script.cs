@@ -107,8 +107,7 @@ public class projectile_Script : MonoBehaviour
         launching = false;
         playerLifes--;
         nextProjectilCode.playerLifes--;
-        Debug.Log("Player lifes: "+playerLifes);//Detete this before a sprint
-        Debug.Log("Enemy count: "+enemys.Length);//Detete this before a sprint
+       
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
@@ -123,8 +122,6 @@ public class projectile_Script : MonoBehaviour
         launching = false;
         playerLifes--;
         nextProjectilCode.playerLifes--;
-        Debug.Log("Player lifes: " + playerLifes);//Delete this before a sprint
-        Debug.Log("Enemy count: " + enemys.Length);//Delete this before a sprint
     }
     private bool getLaunching()
     {
