@@ -13,6 +13,11 @@ public class SpaceShip_Controller : MonoBehaviour
 	public Vector3 spaceShipScale;
 	public projectile_Script proyectil;
 	public GameObject canvasInterface;
+    public Camera camera;
+    public Vector3 startCameraPosition;
+    public Vector3 finalCameraPosition;
+    public float cameraVelocity;
+    public GameObject projectile;
 
 	private Animator anim;
 	private float distance;
@@ -20,6 +25,9 @@ public class SpaceShip_Controller : MonoBehaviour
     private bool landing;
     private float groundPositionY;
     private bool toSpace;
+    private bool cameraMovement;
+    private float cameraDistance = 0f;
+    private bool cameraSized;
     
     void Start()
     {
@@ -37,12 +45,33 @@ public class SpaceShip_Controller : MonoBehaviour
         anim.SetBool("Reload", false);
         anim.SetBool("Attack", false);
         groundPositionY = ground.y;
+        cameraMovement = false;
+        cameraSized = false;
+        camera.transform.position = startCameraPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (cameraMovement)
+        {
+            camera.transform.position = Vector3.MoveTowards(startCameraPosition,finalCameraPosition,cameraDistance);
+            cameraDistance+=cameraVelocity;
+            if (camera.transform.position == finalCameraPosition)
+            {
+                cameraMovement = false;
+            }
+        }
+        if (cameraSized)
+        {
+            camera.orthographicSize += 0.02f;
+            Debug.Log(camera.orthographicSize);
+            if (camera.orthographicSize > 10f)
+            {
+                cameraSized = false;
+            }
+        }
         if (toSpace)
         {
             if (gameObject.transform.localPosition.Equals(preLanding))
@@ -83,18 +112,20 @@ public class SpaceShip_Controller : MonoBehaviour
             //anim.SetBool("Grounded", true);
             StartCoroutine(Wait());
         }
-        //if (proyectil.getLaunchAnimation())
-        //{
-        //    anim.SetBool("Attack", true);
-         //   StartCoroutine(WaitAttack());
-        //}
-        
+        if (proyectil.getLaunchAnimation())
+        {
+            anim.SetBool("Attack", true);
+            StartCoroutine(WaitAttack());
+        }
+
     }
     IEnumerator WaitLanding()
     {
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Grounded", true);
 		canvasInterface.SetActive(true);
+        cameraMovement = true;
+        cameraSized = true;
     }
     IEnumerator Wait()
     {
@@ -102,6 +133,7 @@ public class SpaceShip_Controller : MonoBehaviour
         anim.SetBool("FirstReload", true);
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Idle", true);
+        //projectile.SetActive(true); comentado porque vuelve a activar el proyectil en momentos erroneos
     }
     IEnumerator WaitAttack()
     {

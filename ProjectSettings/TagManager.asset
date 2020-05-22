@@ -7,6 +7,7 @@ TagManager:
   - projectil
   - enemy
   - Ground
+  - EnemyStructure
   layers:
   - Default
   - TransparentFX

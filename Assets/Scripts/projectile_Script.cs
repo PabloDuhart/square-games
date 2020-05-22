@@ -111,6 +111,11 @@ public class projectile_Script : MonoBehaviour
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.otherCollider.CompareTag("EnemyStructure"))// falta ponerle el tag a cada uno de los tiles, nose como se hace eso uwu
+        {
+            Debug.Log("yes");
+            Destroy(collision.otherCollider.gameObject);
+        }
         gameObject.transform.position = new Vector2(-1111111, -111111111);//Tp the object far away jejejejejejej
         yield return new WaitForSeconds(nextProjectileDelay);
         //Projectil respawn code
