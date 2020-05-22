@@ -40,6 +40,8 @@ public class projectile_Script : MonoBehaviour
     public float addForce;
     public float forceToDestroy;
 
+	public float fadingDelay;
+
 	void Update()
     {
 
@@ -77,9 +79,6 @@ public class projectile_Script : MonoBehaviour
             gameObject.SetActive(false);
 			Time.timeScale = 0f;
 			youWinCanvas.SetActive(true);
-            Debug.Log("You WIN THE GAME");
-            //Here the player win the game
-            //Call win menu or canvas. 
         }
     }
     
@@ -107,7 +106,7 @@ public class projectile_Script : MonoBehaviour
         yield return new WaitForSeconds(launchDelay);
 		springJoint.enabled = false;
 		launching = true;
-        rigidBody.velocity += new Vector2(addForce, addForce);
+        rigidBody.velocity *= addForce;
 
 
     }
@@ -121,14 +120,26 @@ public class projectile_Script : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
-        yield return new WaitForSeconds(nextProjectileDelay);
-        gameObject.transform.position = new Vector2(-1111111, -111111111);//Tp far away
+
+		yield return new WaitForSeconds(fadingDelay);
+		gameObject.transform.position = new Vector2(-18.69f, 5.78f);//Tp far away
+		yield return new WaitForSeconds(nextProjectileDelay);
+
+		
+		
         //Projectil respawn code
-        nextProjectile.SetActive(true);
-        nextProjectile.transform.position = projectilePosition;
-        gameObject.SetActive(false);
-        springJoint.enabled = true;
-        aiming = false;
+		nextProjectile.transform.position = projectilePosition;
+		nextProjectilCode.rigidBody.isKinematic = true;
+		nextProjectilCode.springJoint.enabled = true;
+		yield return new WaitForSeconds(1.5f);
+		nextProjectilCode.rigidBody.isKinematic = false;
+		nextProjectile.SetActive(true);
+
+		gameObject.SetActive(false);
+
+
+
+		aiming = false;
         launching = false;
         playerLifes--;
         nextProjectilCode.playerLifes--;
@@ -145,4 +156,7 @@ public class projectile_Script : MonoBehaviour
         }
         return false;
     }
+
+
+
 }
