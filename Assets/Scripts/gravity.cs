@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class gravity : MonoBehaviour
     public float gravitationRadius = 11f;
     [Range(0f, 10f)]
     public float rotationSpeed = 0.9f;
+    public int forceAtraction;
 
     private CircleCollider2D gravitationTrigger;
 
@@ -19,12 +21,13 @@ public class gravity : MonoBehaviour
         gravitationTrigger = GetComponent<CircleCollider2D>();
         gravitationTrigger.isTrigger = true;
         gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
+        
     }
 
     void FixedUpdate()
     {
         transform.Rotate(Vector3.forward * rotationSpeed);
-
+        
         foreach (var objectInVicinity in objectsInRange)
         {
             if (objectInVicinity == null)
@@ -32,10 +35,11 @@ public class gravity : MonoBehaviour
                 objectsInRange.Remove(objectInVicinity);
                 break;
             }
-
+            
+            int random = new System.Random().Next(0, 5);
             float dist = Vector2.Distance(transform.position, objectInVicinity.transform.position);
-            float gravitationFactor = 1 - dist / gravitationRadius;
-            Vector2 force = (transform.position - objectInVicinity.transform.position).normalized * gravitation * gravitationFactor*3000;
+            float gravitationFactor = -1 + dist; //para que se atraiga es el -1
+            Vector2 force = (transform.position - objectInVicinity.transform.position).normalized * gravitation * gravitationFactor*random;
             objectInVicinity.AddForce(force);
         }
     }
