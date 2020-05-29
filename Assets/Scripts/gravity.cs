@@ -6,21 +6,40 @@ using UnityEngine;
 
 public class gravity : MonoBehaviour
 {
-    [Range(0.1f, 50f)]
-    public float gravitation = 0.45f;
-    [Range(4, 50)]
-    public float gravitationRadius = 11f;
-    [Range(0f, 10f)]
-    public float rotationSpeed = 0.9f;
-    public int forceAtraction;
+    [Header("Position of 'Black Hole'")]
+    public Vector2 whereCanSpawnX;
+    public Vector2 whereCanSpawnY;
+    [Header("Gravity variables")]
+    public int gravitationMin;//valor recomendado: 20
+    public int gravitationMax;//valor recomendado: 50
+    [Header("Gravity radio")]
+    public int gravitationRadiusMin;//valor recomendado: 4
+    public int gravitationRadiusMax;//valor recomendado: 10
+    [Header("Gravity rotation")]
+    public int rotationSpeedMin;//valor recomendado: 1
+    public int rotationSpeedMax;//valor recomendado: 10
+    private int rotationSpeed;
+    private int gravitationRadius;
+    private int gravitation;
+    private int randompositionX;
+    private int randompositionY;
 
     private CircleCollider2D gravitationTrigger;
 
     void Start()
     {
+        randompositionX = new System.Random().Next((int)whereCanSpawnX.x, (int)whereCanSpawnX.y);//posición aleatoria dentro del rango establecido en la escena
+        randompositionY = new System.Random().Next((int)whereCanSpawnY.x, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
+        Debug.Log(randompositionX);
+        Debug.Log(randompositionY);
+        gameObject.transform.position = new Vector2(randompositionX,randompositionY);
+        gravitation = new System.Random().Next(gravitationMin, gravitationMax);
+        gravitationRadius = new System.Random().Next(gravitationRadiusMin,gravitationRadiusMax);
+        rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
         gravitationTrigger = GetComponent<CircleCollider2D>();
         gravitationTrigger.isTrigger = true;
         gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
+        StartCoroutine(Wait());
         
     }
 
@@ -67,6 +86,14 @@ public class gravity : MonoBehaviour
         {
             objectsInRange.Remove(rb);
         }
+    }
+
+    private IEnumerator Wait()
+    {
+        int randomtime = new System.Random().Next(7,15);//tiempo aleatorio en el que puede reaparecer un campo gravitacional entre 4 sc y 10 sc
+        yield return new WaitForSeconds(randomtime);
+        Instantiate(gameObject);
+        Destroy(gameObject);
     }
 }
 
