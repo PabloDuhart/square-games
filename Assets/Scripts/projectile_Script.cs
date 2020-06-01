@@ -44,7 +44,7 @@ public class projectile_Script : MonoBehaviour
 
 	public float fadingDelay;
 
-	void Update()
+    void Update()
     {
 
 

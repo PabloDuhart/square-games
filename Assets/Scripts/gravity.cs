@@ -45,7 +45,6 @@ public class gravity : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.Rotate(Vector3.forward * rotationSpeed);
         
         foreach (var objectInVicinity in objectsInRange)
         {
