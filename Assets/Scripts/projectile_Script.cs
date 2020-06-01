@@ -115,14 +115,7 @@ public class projectile_Script : MonoBehaviour
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.CompareTag("EnemyStructure"))// falta ponerle el tag a cada uno de los tiles, nose como se hace eso uwu
-        {
-            Debug.Log(collision.relativeVelocity.magnitude);
-            if (collision.relativeVelocity.magnitude > forceToDestroy)
-            {
-                Destroy(collision.gameObject);
-            }
-        }
+      
 
 		yield return new WaitForSeconds(fadingDelay);
 		gameObject.transform.position = new Vector2(-18.69f, 5.78f);//Tp far away
