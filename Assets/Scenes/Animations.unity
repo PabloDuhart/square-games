@@ -40658,7 +40658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351122029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.56, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8511074361126118394}
@@ -46031,12 +46031,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5391164e412a84648915e6f43a786cd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whereCanSpawnX: {x: 22.32, y: 22.32}
-  whereCanSpawnY: {x: 5, y: 5}
-  gravitationMin: 50
-  gravitationMax: 50
-  gravitationRadiusMin: 0
-  gravitationRadiusMax: 0
+  whereCanSpawnX: {x: 11, y: 4}
+  whereCanSpawnY: {x: 12, y: 5}
+  gravitationMin: 20
+  gravitationMax: 25
+  gravitationRadiusMin: 5
+  gravitationRadiusMax: 6
   rotationSpeedMin: 0
   rotationSpeedMax: 0
 --- !u!1 &8511074361126118393
@@ -46065,7 +46065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8511074361126118393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.32, y: 5.04, z: 100}
+  m_LocalPosition: {x: 11.76, y: 4.18, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1351122030}

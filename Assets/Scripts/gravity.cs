@@ -18,7 +18,7 @@ public class gravity : MonoBehaviour
     [Header("Gravity rotation")]
     public int rotationSpeedMin;//valor recomendado: 1
     public int rotationSpeedMax;//valor recomendado: 10
-    private int rotationSpeed;
+    //private int rotationSpeed;
     private int gravitationRadius;
     private int gravitation;
     private int randompositionX;
@@ -28,19 +28,18 @@ public class gravity : MonoBehaviour
 
     void Start()
     {
-        randompositionX = new System.Random().Next((int)whereCanSpawnX.x, (int)whereCanSpawnX.y);//posición aleatoria dentro del rango establecido en la escena
-        randompositionY = new System.Random().Next((int)whereCanSpawnY.x, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
+        randompositionX = new System.Random().Next((int)whereCanSpawnX.x, (int)whereCanSpawnY.x);//posición aleatoria dentro del rango establecido en la escena
+        randompositionY = new System.Random().Next((int)whereCanSpawnX.y, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
         Debug.Log(randompositionX);
         Debug.Log(randompositionY);
         gameObject.transform.position = new Vector2(randompositionX,randompositionY);
         gravitation = new System.Random().Next(gravitationMin, gravitationMax);
         gravitationRadius = new System.Random().Next(gravitationRadiusMin,gravitationRadiusMax);
-        rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
+        //rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
         gravitationTrigger = GetComponent<CircleCollider2D>();
         gravitationTrigger.isTrigger = true;
         gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
         StartCoroutine(Wait());
-        
     }
 
     void FixedUpdate()
