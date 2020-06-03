@@ -24,6 +24,10 @@ public class gravity : MonoBehaviour
     private int randompositionX;
     private int randompositionY;
 
+    private Color childrenColor;
+
+    private bool gravityI;
+
     private CircleCollider2D gravitationTrigger;
 
     void Start()
@@ -32,22 +36,16 @@ public class gravity : MonoBehaviour
         randompositionY = new System.Random().Next((int)whereCanSpawnX.y, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
         Debug.Log(randompositionX);
         Debug.Log(randompositionY);
-		Color childrenColor = GetComponentInChildren<SpriteRenderer>().color;
-		while (childrenColor.a < 1)
-		{
-			childrenColor.a += 0.05f;
-			GetComponentInChildren<SpriteRenderer>().color = childrenColor;
-		}
-		gameObject.transform.position = new Vector2(randompositionX,randompositionY);
-        gravitation = new System.Random().Next(gravitationMin, gravitationMax);
-        gravitationRadius = new System.Random().Next(gravitationRadiusMin,gravitationRadiusMax);
-        //rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
-        gravitationTrigger = GetComponent<CircleCollider2D>();
-        gravitationTrigger.isTrigger = true;
-        gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
+		childrenColor = GetComponentInChildren<SpriteRenderer>().color;
+        childrenColor.a = 0;
+        GetComponentInChildren<SpriteRenderer>().color = childrenColor;
+        gravityI = false;
+        gameObject.transform.position = new Vector2(randompositionX,randompositionY);
+       
         StartCoroutine(Wait());
+        StartCoroutine(GravityCreation());
     }
-
+    
     void FixedUpdate()
     {
         
@@ -64,6 +62,25 @@ public class gravity : MonoBehaviour
             float gravitationFactor = -1 + dist; //para que se atraiga es el -1
             Vector2 force = (transform.position - objectInVicinity.transform.position).normalized * gravitation * gravitationFactor*random;
             objectInVicinity.AddForce(force);
+        }
+
+        if (gravityI)
+        {
+            childrenColor.a += 0.01f;
+            GetComponentInChildren<SpriteRenderer>().color = childrenColor;
+            if (childrenColor.a >= 1)
+            {
+                gravityI = false;
+            }
+            if(childrenColor.a >= 0.5f)
+            {
+                gravitation = new System.Random().Next(gravitationMin, gravitationMax);
+                gravitationRadius = new System.Random().Next(gravitationRadiusMin, gravitationRadiusMax);
+                //rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
+                gravitationTrigger = GetComponent<CircleCollider2D>();
+                gravitationTrigger.isTrigger = true;
+                gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
+            }
         }
     }
 
@@ -93,21 +110,27 @@ public class gravity : MonoBehaviour
     }
 
 
+    private IEnumerator GravityCreation()
+    {
+        yield return new WaitForSeconds(5);
+        gravityI = true;
 
+    }
 
     private IEnumerator Wait()
     {
-		yield return new WaitForSeconds(10);
+		yield return new WaitForSeconds(15);
 		gravitation = 0;
 		gravitationRadius = 0;
 		Color childrenColor = GetComponentInChildren<SpriteRenderer>().color;
 		
-		while (childrenColor.a > 0)
+		while (childrenColor.a > 0 & !gravityI)
 		{
 			yield return new WaitForSeconds(0.05f);
 			childrenColor.a += -0.05f;
 			GetComponentInChildren<SpriteRenderer>().color = childrenColor;
 		}
+        
         int randomtime = new System.Random().Next(100,150);//tiempo aleatorio en el que puede reaparecer un campo gravitacional entre 4 sc y 10 sc
         yield return new WaitForSeconds(randomtime);
         Instantiate(gameObject);
