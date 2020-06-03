@@ -32,7 +32,13 @@ public class gravity : MonoBehaviour
         randompositionY = new System.Random().Next((int)whereCanSpawnX.y, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
         Debug.Log(randompositionX);
         Debug.Log(randompositionY);
-        gameObject.transform.position = new Vector2(randompositionX,randompositionY);
+		Color childrenColor = GetComponentInChildren<SpriteRenderer>().color;
+		while (childrenColor.a < 1)
+		{
+			childrenColor.a += 0.05f;
+			GetComponentInChildren<SpriteRenderer>().color = childrenColor;
+		}
+		gameObject.transform.position = new Vector2(randompositionX,randompositionY);
         gravitation = new System.Random().Next(gravitationMin, gravitationMax);
         gravitationRadius = new System.Random().Next(gravitationRadiusMin,gravitationRadiusMax);
         //rotationSpeed = new System.Random().Next(rotationSpeedMin,rotationSpeedMax);
@@ -86,9 +92,23 @@ public class gravity : MonoBehaviour
         }
     }
 
+
+
+
     private IEnumerator Wait()
     {
-        int randomtime = new System.Random().Next(7,15);//tiempo aleatorio en el que puede reaparecer un campo gravitacional entre 4 sc y 10 sc
+		yield return new WaitForSeconds(10);
+		gravitation = 0;
+		gravitationRadius = 0;
+		Color childrenColor = GetComponentInChildren<SpriteRenderer>().color;
+		
+		while (childrenColor.a > 0)
+		{
+			yield return new WaitForSeconds(0.05f);
+			childrenColor.a += -0.05f;
+			GetComponentInChildren<SpriteRenderer>().color = childrenColor;
+		}
+        int randomtime = new System.Random().Next(100,150);//tiempo aleatorio en el que puede reaparecer un campo gravitacional entre 4 sc y 10 sc
         yield return new WaitForSeconds(randomtime);
         Instantiate(gameObject);
         Destroy(gameObject);
