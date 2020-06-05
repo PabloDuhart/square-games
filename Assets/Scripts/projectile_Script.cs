@@ -123,7 +123,7 @@ public class projectile_Script : MonoBehaviour
 		
 
 		yield return new WaitForSeconds(fadingDelay);
-		gameObject.transform.position = new Vector2(-18.69f, 5.78f);//Tp far away
+		gameObject.transform.position = new Vector2(-22.7f, 5.78f);//Tp far away
         ColliderCircular.radius = 0.9f;
 		yield return new WaitForSeconds(nextProjectileDelay);
 

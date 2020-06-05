@@ -2782,7 +2782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397580116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14, y: 0.04, z: -1}
+  m_LocalPosition: {x: 0.14, y: 0.04, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 456672617}
@@ -39619,7 +39619,7 @@ MonoBehaviour:
   launchDelay: 0.1
   aimLimit: 2.5
   nextProjectileDelay: 2.5
-  playerLifes: 10
+  playerLifes: 15
   nextProjectilCode: {fileID: 455288810918092139}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}
   projectilesText: {fileID: 1078639953400108751}
@@ -42080,6 +42080,36 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+--- !u!1 &1319852770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319852771}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1319852771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319852770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.7, y: -2.2729514, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1321711195
 GameObject:
   m_ObjectHideFlags: 0
@@ -48960,7 +48990,7 @@ MonoBehaviour:
   launchDelay: 0.1
   aimLimit: 2.5
   nextProjectileDelay: 2.5
-  playerLifes: 10
+  playerLifes: 15
   nextProjectilCode: {fileID: 909747265}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}
   projectilesText: {fileID: 1078639953400108751}
