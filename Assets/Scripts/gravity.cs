@@ -10,23 +10,20 @@ public class gravity : MonoBehaviour
     public Vector2 whereCanSpawnX;
     public Vector2 whereCanSpawnY;
     [Header("Gravity variables")]
-    public int gravitationMin;//valor recomendado: 20
-    public int gravitationMax;//valor recomendado: 50
-    [Header("Gravity radio")]
-    public int gravitationRadiusMin;//valor recomendado: 4
-    public int gravitationRadiusMax;//valor recomendado: 10
-    [Header("Gravity rotation")]
-    public int rotationSpeedMin;//valor recomendado: 1
-    public int rotationSpeedMax;//valor recomendado: 10
+    public int gravitationMin;//recommended value: 20
+	public int gravitationMax;//recommended value: 50
+	[Header("Gravity radio")]
+    public int gravitationRadiusMin;//recommended value: 4
+	public int gravitationRadiusMax;//recommended value: 10
+	[Header("Gravity rotation")]
+    public int rotationSpeedMin;//recommended value: 1
+	public int rotationSpeedMax;//recommended value: 10
 
-	[Header("Gratity Spawn")]
-
+	[Header("Gratity Spawn Times")]
 	public int minFirstSpawn;
 	public int maxFirstSpawn;
-	[Header("")]
 	public int minGravitationalLifespan;
 	public int maxGravitationalLifespan;
-	[Header("")]
 	public int minNextGravitationalPull;
 	public int maxNextGravitationalPull;
 
@@ -46,14 +43,9 @@ public class gravity : MonoBehaviour
 
     void Start()
     {
-        randompositionX = new System.Random().Next((int)whereCanSpawnX.x, (int)whereCanSpawnX.y);//posición aleatoria dentro del rango establecido en la escena
-        randompositionY = new System.Random().Next((int)whereCanSpawnY.x, (int)whereCanSpawnY.y);//posición aleatoria dentro del rango establecido en la escena
-
-		//childrenColor = GetComponentInChildren<SpriteRenderer>().color;
-		///childrenColor.a = 0;
-        //GetComponentInChildren<SpriteRenderer>().color = childrenColor;
+        randompositionX = new System.Random().Next((int)whereCanSpawnX.x, (int)whereCanSpawnX.y);//random position X in scene 
+        randompositionY = new System.Random().Next((int)whereCanSpawnY.x, (int)whereCanSpawnY.y);//random position Y in scene
         gameObject.transform.position = new Vector2(randompositionX,randompositionY);
-		//StartCoroutine(GravityCreation());
         StartCoroutine(Wait());
         
     }
@@ -71,7 +63,7 @@ public class gravity : MonoBehaviour
             
             int random = new System.Random().Next(0, 5);
             float dist = Vector2.Distance(transform.position, objectInVicinity.transform.position);
-            float gravitationFactor = -1 + dist; //para que se atraiga es el -1
+            float gravitationFactor = -1 + dist; //for attraction change -1 to 1
             Vector2 force = (transform.position - objectInVicinity.transform.position).normalized * gravitation * gravitationFactor*random;
             objectInVicinity.AddForce(force);
         }
@@ -123,13 +115,6 @@ public class gravity : MonoBehaviour
         }
     }
 
-
-    private IEnumerator GravityCreation()
-    {
-		yield return new WaitForSeconds(15);
-        gravityI = true;
-    }
-
     private IEnumerator Wait()
     {
 		int randomFirst = new System.Random().Next(minFirstSpawn, maxFirstSpawn);
@@ -146,8 +131,7 @@ public class gravity : MonoBehaviour
 			childrenColor.a += -0.05f;
 			GetComponentInChildren<SpriteRenderer>().color = childrenColor;
 		}
-        
-        int randomtime = new System.Random().Next(minNextGravitationalPull,maxNextGravitationalPull);//tiempo aleatorio en el que puede reaparecer un campo gravitacional entre 4 sc y 10 sc
+        int randomtime = new System.Random().Next(minNextGravitationalPull,maxNextGravitationalPull);//random type in which the gravitational pull can reappear
         yield return new WaitForSeconds(randomtime);
         Instantiate(gameObject);
         Destroy(gameObject);
