@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class rotation : MonoBehaviour
 {
+	public GameObject pause;
     public int rotationSpeed;
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,14 @@ public class rotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.forward * rotationSpeed);
+		if (pause.activeSelf)
+		{
+			transform.Rotate(Vector3.forward * 0);
+		}
+		else
+		{
+			transform.Rotate(Vector3.forward * rotationSpeed);
+		}
+        
     }
 }
