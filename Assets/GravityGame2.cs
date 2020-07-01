@@ -5,15 +5,11 @@ using UnityEngine;
 public class GravityGame2 : MonoBehaviour
 {
     [Header("Gratity Spawn Times")]
-    //private int rotationSpeed;
     public int gravitationRadius;
     public int gravitation;
 
-
-    //private Color childrenColor;
-
+    private SpriteRenderer spriterender;
     private bool gravityI;
-
     private CircleCollider2D gravitationTrigger;
 
     void Start()
@@ -39,11 +35,10 @@ public class GravityGame2 : MonoBehaviour
             objectInVicinity.AddForce(force);
         }
 
-        
 
-          gravitationTrigger = GetComponent<CircleCollider2D>();
-          gravitationTrigger.isTrigger = true;
-          gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
+        gravitationTrigger = GetComponent<CircleCollider2D>();
+        gravitationTrigger.isTrigger = true;
+        gravitationTrigger.radius = gravitationRadius / transform.localScale.x;
     }
 
     void OnDrawGizmos()
