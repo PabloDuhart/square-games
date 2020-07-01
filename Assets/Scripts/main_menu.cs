@@ -19,15 +19,31 @@ public class main_menu : MonoBehaviour
 	{
 		SceneManager.LoadScene("Map");
 	}
-	public void LoadGame2()
+
+	public void Game2Lvl1()
 	{
-		//Here load game 2
-	}
-	public void LoadGame3()
-	{
-		//Here load game 3
+		
 	}
 
+	public void Game2Lvl2()
+	{
+		
+	}
+
+	public void Game2Lvl3()
+	{
+		
+	}
+
+	public void Game2Lvl4()
+	{
+		
+	}
+
+	public void Game2Lvl5()
+	{
+		
+	}
 
 	public void Quit()
 	{
