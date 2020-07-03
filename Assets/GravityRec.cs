@@ -39,6 +39,7 @@ public class GravityRec : MonoBehaviour
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireCube(transform.position,gravitationTrigger.size);
+        
     }
 
     private List<Rigidbody2D> objectsInRange = new List<Rigidbody2D>();
