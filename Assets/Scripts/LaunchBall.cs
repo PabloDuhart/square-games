@@ -32,12 +32,12 @@ public class LaunchBall : MonoBehaviour
     public Vector3 BallPosition;
 
     //public Text BallText;
-    
-    //public GameObject gameOverCanvas;
-    //public GameObject youWinCanvas;
+
+    public GameObject gameOverCanvas;
+    public GameObject youWinCanvas;
     public float addForce;
     
-    public float fadingDelay;
+    public float NextBalltime;
 
     //public GameObject zoom;
 
@@ -45,14 +45,21 @@ public class LaunchBall : MonoBehaviour
 
     private bool onBall = true;
 
-    
-     void Update()
-    {
+    private bool derrota = false;
 
+    private void Start()
+    {
+        if (NextBalltime==10f)
+        {
+            derrota = true;
+        }
+    }
+    void Update()
+    {
         if(rigidBody.velocity.magnitude < 0.001f && onBall)
         {
             onBall = false;
-            StartCoroutine(ballToBall());
+            StartCoroutine(ballToBall(1f,derrota));
         }
         
         if (aiming)
@@ -71,15 +78,16 @@ public class LaunchBall : MonoBehaviour
 
 
         //BallText.text = "Projectiles left: " + playerLifes.ToString();
-        
 
 
 
-        /*if (playerLifes <= 0 && !ballOnCup)//if projectiles left its 0 and the scene have more enemys, the player lose.
+
+        if (playerLifes <= 0 && !ballOnCup)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
+            derrota = true;
             gameObject.SetActive(false);
             Time.timeScale = 0f;
-            //gameOverCanvas.SetActive(true);
+            gameOverCanvas.SetActive(true);
 
         }
         if (playerLifes >= 0 && ballOnCup)
@@ -87,7 +95,7 @@ public class LaunchBall : MonoBehaviour
             gameObject.SetActive(false);
             Time.timeScale = 0f;
             youWinCanvas.SetActive(true);
-        }*/
+        }
     }
 
 
@@ -106,11 +114,18 @@ public class LaunchBall : MonoBehaviour
     {
         aiming = false;
         rigidBody.isKinematic = false;
-        ColliderCircular.radius = 0.25f;
+        ColliderCircular.radius = 2.5f;
         //zoom.SetActive(false);
         StartCoroutine(Launch());
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("glass"))
+        {
+            ballOnCup = true;
+        }
+    }
     IEnumerator Launch()
     {
 
@@ -118,33 +133,24 @@ public class LaunchBall : MonoBehaviour
         springJoint.enabled = false;
         launching = true;
         rigidBody.velocity *= addForce;
-
+        StartCoroutine(ballToBall(NextBalltime,derrota));
 
     }
-    private IEnumerator ballToBall()
+    private IEnumerator ballToBall(float time,bool condition)
     {
-
-        ColliderCircular.radius = 0.9f;
-        yield return new WaitForSeconds(nextBallDelay);
-
-
-
-        //Projectil respawn code
-        nextBall.transform.position = BallPosition;
-        nextBallCode.rigidBody.isKinematic = true;
-        nextBallCode.springJoint.enabled = true;
-        yield return new WaitForSeconds(1.5f);
-        nextBallCode.rigidBody.isKinematic = false;
-        nextBall.SetActive(true);
-
-       
-
-
-
-        aiming = false;
-        launching = false;
-        playerLifes--;
-        nextBallCode.playerLifes--;
+        if (condition)
+        {
+            ColliderCircular.radius = 3f;
+            yield return new WaitForSeconds(time);
+            //Projectil respawn code
+            nextBallCode.rigidBody.isKinematic = true;
+            nextBallCode.springJoint.enabled = true;
+            nextBallCode.rigidBody.isKinematic = false;
+            nextBall.SetActive(true);
+            aiming = false;
+            launching = false;
+            playerLifes--;
+            nextBallCode.playerLifes--;
+        }
     }
-    
 }

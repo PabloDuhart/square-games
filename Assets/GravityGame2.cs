@@ -14,7 +14,7 @@ public class GravityGame2 : MonoBehaviour
 
     void Start()
     {
-
+        
     }
 
     void FixedUpdate()
