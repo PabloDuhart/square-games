@@ -43,7 +43,7 @@ public class LaunchBall : MonoBehaviour
 
     private bool ballOnCup;
 
-
+    private int mouseClicks;
 
 
 
@@ -67,7 +67,7 @@ public class LaunchBall : MonoBehaviour
         }
 
 
-        BallText.text = "Ballss left: " + playerLifes.ToString();
+        BallText.text = "Balls left: " + playerLifes.ToString();
 
 
 
@@ -94,6 +94,7 @@ public class LaunchBall : MonoBehaviour
         {
             aiming = true;
             rigidBody.isKinematic = true;
+            mouseClicks++;
             //zoom.SetActive(true);
         }
 
@@ -117,13 +118,15 @@ public class LaunchBall : MonoBehaviour
     }
     IEnumerator Launch()
     {
-
-        yield return new WaitForSeconds(launchDelay);
-        springJoint.enabled = false;
-        launching = true;
-        rigidBody.velocity *= addForce;
-        StartCoroutine(ballToBall(NextBalltime));
-
+        if (mouseClicks == 1)
+		{
+            yield return new WaitForSeconds(launchDelay);
+            springJoint.enabled = false;
+            launching = true;
+            rigidBody.velocity *= addForce;
+            StartCoroutine(ballToBall(NextBalltime));
+		}
+       
     }
     private IEnumerator ballToBall(float time)
     {
@@ -138,7 +141,6 @@ public class LaunchBall : MonoBehaviour
         
             //Projectil respawn code
             aiming = false;
-            launching = false;
             playerLifes--;
             nextBallCode.playerLifes = playerLifes;
 		}
