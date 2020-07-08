@@ -8,7 +8,7 @@ TagManager:
   - enemy
   - Ground
   - EnemyStructure
-  - glass
+  - Cup
   layers:
   - Default
   - TransparentFX

@@ -31,7 +31,7 @@ public class LaunchBall : MonoBehaviour
     
     public Vector3 BallPosition;
 
-    //public Text BallText;
+    public Text BallText;
 
     public GameObject gameOverCanvas;
     public GameObject youWinCanvas;
@@ -43,24 +43,14 @@ public class LaunchBall : MonoBehaviour
 
     private bool ballOnCup;
 
-    private bool onBall = true;
 
-    private bool derrota = false;
 
-    private void Start()
-    {
-        if (NextBalltime==10f)
-        {
-            derrota = true;
-        }
-    }
+
+
+
     void Update()
     {
-        if(rigidBody.velocity.magnitude < 0.001f && onBall)
-        {
-            onBall = false;
-            StartCoroutine(ballToBall(1f,derrota));
-        }
+       
         
         if (aiming)
         {
@@ -77,14 +67,13 @@ public class LaunchBall : MonoBehaviour
         }
 
 
-        //BallText.text = "Projectiles left: " + playerLifes.ToString();
+        BallText.text = "Ballss left: " + playerLifes.ToString();
 
 
 
 
         if (playerLifes <= 0 && !ballOnCup)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
-            derrota = true;
             gameObject.SetActive(false);
             Time.timeScale = 0f;
             gameOverCanvas.SetActive(true);
@@ -121,7 +110,7 @@ public class LaunchBall : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("glass"))
+        if (collision.collider.CompareTag("Cup"))
         {
             ballOnCup = true;
         }
@@ -133,24 +122,30 @@ public class LaunchBall : MonoBehaviour
         springJoint.enabled = false;
         launching = true;
         rigidBody.velocity *= addForce;
-        StartCoroutine(ballToBall(NextBalltime,derrota));
+        StartCoroutine(ballToBall(NextBalltime));
 
     }
-    private IEnumerator ballToBall(float time,bool condition)
+    private IEnumerator ballToBall(float time)
     {
-        if (condition)
-        {
-            ColliderCircular.radius = 3f;
-            yield return new WaitForSeconds(time);
-            //Projectil respawn code
+        ColliderCircular.radius = 3f;
+        yield return new WaitForSeconds(time);
+		if (playerLifes - 1 > 0)
+		{
             nextBallCode.rigidBody.isKinematic = true;
             nextBallCode.springJoint.enabled = true;
             nextBallCode.rigidBody.isKinematic = false;
             nextBall.SetActive(true);
+        
+            //Projectil respawn code
             aiming = false;
             launching = false;
             playerLifes--;
-            nextBallCode.playerLifes--;
-        }
+            nextBallCode.playerLifes = playerLifes;
+		}
+		else
+		{
+            playerLifes--;
+		}
+      
     }
 }
