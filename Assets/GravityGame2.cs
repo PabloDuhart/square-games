@@ -5,7 +5,7 @@ using UnityEngine;
 public class GravityGame2 : MonoBehaviour
 {
     [Header("Gratity Spawn Times")]
-    public int gravitationRadius;
+    public float gravitationRadius;
     public int gravitation;
 
     private SpriteRenderer spriterender;

@@ -634,6 +634,7 @@ MonoBehaviour:
   playerLifes: 5
   nextBallCode: {fileID: 1791395943}
   BallPosition: {x: -6, y: -1, z: 0}
+  BallText: {fileID: 0}
   gameOverCanvas: {fileID: 0}
   youWinCanvas: {fileID: 0}
   addForce: 1
@@ -803,6 +804,7 @@ MonoBehaviour:
   playerLifes: 5
   nextBallCode: {fileID: 0}
   BallPosition: {x: -6, y: -1, z: 0}
+  BallText: {fileID: 0}
   gameOverCanvas: {fileID: 0}
   youWinCanvas: {fileID: 0}
   addForce: 1
@@ -1105,6 +1107,7 @@ MonoBehaviour:
   playerLifes: 5
   nextBallCode: {fileID: 1549313884}
   BallPosition: {x: -6, y: -1, z: 0}
+  BallText: {fileID: 0}
   gameOverCanvas: {fileID: 0}
   youWinCanvas: {fileID: 0}
   addForce: 1
@@ -1810,6 +1813,7 @@ MonoBehaviour:
   playerLifes: 5
   nextBallCode: {fileID: 1378972278}
   BallPosition: {x: -6, y: -1, z: 0}
+  BallText: {fileID: 0}
   gameOverCanvas: {fileID: 0}
   youWinCanvas: {fileID: 0}
   addForce: 1
@@ -1979,6 +1983,7 @@ MonoBehaviour:
   playerLifes: 5
   nextBallCode: {fileID: 2386325269990544229}
   BallPosition: {x: -6, y: -1, z: 0}
+  BallText: {fileID: 0}
   gameOverCanvas: {fileID: 0}
   youWinCanvas: {fileID: 0}
   addForce: 1

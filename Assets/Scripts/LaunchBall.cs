@@ -45,6 +45,8 @@ public class LaunchBall : MonoBehaviour
 
     private int mouseClicks;
 
+    public float publicValue;
+
 
 
 
@@ -130,7 +132,7 @@ public class LaunchBall : MonoBehaviour
     }
     private IEnumerator ballToBall(float time)
     {
-        ColliderCircular.radius = 3f;
+        ColliderCircular.radius = publicValue;
         yield return new WaitForSeconds(time);
 		if (playerLifes - 1 > 0)
 		{
