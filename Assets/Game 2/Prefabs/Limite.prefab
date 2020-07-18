@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8718279163057798473
+--- !u!1 &2611811736427068755
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8718279163057798479}
-  - component: {fileID: 8718279163057798472}
+  - component: {fileID: 2611811736427068753}
+  - component: {fileID: 2611811736427068754}
   m_Layer: 0
   m_Name: Limite
   m_TagString: Untagged
@@ -17,27 +17,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8718279163057798479
+--- !u!4 &2611811736427068753
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8718279163057798473}
+  m_GameObject: {fileID: 2611811736427068755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7588027, y: 0.3084669, z: -120.75687}
+  m_LocalPosition: {x: -1.9193077, y: -0.20385163, z: -138.92587}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &8718279163057798472
+--- !u!68 &2611811736427068754
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8718279163057798473}
+  m_GameObject: {fileID: 2611811736427068755}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -47,8 +47,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -13.378044, y: 3.613153}
-  - {x: -12.398975, y: -5.997733}
-  - {x: -1.4231608, y: -6.0463114}
-  - {x: 8.332808, y: -5.9075828}
-  - {x: 10.048206, y: 3.939128}
+  - {x: -8.602978, y: 6.2211127}
+  - {x: -8.538868, y: -6.0789437}
+  - {x: 1.498836, y: -6.1865773}
+  - {x: 12.689165, y: -6.015278}
+  - {x: 12.7810755, y: 6.3261533}
+  - {x: -8.578695, y: 6.2914147}
