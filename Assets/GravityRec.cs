@@ -57,7 +57,7 @@ public class GravityRec : MonoBehaviour
         var rb = collider.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            rb.gravityScale = 1f;
+            rb.gravityScale = 2.5f;
             objectsInRange.Remove(rb);
 
         }
