@@ -47,6 +47,7 @@ public class LaunchBall : MonoBehaviour
 
     public float publicValue;
 
+    public int level;
 
 
 
@@ -79,24 +80,31 @@ public class LaunchBall : MonoBehaviour
             gameObject.SetActive(false);
             Time.timeScale = 0f;
             gameOverCanvas.SetActive(true);
-
         }
         if (playerLifes >= 0 && ballOnCup)
         {
             gameObject.SetActive(false);
+            if (PlayerPrefs.GetInt("levelReached") <= level)
+			{
+                PlayerPrefs.SetInt("levelReached", level + 1);
+                PlayerPrefs.Save();
+            }
+         
             Time.timeScale = 0f;
             youWinCanvas.SetActive(true);
+            
         }
     }
 
 
     void OnMouseDown()
     {
-        if (!launching)
+        if (!launching && mouseClicks == 0)
         {
+            mouseClicks = 1;
             aiming = true;
             rigidBody.isKinematic = true;
-            mouseClicks++;
+            
             //zoom.SetActive(true);
         }
 
@@ -104,11 +112,14 @@ public class LaunchBall : MonoBehaviour
 
     void OnMouseUp()
     {
-        aiming = false;
-        rigidBody.isKinematic = false;
-        ColliderCircular.radius = 2.5f;
-        //zoom.SetActive(false);
-        StartCoroutine(Launch());
+        if (mouseClicks == 1)
+        {
+            aiming = false;
+            rigidBody.isKinematic = false;
+            ColliderCircular.radius = 2.5f;
+            //zoom.SetActive(false);
+            StartCoroutine(Launch());
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -120,15 +131,11 @@ public class LaunchBall : MonoBehaviour
     }
     IEnumerator Launch()
     {
-        if (mouseClicks == 1)
-		{
-            yield return new WaitForSeconds(launchDelay);
-            springJoint.enabled = false;
-            launching = true;
-            rigidBody.velocity *= addForce;
-            StartCoroutine(ballToBall(NextBalltime));
-		}
-       
+        yield return new WaitForSeconds(launchDelay);
+        springJoint.enabled = false;
+        launching = true;
+        rigidBody.velocity *= addForce;
+        StartCoroutine(ballToBall(NextBalltime));
     }
     private IEnumerator ballToBall(float time)
     {

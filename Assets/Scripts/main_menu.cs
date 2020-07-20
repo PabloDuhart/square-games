@@ -27,22 +27,28 @@ public class main_menu : MonoBehaviour
 
 	public void Game2Lvl2()
 	{
-		
+		SceneManager.LoadScene("Nivel2G2");
 	}
 
 	public void Game2Lvl3()
 	{
-		
+		SceneManager.LoadScene("Nivel3G2");
 	}
 
 	public void Game2Lvl4()
 	{
-		
+		SceneManager.LoadScene("Nivel4G2");
 	}
 
 	public void Game2Lvl5()
 	{
-		
+		SceneManager.LoadScene("Nivel5G2");
+	}
+
+	public void RestartStats()
+	{
+		PlayerPrefs.SetInt("levelReached", 1);
+		PlayerPrefs.Save();
 	}
 
 	public void Quit()

@@ -3450,6 +3450,7 @@ MonoBehaviour:
   addForce: 1
   NextBalltime: 5
   publicValue: 2.8
+  level: 1
 --- !u!212 &1019810815365093453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3545,6 +3546,7 @@ MonoBehaviour:
   addForce: 1
   NextBalltime: 10
   publicValue: 2.8
+  level: 1
 --- !u!50 &1019810815365093490
 Rigidbody2D:
   serializedVersion: 4
@@ -3778,6 +3780,7 @@ MonoBehaviour:
   addForce: 1
   NextBalltime: 5
   publicValue: 2.8
+  level: 1
 --- !u!4 &1019810816195442507
 Transform:
   m_ObjectHideFlags: 0
@@ -3970,6 +3973,7 @@ MonoBehaviour:
   addForce: 1
   NextBalltime: 5
   publicValue: 2.8
+  level: 1
 --- !u!1 &3403303739706813513
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,6 +4282,7 @@ MonoBehaviour:
   addForce: 1
   NextBalltime: 5
   publicValue: 2.8
+  level: 1
 --- !u!58 &3403303740640712876
 CircleCollider2D:
   m_ObjectHideFlags: 0
