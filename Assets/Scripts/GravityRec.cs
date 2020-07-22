@@ -35,13 +35,7 @@ public class GravityRec : MonoBehaviour
         
     }
 
-    void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireCube(transform.position,gravitationTrigger.size);
-        
-    }
-
+    
     private List<Rigidbody2D> objectsInRange = new List<Rigidbody2D>();
     private void OnTriggerEnter2D(Collider2D collider)
     {
