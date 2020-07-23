@@ -12,10 +12,8 @@ public class GravityGame2 : MonoBehaviour
     private bool gravityI;
     private CircleCollider2D gravitationTrigger;
 
-    void Start()
-    {
-        
-    }
+
+
 
     void FixedUpdate()
     {
@@ -62,7 +60,7 @@ public class GravityGame2 : MonoBehaviour
         var rb = collider.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            rb.gravityScale = 1f;
+            rb.gravityScale = 2.5f;
             objectsInRange.Remove(rb);
             
         }

@@ -8,6 +8,7 @@ public class pause_menu : MonoBehaviour
 {
 
 	public AudioMixer audioMixer;
+	public string sceneName;
 
 
 	public void Restart()
@@ -36,6 +37,13 @@ public class pause_menu : MonoBehaviour
 	public void Resume()
 	{
 		Time.timeScale = 1f;
+	}
+
+
+	public void NextLevel()
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene(sceneName);
 	}
 
 }
