@@ -1,0 +1,1442 @@
+fileFormatVersion: 2
+guid: dae4c566c0e129f4a8cfd05c9375820a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4350835877795668723
+    second: cosahermosacosabienhecha_0
+  - first:
+      213: -1826012894457858054
+    second: cosahermosacosabienhecha_1
+  - first:
+      213: 6940181829139111041
+    second: cosahermosacosabienhecha_2
+  - first:
+      213: -3372091178258064227
+    second: cosahermosacosabienhecha_3
+  - first:
+      213: -744678357422863192
+    second: cosahermosacosabienhecha_4
+  - first:
+      213: 2451705397659908134
+    second: cosahermosacosabienhecha_5
+  - first:
+      213: -1127448751318138611
+    second: cosahermosacosabienhecha_6
+  - first:
+      213: -5755328807198319487
+    second: cosahermosacosabienhecha_7
+  - first:
+      213: 4634316193511190776
+    second: cosahermosacosabienhecha_8
+  - first:
+      213: -179227215139709545
+    second: cosahermosacosabienhecha_9
+  - first:
+      213: 5389625696705193373
+    second: cosahermosacosabienhecha_10
+  - first:
+      213: 82487212613200905
+    second: cosahermosacosabienhecha_11
+  - first:
+      213: 6733079052772225179
+    second: cosahermosacosabienhecha_12
+  - first:
+      213: 1578807564677727629
+    second: cosahermosacosabienhecha_13
+  - first:
+      213: -9180784252921369609
+    second: cosahermosacosabienhecha_14
+  - first:
+      213: 7341490467318424246
+    second: cosahermosacosabienhecha_15
+  - first:
+      213: 169187088902751583
+    second: cosahermosacosabienhecha_16
+  - first:
+      213: -1720817824362745795
+    second: cosahermosacosabienhecha_17
+  - first:
+      213: 4335806581956539392
+    second: cosahermosacosabienhecha_18
+  - first:
+      213: -6724508325025487308
+    second: cosahermosacosabienhecha_19
+  - first:
+      213: 4769836186431743925
+    second: cosahermosacosabienhecha_20
+  - first:
+      213: -789257332551139558
+    second: cosahermosacosabienhecha_21
+  - first:
+      213: 1317036067714221264
+    second: cosahermosacosabienhecha_22
+  - first:
+      213: -509235079550186420
+    second: cosahermosacosabienhecha_23
+  - first:
+      213: -7803003426989074693
+    second: cosahermosacosabienhecha_24
+  - first:
+      213: -1062563861871522529
+    second: cosahermosacosabienhecha_25
+  - first:
+      213: 4681361870549031221
+    second: cosahermosacosabienhecha_26
+  - first:
+      213: -5590302822489958964
+    second: cosahermosacosabienhecha_27
+  - first:
+      213: -338245773155619636
+    second: cosahermosacosabienhecha_28
+  - first:
+      213: 2082543322042304388
+    second: cosahermosacosabienhecha_29
+  - first:
+      213: -4062197713639411057
+    second: cosahermosacosabienhecha_30
+  - first:
+      213: -2653231399556667410
+    second: cosahermosacosabienhecha_31
+  - first:
+      213: -7556132032509318740
+    second: cosahermosacosabienhecha_32
+  - first:
+      213: -3312259886820838858
+    second: cosahermosacosabienhecha_33
+  - first:
+      213: -2146377305229239890
+    second: cosahermosacosabienhecha_34
+  - first:
+      213: 972805975568329850
+    second: cosahermosacosabienhecha_35
+  - first:
+      213: -1896553320317114902
+    second: cosahermosacosabienhecha_36
+  - first:
+      213: 2229044329248654247
+    second: cosahermosacosabienhecha_37
+  - first:
+      213: -9047101066918327503
+    second: cosahermosacosabienhecha_38
+  - first:
+      213: 390418578858863270
+    second: cosahermosacosabienhecha_39
+  - first:
+      213: 6190138766325236640
+    second: cosahermosacosabienhecha_40
+  - first:
+      213: -848960987599734366
+    second: cosahermosacosabienhecha_41
+  - first:
+      213: -3406564170990871940
+    second: cosahermosacosabienhecha_42
+  - first:
+      213: 5947070095767819324
+    second: cosahermosacosabienhecha_43
+  - first:
+      213: -8294837097341747191
+    second: cosahermosacosabienhecha_44
+  - first:
+      213: -364761905173550728
+    second: cosahermosacosabienhecha_45
+  - first:
+      213: 6541798813591554259
+    second: cosahermosacosabienhecha_46
+  - first:
+      213: -3395568517822159203
+    second: cosahermosacosabienhecha_47
+  - first:
+      213: -6874181865310495529
+    second: cosahermosacosabienhecha_48
+  - first:
+      213: 2617617807008777144
+    second: cosahermosacosabienhecha_49
+  - first:
+      213: -4531095376141223705
+    second: cosahermosacosabienhecha_50
+  - first:
+      213: 6433082952294646798
+    second: cosahermosacosabienhecha_51
+  - first:
+      213: -6113366122226151755
+    second: cosahermosacosabienhecha_52
+  - first:
+      213: -1966616831552155307
+    second: cosahermosacosabienhecha_53
+  - first:
+      213: -3796600576902551276
+    second: cosahermosacosabienhecha_54
+  - first:
+      213: -1692350167342062447
+    second: cosahermosacosabienhecha_55
+  - first:
+      213: 1006583401532651566
+    second: cosahermosacosabienhecha_56
+  - first:
+      213: 7406967923718257101
+    second: cosahermosacosabienhecha_57
+  - first:
+      213: 3152965448133865164
+    second: cosahermosacosabienhecha_0
+  - first:
+      213: -7508536022611481355
+    second: cosahermosacosabienhecha_1
+  - first:
+      213: -6552615925649225910
+    second: cosahermosacosabienhecha_2
+  - first:
+      213: -6373888600369003946
+    second: cosahermosacosabienhecha_3
+  - first:
+      213: -8055926864030492188
+    second: cosahermosacosabienhecha_4
+  - first:
+      213: 452344199059082511
+    second: cosahermosacosabienhecha_5
+  - first:
+      213: -5263093812905966178
+    second: cosahermosacosabienhecha_6
+  - first:
+      213: 3351017054817404063
+    second: cosahermosacosabienhecha_7
+  - first:
+      213: -8742240860472758868
+    second: cosahermosacosabienhecha_8
+  - first:
+      213: -2445371854772296773
+    second: cosahermosacosabienhecha_9
+  - first:
+      213: -3062118963324674732
+    second: cosahermosacosabienhecha_10
+  - first:
+      213: 4742726149944905322
+    second: cosahermosacosabienhecha_11
+  - first:
+      213: -7367421545108492964
+    second: cosahermosacosabienhecha_12
+  - first:
+      213: 3356487925671427603
+    second: cosahermosacosabienhecha_13
+  - first:
+      213: 868555274908293983
+    second: cosahermosacosabienhecha_14
+  - first:
+      213: -1533942417898743769
+    second: cosahermosacosabienhecha_15
+  - first:
+      213: -3122968162877809839
+    second: cosahermosacosabienhecha_16
+  - first:
+      213: 4780094412180087496
+    second: cosahermosacosabienhecha_17
+  - first:
+      213: -4380002141698879199
+    second: cosahermosacosabienhecha_18
+  - first:
+      213: -7795994292549400110
+    second: cosahermosacosabienhecha_19
+  - first:
+      213: -8512242435848408075
+    second: cosahermosacosabienhecha_20
+  - first:
+      213: 6722127400897522440
+    second: cosahermosacosabienhecha_21
+  - first:
+      213: 7356575011102501337
+    second: cosahermosacosabienhecha_22
+  - first:
+      213: 7733022356476281612
+    second: cosahermosacosabienhecha_23
+  - first:
+      213: 7314786007341219356
+    second: cosahermosacosabienhecha_24
+  - first:
+      213: -619722807822874593
+    second: cosahermosacosabienhecha_25
+  - first:
+      213: 2629446405996264015
+    second: cosahermosacosabienhecha_26
+  - first:
+      213: -8754316497874000686
+    second: cosahermosacosabienhecha_27
+  - first:
+      213: 3549317823263015093
+    second: cosahermosacosabienhecha_28
+  - first:
+      213: -89041239238091614
+    second: cosahermosacosabienhecha_29
+  - first:
+      213: 2424729362268717492
+    second: cosahermosacosabienhecha_30
+  - first:
+      213: -3859131527668061779
+    second: cosahermosacosabienhecha_31
+  - first:
+      213: 2268144318297868341
+    second: cosahermosacosabienhecha_32
+  - first:
+      213: -8831415873566944569
+    second: cosahermosacosabienhecha_33
+  - first:
+      213: 7692504663427726989
+    second: cosahermosacosabienhecha_34
+  - first:
+      213: 8739076808608114007
+    second: cosahermosacosabienhecha_35
+  - first:
+      213: 3765588960603837907
+    second: cosahermosacosabienhecha_36
+  - first:
+      213: 1132984894375419049
+    second: cosahermosacosabienhecha_37
+  - first:
+      213: -1469638019348506596
+    second: cosahermosacosabienhecha_38
+  - first:
+      213: 8925395069273100314
+    second: cosahermosacosabienhecha_39
+  - first:
+      213: -1959063641019554554
+    second: cosahermosacosabienhecha_40
+  - first:
+      213: 3998731747392124549
+    second: cosahermosacosabienhecha_41
+  - first:
+      213: -3990661171878987837
+    second: cosahermosacosabienhecha_42
+  - first:
+      213: 1716342602740747521
+    second: cosahermosacosabienhecha_43
+  - first:
+      213: -6824393363486005232
+    second: cosahermosacosabienhecha_44
+  - first:
+      213: 2057971219648210684
+    second: cosahermosacosabienhecha_45
+  - first:
+      213: -4945677323944971247
+    second: cosahermosacosabienhecha_46
+  - first:
+      213: -2923058158206632077
+    second: cosahermosacosabienhecha_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce6915be5591cb20800000000000000
+      internalID: 3152965448133865164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fca405f4425cc790800000000000000
+      internalID: -7508536022611481355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474c1a688e6015a0800000000000000
+      internalID: -6552615925649225910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652081996166b87a0800000000000000
+      internalID: -6373888600369003946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e99fe40339933090800000000000000
+      internalID: -8055926864030492188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d002507ac074600800000000000000
+      internalID: 452344199059082511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e950f2eef0cb5f6b0800000000000000
+      internalID: -5263093812905966178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94caa4c144318e20800000000000000
+      internalID: 3351017054817404063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadad9a71425da680800000000000000
+      internalID: -8742240860472758868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_9
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb32f84114b401ed0800000000000000
+      internalID: -2445371854772296773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_10
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9b03d60b2185d0800000000000000
+      internalID: -3062118963324674732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_11
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2520
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e0c6a2e4c81d140800000000000000
+      internalID: 4742726149944905322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5daf359329a1c990800000000000000
+      internalID: -7367421545108492964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e78862cf3a49e20800000000000000
+      internalID: 3356487925671427603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b53b4bb6abd0c00800000000000000
+      internalID: 868555274908293983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728dd338f7756bae0800000000000000
+      internalID: -1533942417898743769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b50d6800df8a4d0800000000000000
+      internalID: -3122968162877809839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2e2d6ba8e465240800000000000000
+      internalID: 4780094412180087496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1219694224b1733c0800000000000000
+      internalID: -4380002141698879199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_19
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ce91fe701fc390800000000000000
+      internalID: -7795994292549400110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ff39ba907ed980800000000000000
+      internalID: -8512242435848408075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_21
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80baa69714bc94d50800000000000000
+      internalID: 6722127400897522440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9a74ceefdc71660800000000000000
+      internalID: 7356575011102501337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_23
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1680
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c034ce5acd6315b60800000000000000
+      internalID: 7733022356476281612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e32974e17538560800000000000000
+      internalID: 7314786007341219356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f188284c36d4667f0800000000000000
+      internalID: -619722807822874593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ab559239bad7420800000000000000
+      internalID: 2629446405996264015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e0ec078b628680800000000000000
+      internalID: -8754316497874000686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b00e8251c5b14130800000000000000
+      internalID: 3549317823263015093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac5ad4f679a3cef0800000000000000
+      internalID: -89041239238091614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b18c7a128e56a120800000000000000
+      internalID: 2424729362268717492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9a5d7725c917ac0800000000000000
+      internalID: -3859131527668061779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53807778d311a7f10800000000000000
+      internalID: 2268144318297868341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_33
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2db48cd02807580800000000000000
+      internalID: -8831415873566944569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e35a81c3441ca60800000000000000
+      internalID: 7692504663427726989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_35
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 840
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755e0f94e00774970800000000000000
+      internalID: 8739076808608114007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d59cee653f024430800000000000000
+      internalID: 3765588960603837907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac512532cb29bf00800000000000000
+      internalID: 1132984894375419049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d254020cca9be0800000000000000
+      internalID: -1469638019348506596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10db08d68f5ddb70800000000000000
+      internalID: 8925395069273100314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_40
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60565a08ff100d4e0800000000000000
+      internalID: -1959063641019554554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_41
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586726b86595e7730800000000000000
+      internalID: 3998731747392124549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_42
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7753fbec25e98c0800000000000000
+      internalID: -3990661171878987837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_43
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4b3de08ca1d710800000000000000
+      internalID: 1716342602740747521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01822e1a462ea41a0800000000000000
+      internalID: -6824393363486005232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6eb11bbe16f8c10800000000000000
+      internalID: 2057971219648210684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143e8c5dac6d5bb0800000000000000
+      internalID: -4945677323944971247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosahermosacosabienhecha_47
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 300
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f394697163f67d0800000000000000
+      internalID: -2923058158206632077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
