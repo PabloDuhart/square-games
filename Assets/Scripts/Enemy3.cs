@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy2 : MonoBehaviour
+public class Enemy3 : MonoBehaviour
 {
     private Animator anim;
-    public float enemyContact = 3f;//enemy lifes
+    public float enemyContact = 7f;//enemy lifes
     void Start()
     {
         anim = GetComponent<Animator>();
-        anim.SetFloat("EnemyLife2", enemyContact);
+        anim.SetFloat("EnemyLife3", enemyContact);
     }
 
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
@@ -18,14 +18,14 @@ public class Enemy2 : MonoBehaviour
         {
             //Enemy damaged, here you can put the animation.
             enemyContact--;
-            anim.SetBool("HitDamage2", true);
-            anim.SetFloat("EnemyLife2", enemyContact);
+            anim.SetBool("HitDamage3", true);
+            anim.SetFloat("EnemyLife3", enemyContact);
         }
         
         if (enemyContact < 0.1f)
         {
             //Enemy die, here you can put the animation.
-            anim.SetFloat("EnemyLife2", enemyContact);
+            anim.SetFloat("EnemyLife3", enemyContact);
             yield return new WaitForSeconds(1.2f);
             Destroy(gameObject);
         }
@@ -36,7 +36,7 @@ public class Enemy2 : MonoBehaviour
         {
             //Enemy damaged, here you can put the animation.
 
-            anim.SetBool("HitDamage2", false);
+            anim.SetBool("HitDamage3", false);
 
         }
     }
