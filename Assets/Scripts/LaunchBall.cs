@@ -27,6 +27,8 @@ public class LaunchBall : MonoBehaviour
 
     public int playerLifes;//Projectiles left.
 
+    
+
     public LaunchBall nextBallCode;//The "projectile_Script" of the next projectil, we need this for change vars
     
     public Vector3 BallPosition;
@@ -43,7 +45,7 @@ public class LaunchBall : MonoBehaviour
 
     private bool ballOnCup;
 
-    private int mouseClicks;
+    private bool mouseClicks = false;
 
     public float publicValue;
 
@@ -51,7 +53,8 @@ public class LaunchBall : MonoBehaviour
 
 
 
-    void Update()
+
+	void Update()
     {
        
         
@@ -68,11 +71,6 @@ public class LaunchBall : MonoBehaviour
                 rigidBody.position = projectilePosition;
             }
         }
-
-
-        BallText.text = "Balls left: " + playerLifes.ToString();
-
-
 
 
         if (playerLifes <= 0 && !ballOnCup)//if projectiles left its 0 and the scene have more enemys, the player lose.
@@ -99,27 +97,32 @@ public class LaunchBall : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (!launching && mouseClicks == 0)
+        if (!launching && mouseClicks == false)
         {
-            mouseClicks = 1;
+            mouseClicks = true;
             aiming = true;
             rigidBody.isKinematic = true;
             
             //zoom.SetActive(true);
         }
 
+
     }
 
 
     void OnMouseUp()
     {
-        if (mouseClicks == 1)
+        if (mouseClicks)
         {
             aiming = false;
             rigidBody.isKinematic = false;
             ColliderCircular.radius = 2.5f;
             //zoom.SetActive(false);
+            launching = true;
+            mouseClicks = false;
+            BallText.text = "Balls left: " + (playerLifes - 1).ToString();
             StartCoroutine(Launch());
+            
         }
     }
 
@@ -134,7 +137,7 @@ public class LaunchBall : MonoBehaviour
     {
         yield return new WaitForSeconds(launchDelay);
         springJoint.enabled = false;
-        launching = true;
+        
         rigidBody.velocity *= addForce;
         StartCoroutine(ballToBall(NextBalltime));
     }
@@ -158,6 +161,7 @@ public class LaunchBall : MonoBehaviour
 		{
             playerLifes--;
 		}
+
       
     }
 }

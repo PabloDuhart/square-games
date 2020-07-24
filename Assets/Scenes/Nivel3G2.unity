@@ -6219,7 +6219,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 4350835877795668723, guid: dae4c566c0e129f4a8cfd05c9375820a,
     type: 3}
-  m_Color: {r: 1, g: 0.3177099, b: 0, a: 0.84313726}
+  m_Color: {r: 0.3019608, g: 0.59607846, b: 0.2509804, a: 0.84313726}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9152,7 +9152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Balls left:'
+  m_Text: 'Balls left: 5'
 --- !u!222 &8672651229150991259
 CanvasRenderer:
   m_ObjectHideFlags: 0
