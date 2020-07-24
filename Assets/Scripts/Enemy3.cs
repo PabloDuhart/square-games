@@ -5,7 +5,9 @@ using UnityEngine;
 public class Enemy3 : MonoBehaviour
 {
     private Animator anim;
-    public float enemyContact = 7f;//enemy lifes
+    public float enemyContact;//enemy lifes
+    public EdgeCollider2D topCollider;
+    private Rigidbody2D otherRb;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -38,6 +40,15 @@ public class Enemy3 : MonoBehaviour
 
             anim.SetBool("HitDamage3", false);
 
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyStructure"))
+        {
+            otherRb = collision.gameObject.GetComponent<Rigidbody2D>();
+            int randompositionX = new System.Random().Next(-200, 200);
+            otherRb.AddForce(new Vector2(randompositionX, 1000f));
         }
     }
 }
