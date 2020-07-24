@@ -46,9 +46,19 @@ public class Enemy3 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("EnemyStructure"))
         {
+            anim.SetBool("Attack", true);
+            
             otherRb = collision.gameObject.GetComponent<Rigidbody2D>();
             int randompositionX = new System.Random().Next(-200, 200);
             otherRb.AddForce(new Vector2(randompositionX, 1000f));
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EnemyStructure"))
+        {
+            anim.SetBool("Attack", false);
         }
     }
 }
