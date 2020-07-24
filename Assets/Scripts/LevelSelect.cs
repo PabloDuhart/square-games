@@ -33,7 +33,7 @@ public class LevelSelect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int levelReached = PlayerPrefs.GetInt("levelReached");
+        int levelReached = PlayerPrefs.GetInt("levelReached", 1);
 
         for (int i = 0; i < levelButtons.Length; i++)
         {
