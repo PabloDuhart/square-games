@@ -3,15 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class main_menu : MonoBehaviour
 {
 
 	public AudioMixer audioMixer;
 
+	public Slider slider;
+
+	public void Awake()
+	{
+		audioMixer.GetFloat("volume",out float value);
+		slider.value = value;
+	}
+
 	public void setAudio(float volume)
 	{
 		audioMixer.SetFloat("volume", volume);
+		audioMixer.GetFloat("volume", out float value);
 	}
 
 
