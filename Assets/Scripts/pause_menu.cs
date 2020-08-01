@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class pause_menu : MonoBehaviour
 {
 
 	public AudioMixer audioMixer;
 	public string sceneName;
+	public Slider slider;
+
+	void Awake()
+	{
+		audioMixer.GetFloat("volume", out float value);
+		slider.value = value;
+	}
 
 
 	public void Restart()

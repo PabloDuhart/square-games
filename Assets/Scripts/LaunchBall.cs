@@ -51,7 +51,14 @@ public class LaunchBall : MonoBehaviour
 
     public int level;
 
+    private AudioSource tik;
 
+    private int numberOfTiks = 10;
+
+	void Awake()
+	{
+        tik = gameObject.GetComponent<AudioSource>();
+	}
 
 
 	void Update()
@@ -132,6 +139,20 @@ public class LaunchBall : MonoBehaviour
         {
             ballOnCup = true;
         }
+  
+        if (collision.relativeVelocity.magnitude > 5f)
+		{
+            tik.Play();
+            numberOfTiks = 10;
+		}
+		if (collision.relativeVelocity.magnitude <= 5f && numberOfTiks > 0)
+		{
+            numberOfTiks--;
+            tik.Play();
+        }
+            
+		
+        
     }
     IEnumerator Launch()
     {

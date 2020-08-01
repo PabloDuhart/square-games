@@ -3,8 +3,12 @@ using UnityEngine;
 using System;
 using System.Collections;
 
+
 public class audioManager : MonoBehaviour
 {
+
+	public static audioManager instance;
+
 	public GameObject [] sounds;
 
 	private bool playing = false;
@@ -12,6 +16,25 @@ public class audioManager : MonoBehaviour
 	private int nextSong = -1;
 
 	private bool enter = false;
+
+
+	void Awake()
+	{
+
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else
+		{
+			Destroy(gameObject);
+		}
+
+
+		DontDestroyOnLoad(gameObject);
+
+	}
+
 
 	public bool check()
 	{
@@ -61,5 +84,12 @@ public class audioManager : MonoBehaviour
 		sounds[nextSong].SetActive(true);
 		enter = false;
 	}
+
+
+	public void Destroy()
+	{
+		Destroy(gameObject);
+	}
+
 
 }
