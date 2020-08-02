@@ -40013,6 +40013,10 @@ MonoBehaviour:
   addForce: 1
   forceToDestroy: 20
   fadingDelay: 0.5
+  launcheffect: {fileID: 3407045829883798315, guid: 86dfffa88e4752c4c823e2f9588757b1,
+    type: 3}
+  impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
+    type: 3}
   zoom: {fileID: 8934235353824925976}
 --- !u!231 &909747266
 SpringJoint2D:
@@ -41061,7 +41065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1049119732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49879,6 +49883,10 @@ MonoBehaviour:
   addForce: 1
   forceToDestroy: 20
   fadingDelay: 0.5
+  launcheffect: {fileID: 3407045829883798315, guid: 86dfffa88e4752c4c823e2f9588757b1,
+    type: 3}
+  impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
+    type: 3}
   zoom: {fileID: 8934235353824925976}
 --- !u!231 &455288810918092140
 SpringJoint2D:
