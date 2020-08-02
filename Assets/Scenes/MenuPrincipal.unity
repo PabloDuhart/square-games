@@ -130,8 +130,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55110886}
-  - component: {fileID: 55110885}
   - component: {fileID: 55110887}
+  - component: {fileID: 55110885}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 55110884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c67e17c3691e30d4fb2177a146bd615b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f4683aac24336749a1baea44e18e5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
@@ -881,7 +881,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -1837,7 +1837,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -2931,7 +2931,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -3607,7 +3607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -3921,7 +3921,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -4911,7 +4911,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 55110885}
+      - m_Target: {fileID: 0}
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:

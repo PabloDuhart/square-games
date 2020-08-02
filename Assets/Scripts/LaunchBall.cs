@@ -86,6 +86,7 @@ public class LaunchBall : MonoBehaviour
             Time.timeScale = 0f;
             gameOverCanvas.SetActive(true);
         }
+        
         if (playerLifes >= 0 && ballOnCup)
         {
             gameObject.SetActive(false);
@@ -99,6 +100,7 @@ public class LaunchBall : MonoBehaviour
             youWinCanvas.SetActive(true);
             
         }
+        
     }
 
 

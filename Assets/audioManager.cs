@@ -11,6 +11,10 @@ public class audioManager : MonoBehaviour
 
 	public GameObject [] sounds;
 
+    public GameObject canvasWin;
+
+    public GameObject canvasLose;
+
 	private bool playing = false;
 
 	private int nextSong = -1;
@@ -31,14 +35,14 @@ public class audioManager : MonoBehaviour
 		}
 
 
-		DontDestroyOnLoad(gameObject);
+		//DontDestroyOnLoad(gameObject);
 
 	}
 
 
 	public bool check()
 	{
-		for (int i = 0; i < sounds.Length; i++)
+		for (int i = 0; i < sounds.Length-2; i++)
 		{
 			if (sounds[i].gameObject.GetComponent<AudioSource>().isPlaying)
 			{
@@ -55,7 +59,7 @@ public class audioManager : MonoBehaviour
 
 	public void decheck()
 	{
-		for (int i = 0; i < sounds.Length; i++)
+		for (int i = 0; i < sounds.Length-2; i++)
 		{
 			sounds[i].SetActive(false);
 		}
@@ -64,21 +68,41 @@ public class audioManager : MonoBehaviour
 
 	void Update()
 	{
-		if (!check() && !enter)
+        
+		if (!check() && !enter && !canvasWin.activeSelf && !canvasLose.activeSelf)
 		{
 			enter = true;
 			StartCoroutine(delay());	
 		}
-
+        
+        if (canvasWin.activeSelf)
+        {
+            decheck();
+            sounds[sounds.Length-2].SetActive(true);
+        }
+        else
+        {
+            sounds[sounds.Length - 2].SetActive(false);
+            if (canvasLose.activeSelf)
+            {
+                decheck();
+                sounds[sounds.Length - 1].SetActive(true);
+            }
+            else
+            {
+                sounds[sounds.Length - 1].SetActive(false);
+            }
+        }
+        
 	}
 	IEnumerator delay()
 	{
 		yield return new WaitForSeconds(2);
 		int previousSong = nextSong;
-		nextSong = new System.Random().Next(0, (sounds.Length));
+		nextSong = new System.Random().Next(0, (sounds.Length-2));
 		while(previousSong==nextSong)
 		{
-			nextSong = new System.Random().Next(0, (sounds.Length));
+			nextSong = new System.Random().Next(0, (sounds.Length-2));
 		}
 		decheck();
 		sounds[nextSong].SetActive(true);
