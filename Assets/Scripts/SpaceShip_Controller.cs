@@ -10,6 +10,7 @@ public class SpaceShip_Controller : MonoBehaviour
     public Vector3 ground;
     public float startDelay;
 	public float velocity;
+    public Quaternion rotation;
 	public Vector3 spaceShipScale;
 	public projectile_Script proyectil;
 	public GameObject canvasInterface;
@@ -33,7 +34,7 @@ public class SpaceShip_Controller : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         gameObject.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);//Change scale of spaceShip
-        gameObject.transform.rotation = new Quaternion(0f, 0f, -45, 110);//Change rotation of spaceShip
+        gameObject.transform.rotation = rotation;//Change rotation of spaceShip
         gameObject.transform.localPosition = start;//Change position of spaceShip
         anim.SetBool("Grounded", false);
         anim.SetBool("FirstReload", false);
