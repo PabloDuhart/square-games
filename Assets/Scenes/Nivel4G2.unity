@@ -2633,9 +2633,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.015589595, y: 0}
+  m_Offset: {x: 0.04868209, y: 0}
   serializedVersion: 2
-  m_Radius: 2.5056214
+  m_Radius: 2.508685
 --- !u!231 &668616627
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -8649,7 +8649,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: d48589dbe68fa9445a89b6ceed62b2f4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8791,7 +8791,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: b48615c30a54e09488ff323646dd4e4e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8972,7 +8972,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: e5ff6474b7e1c3241afcca1452555fc3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9131,7 +9131,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: e595b2f074b4fd246a82b36cf8efc494, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
