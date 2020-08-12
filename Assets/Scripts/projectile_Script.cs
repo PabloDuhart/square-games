@@ -34,6 +34,8 @@ public class projectile_Script : MonoBehaviour
 
 	public Vector3 projectilePosition;
 
+    public Vector2 tpAway;
+
 	public Text projectilesText;
 	public Text enemiesText;
 
@@ -126,7 +128,7 @@ public class projectile_Script : MonoBehaviour
 
         Instantiate(impacteffect);
 		yield return new WaitForSeconds(fadingDelay);
-		gameObject.transform.position = new Vector2(-22.7f, 5.78f);//Tp far away
+        gameObject.transform.position = tpAway;//Tp far away
         ColliderCircular.radius = 0.9f;
 		yield return new WaitForSeconds(nextProjectileDelay);
 

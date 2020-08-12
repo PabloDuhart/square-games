@@ -44,7 +44,7 @@ public class Enemy3 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("EnemyStructure"))
+        if (collision.gameObject.CompareTag("EnemyStructure") || collision.gameObject.CompareTag("enemy"))
         {
             anim.SetBool("Attack", true);
             
@@ -56,7 +56,7 @@ public class Enemy3 : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("EnemyStructure"))
+        if (collision.gameObject.CompareTag("EnemyStructure") || collision.gameObject.CompareTag("enemy"))
         {
             anim.SetBool("Attack", false);
         }
