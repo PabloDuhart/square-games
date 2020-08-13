@@ -47,6 +47,8 @@ public class projectile_Script : MonoBehaviour
 	public float fadingDelay;
     public GameObject launcheffect;
     public GameObject impacteffect;
+    private bool impactEffect = true;
+    private bool launchEffect = true;
 
 
 	public GameObject zoom;
@@ -109,7 +111,11 @@ public class projectile_Script : MonoBehaviour
 		rigidBody.isKinematic = false;
         ColliderCircular.radius = 0.25f;
 		zoom.SetActive(false);
-        Instantiate(launcheffect);
+        if (launchEffect)
+        {
+            launchEffect = false;
+            Instantiate(launcheffect);
+        }
 		StartCoroutine(Launch());
 	}
 
@@ -125,8 +131,11 @@ public class projectile_Script : MonoBehaviour
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
-
-        Instantiate(impacteffect);
+        if (impactEffect)
+        {
+            impactEffect = false;
+            Instantiate(impacteffect);
+        }
 		yield return new WaitForSeconds(fadingDelay);
         gameObject.transform.position = tpAway;//Tp far away
         ColliderCircular.radius = 0.9f;
