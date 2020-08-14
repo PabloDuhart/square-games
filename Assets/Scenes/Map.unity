@@ -40006,6 +40006,7 @@ MonoBehaviour:
   playerLifes: 15
   nextProjectilCode: {fileID: 455288810918092139}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}
+  tpAway: {x: 99, y: 99}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
@@ -49876,6 +49877,7 @@ MonoBehaviour:
   playerLifes: 15
   nextProjectilCode: {fileID: 909747265}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}
+  tpAway: {x: 99, y: 99}
   projectilesText: {fileID: 1078639953400108751}
   enemiesText: {fileID: 1078639953227857593}
   gameOverCanvas: {fileID: 649880800}
@@ -52195,6 +52197,7 @@ MonoBehaviour:
   ground: {x: -9.43, y: -4.649, z: -3}
   startDelay: 2
   velocity: 0.03
+  rotation: {x: 0, y: 0, z: 45, w: -110}
   spaceShipScale: {x: 0.8, y: 0.8, z: 0.8}
   proyectil: {fileID: 455288810918092139}
   canvasInterface: {fileID: 1078639953844505235}
@@ -52408,17 +52411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67e17c3691e30d4fb2177a146bd615b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - {fileID: 8164409112935256966}
-  - {fileID: 8164409111835488297}
-  - {fileID: 8164409113110615185}
-  - {fileID: 8164409112400378294}
-  - {fileID: 541947081}
-  - {fileID: 2036869587}
-  - {fileID: 476591793}
-  - {fileID: 469654755}
-  canvasWin: {fileID: 1060496837}
-  canvasLose: {fileID: 649880800}
+  myMusic: []
 --- !u!1 &8164409112355318205
 GameObject:
   m_ObjectHideFlags: 0
