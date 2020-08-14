@@ -37,6 +37,9 @@ public class LaunchBall : MonoBehaviour
 
     public GameObject gameOverCanvas;
     public GameObject youWinCanvas;
+
+    private GameObject audioManager;
+
     public float addForce;
     
     public float NextBalltime;
@@ -58,7 +61,8 @@ public class LaunchBall : MonoBehaviour
 	void Awake()
 	{
         tik = gameObject.GetComponent<AudioSource>();
-	}
+        audioManager = GameObject.Find("AudioManager");
+    }
 
 
 	void Update()
@@ -82,6 +86,7 @@ public class LaunchBall : MonoBehaviour
 
         if (playerLifes <= 0 && !ballOnCup)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
+            audioManager.SetActive(false);
             gameObject.SetActive(false);
             Time.timeScale = 0f;
             gameOverCanvas.SetActive(true);
@@ -97,6 +102,7 @@ public class LaunchBall : MonoBehaviour
             }
          
             Time.timeScale = 0f;
+            audioManager.SetActive(false);
             youWinCanvas.SetActive(true);
             
         }
@@ -111,8 +117,6 @@ public class LaunchBall : MonoBehaviour
             mouseClicks = true;
             aiming = true;
             rigidBody.isKinematic = true;
-            
-            //zoom.SetActive(true);
         }
 
 
@@ -126,7 +130,6 @@ public class LaunchBall : MonoBehaviour
             aiming = false;
             rigidBody.isKinematic = false;
             ColliderCircular.radius = 2.5f;
-            //zoom.SetActive(false);
             launching = true;
             mouseClicks = false;
             BallText.text = "Balls left: " + (playerLifes - 1).ToString();

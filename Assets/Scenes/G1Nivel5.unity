@@ -2183,7 +2183,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: 'PLAY
+
+    AGAIN'
 --- !u!222 &275647979
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2922,7 +2924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: RESTART LEVEL
 --- !u!222 &340942455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2999,7 +3001,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: TRY AGAIN
 --- !u!222 &347702469
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41690,7 +41692,7 @@ GameObject:
   - component: {fileID: 529269753}
   - component: {fileID: 529269752}
   m_Layer: 5
-  m_Name: Restart Button
+  m_Name: Retry Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42607,6 +42609,7 @@ MonoBehaviour:
   playerLifes: 15
   nextProjectilCode: {fileID: 1764820676}
   projectilePosition: {x: -9.43, y: -0.67, z: -4}
+  tpAway: {x: 0, y: 0}
   projectilesText: {fileID: 1156885507}
   enemiesText: {fileID: 2093907299}
   gameOverCanvas: {fileID: 559208275}
@@ -48839,6 +48842,7 @@ MonoBehaviour:
   playerLifes: 15
   nextProjectilCode: {fileID: 645286780}
   projectilePosition: {x: -9.43, y: -0.67, z: -4}
+  tpAway: {x: 0, y: 0}
   projectilesText: {fileID: 1156885507}
   enemiesText: {fileID: 2093907299}
   gameOverCanvas: {fileID: 559208275}
