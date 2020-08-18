@@ -59,7 +59,7 @@ public class SpaceShipShield : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collider)
     {
         var rb = collider.GetComponent<Rigidbody2D>();
-        if (rb != null)
+        if (rb != null && !collider.gameObject.CompareTag("projectil"))
         {
             rb.gravityScale = 2.5f;
             objectsInRange.Remove(rb);

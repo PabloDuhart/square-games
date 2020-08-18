@@ -131,6 +131,11 @@ public class SpaceShip_Controller : MonoBehaviour
     {
         yield return new WaitForSeconds(6.05f);
         anim.SetBool("FirstReload", true);
+        for (int i = 0; i < gameObject.transform.childCount; i++)
+        {
+            GameObject spaceshipshield = gameObject.transform.GetChild(i).gameObject;
+            spaceshipshield.SetActive(true);
+        }
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Idle", true);
         projectile.SetActive(true);
@@ -140,11 +145,7 @@ public class SpaceShip_Controller : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         anim.SetBool("Attack", false);
         anim.SetBool("Reload", true);
-        //for (int i = 0; i < gameObject.transform.childCount; i++)
-        //{
-        //    GameObject spaceshipshield = gameObject.transform.GetChild(i).gameObject;
-        //    spaceshipshield.SetActive(true);
-        //}
+        
         yield return new WaitForSeconds(1.2f);
         anim.SetBool("Reload", false);
         
