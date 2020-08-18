@@ -23,6 +23,14 @@ public class Enemy3 : MonoBehaviour
             anim.SetBool("HitDamage3", true);
             anim.SetFloat("EnemyLife3", enemyContact);
         }
+        if (collision.collider.CompareTag("EnemyStructure") && collision.relativeVelocity.magnitude>1f)
+        {
+            Debug.Log(collision.relativeVelocity.magnitude);
+            enemyContact -=0.2f;
+            anim.SetBool("HitDamage3", true);
+            anim.SetFloat("EnemyLife3", enemyContact);
+            StartCoroutine(dmgwait3());
+        }
         
         if (enemyContact < 0.1f)
         {
@@ -34,7 +42,7 @@ public class Enemy3 : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("projectil"))
+        if (collision.collider.CompareTag("projectil") || collision.collider.CompareTag("EnemyStructure"))
         {
             //Enemy damaged, here you can put the animation.
 
@@ -44,13 +52,20 @@ public class Enemy3 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("EnemyStructure") || collision.gameObject.CompareTag("enemy"))
+        if (collision.gameObject.CompareTag("EnemyStructure"))
         {
             anim.SetBool("Attack", true);
             
             otherRb = collision.gameObject.GetComponent<Rigidbody2D>();
             int randompositionX = new System.Random().Next(-200, 200);
             otherRb.AddForce(new Vector2(randompositionX, 1000f));
+        }
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            anim.SetBool("Attack", true);
+            otherRb = collision.gameObject.GetComponent<Rigidbody2D>();
+            int randompositionX = new System.Random().Next(-2000, 2000);
+            otherRb.AddForce(new Vector2(randompositionX, 10000f));
         }
     }
 
@@ -59,6 +74,14 @@ public class Enemy3 : MonoBehaviour
         if (collision.gameObject.CompareTag("EnemyStructure") || collision.gameObject.CompareTag("enemy"))
         {
             anim.SetBool("Attack", false);
+        }
+    }
+    private IEnumerator dmgwait3()
+    {
+        yield return new WaitForSeconds(0.16f);
+        if (anim.GetBool("HitDamage3"))
+        {
+            anim.SetBool("HitDamage3", false);
         }
     }
 }

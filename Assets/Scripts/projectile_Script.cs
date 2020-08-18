@@ -24,7 +24,7 @@ public class projectile_Script : MonoBehaviour
 
 	public float aimLimit = 4f;
 
-	public float nextProjectileDelay = 2f;
+    private float nextProjectileDelay = 2f;
 
 	public int playerLifes;//Projectiles left.
 
@@ -145,6 +145,8 @@ public class projectile_Script : MonoBehaviour
 		
         //Projectil respawn code
 		nextProjectile.transform.position = projectilePosition;
+        nextProjectilCode.impactEffect = true;
+        nextProjectilCode.launchEffect = true;
 		nextProjectilCode.rigidBody.isKinematic = true;
 		nextProjectilCode.springJoint.enabled = true;
 		yield return new WaitForSeconds(1.5f);

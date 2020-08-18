@@ -21,7 +21,15 @@ public class Enemy2 : MonoBehaviour
             anim.SetBool("HitDamage2", true);
             anim.SetFloat("EnemyLife2", enemyContact);
         }
-        
+        if (collision.collider.CompareTag("EnemyStructure") && collision.relativeVelocity.magnitude > 1f)
+        {
+            Debug.Log(collision.relativeVelocity.magnitude);
+            enemyContact -= 0.5f;
+            anim.SetBool("HitDamage2", true);
+            anim.SetFloat("EnemyLife2", enemyContact);
+            StartCoroutine(dmgwait2());
+        }
+
         if (enemyContact < 0.1f)
         {
             //Enemy die, here you can put the animation.
@@ -32,12 +40,21 @@ public class Enemy2 : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("projectil"))
+        if (collision.collider.CompareTag("projectil") || collision.collider.CompareTag("EnemyStructure"))
         {
             //Enemy damaged, here you can put the animation.
 
             anim.SetBool("HitDamage2", false);
 
+        }
+    }
+
+    private IEnumerator dmgwait2()
+    {
+        yield return new WaitForSeconds(0.31f);
+        if (anim.GetBool("HitDamage2"))
+        {
+            anim.SetBool("HitDamage2", false);
         }
     }
 }

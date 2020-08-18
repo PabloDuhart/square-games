@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class structure_script : MonoBehaviour
 {
-	public int maxHits;
+    [Range(1,2)] public int maxHits;
 
 	public int forceToHit;
 
@@ -12,10 +12,15 @@ public class structure_script : MonoBehaviour
 	public Sprite State2;
 	public Sprite State3;
 	private int counter = 0;
-	
 
 
-	void Update()
+    private void Start()
+    {
+        if (maxHits>2){
+            maxHits = 2;
+        }
+    }
+    void Update()
     {
 		SpriteRenderer[] childrenSprites = GetComponentsInChildren<SpriteRenderer>();
 
