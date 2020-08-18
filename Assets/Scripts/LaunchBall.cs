@@ -64,8 +64,12 @@ public class LaunchBall : MonoBehaviour
         audioManager = GameObject.Find("AudioManager");
     }
 
+    void Start()
+    {
+        ColliderCircular.radius = 10f;
+    }
 
-	void Update()
+    void Update()
     {
        
         
@@ -129,7 +133,7 @@ public class LaunchBall : MonoBehaviour
         {
             aiming = false;
             rigidBody.isKinematic = false;
-            ColliderCircular.radius = 2.5f;
+            ColliderCircular.radius = 2.8f;
             launching = true;
             mouseClicks = false;
             BallText.text = "Balls left: " + (playerLifes - 1).ToString();
