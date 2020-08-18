@@ -3725,7 +3725,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3753,15 +3753,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 2
       m_TileSpriteIndex: 14
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: -7, y: -7, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4074,7 +4065,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 997c4b6ca7ce98647b943ff26e6fe65f, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 73fc0e59e3607ab498a2b9b5ec5859e5, type: 2}
@@ -4113,11 +4104,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 190118ea70fb7e24a933b50a4e341070, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 2
-    m_Data: {fileID: -1177811890847827462, guid: aee2932933e47bf4ba7ce9732c2c90da,
-      type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1177811890847827462, guid: aee2932933e47bf4ba7ce9732c2c90da,
+      type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -1131118615742848530, guid: aee2932933e47bf4ba7ce9732c2c90da,
       type: 3}
@@ -4170,7 +4161,7 @@ Tilemap:
     m_Data: {fileID: -2255640871272100803, guid: 06b6b09c46bde4f4b90dbdd65fe92246,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 41
+  - m_RefCount: 40
     m_Data:
       e00: 1
       e01: 0
@@ -4189,7 +4180,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 41
+  - m_RefCount: 40
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -42884,7 +42875,6 @@ MonoBehaviour:
   nextProjectile: {fileID: 1764820675}
   launchDelay: 0.1
   aimLimit: 2.5
-  nextProjectileDelay: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 1764820676}
   projectilePosition: {x: -9.43, y: -0.67, z: -4}
@@ -45338,7 +45328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6b72365e0af50ea4d9869b95db14c2c4, type: 2}
   sceneName: 
-  slider: {fileID: 0}
+  slider: {fileID: 1733539566}
 --- !u!114 &1202250776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48946,7 +48936,6 @@ MonoBehaviour:
   nextProjectile: {fileID: 645286777}
   launchDelay: 0.1
   aimLimit: 2.5
-  nextProjectileDelay: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 645286780}
   projectilePosition: {x: -9.43, y: -0.67, z: -4}
@@ -51701,7 +51690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139783548257959589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.97, y: -5.46, z: -4}
+  m_LocalPosition: {x: 2.5, y: 0.8, z: -4}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 5320865560355629128}
@@ -51724,7 +51713,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.008712497, y: 0}
   serializedVersion: 2
-  m_Radius: 2.9095378
+  m_Radius: 3.81
 --- !u!114 &1139783548257959594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51737,8 +51726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69da569200c05fd44aab1733b9c76ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravitationRadius: 2
-  gravitation: -100
+  gravitationRadius: 2.6
+  gravitation: 100
 --- !u!4 &5320865560355629128
 Transform:
   m_ObjectHideFlags: 0
@@ -51748,7 +51737,7 @@ Transform:
   m_GameObject: {fileID: 5320865560355629129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.012, y: 0.007, z: 1}
-  m_LocalScale: {x: 1.1213434, y: 1.1012172, z: 1.2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.2}
   m_Children: []
   m_Father: {fileID: 1139783548257959590}
   m_RootOrder: 0
