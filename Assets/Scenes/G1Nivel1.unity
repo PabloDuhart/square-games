@@ -437,8 +437,8 @@ MonoBehaviour:
   aimLimit: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 499354452}
-  projectilePosition: {x: -9.43, y: -3.363, z: -4}
-  tpAway: {x: 0, y: 0}
+  projectilePosition: {x: -9.51, y: -6.51, z: -4}
+  tpAway: {x: 99, y: 99}
   projectilesText: {fileID: 1424618936}
   enemiesText: {fileID: 1040920656}
   gameOverCanvas: {fileID: 1718643212}
@@ -446,8 +446,10 @@ MonoBehaviour:
   addForce: 1
   forceToDestroy: 20
   fadingDelay: 0.5
-  launcheffect: {fileID: 0}
-  impacteffect: {fileID: 0}
+  launcheffect: {fileID: 3407045829883798315, guid: 86dfffa88e4752c4c823e2f9588757b1,
+    type: 3}
+  impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
+    type: 3}
   zoom: {fileID: 1343963854}
 --- !u!231 &99592876
 SpringJoint2D:
@@ -464,7 +466,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -9.43, y: -3.363}
+  m_ConnectedAnchor: {x: -9.51, y: -6.51}
   m_AutoConfigureDistance: 0
   m_Distance: 0.1
   m_DampingRatio: 0
@@ -584,7 +586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99592874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.51, y: -6.51, z: -4}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 848822183}
@@ -35264,7 +35266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499354449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.51, y: -6.51, z: -4}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 848822183}
@@ -35307,8 +35309,8 @@ MonoBehaviour:
   aimLimit: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 99592875}
-  projectilePosition: {x: -9.43, y: -3.363, z: -4}
-  tpAway: {x: 0, y: 0}
+  projectilePosition: {x: -9.51, y: -6.51, z: -4}
+  tpAway: {x: 99, y: 99}
   projectilesText: {fileID: 1424618936}
   enemiesText: {fileID: 1040920656}
   gameOverCanvas: {fileID: 1718643212}
@@ -35316,8 +35318,10 @@ MonoBehaviour:
   addForce: 1
   forceToDestroy: 20
   fadingDelay: 0.5
-  launcheffect: {fileID: 0}
-  impacteffect: {fileID: 0}
+  launcheffect: {fileID: 3407045829883798315, guid: 86dfffa88e4752c4c823e2f9588757b1,
+    type: 3}
+  impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
+    type: 3}
   zoom: {fileID: 1343963854}
 --- !u!231 &499354453
 SpringJoint2D:
@@ -35334,7 +35338,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -9.43, y: -3.301479}
+  m_ConnectedAnchor: {x: -9.47, y: -6.57}
   m_AutoConfigureDistance: 0
   m_Distance: 0.1
   m_DampingRatio: 0
@@ -41993,7 +41997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352133170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.43, y: -3.363, z: -4}
+  m_LocalPosition: {x: -9.51, y: -6.51, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 848822183}
@@ -47167,7 +47171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2106479961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47191,7 +47195,7 @@ MonoBehaviour:
   canvasInterface: {fileID: 706899467}
   camera: {fileID: 867545550}
   startCameraPosition: {x: -5.99, y: -5.4, z: -10}
-  finalCameraPosition: {x: 3.53, y: 2.84, z: -10}
+  finalCameraPosition: {x: 2.93, y: -0.43, z: -10}
   cameraVelocity: 0.04
   projectile: {fileID: 99592874}
 --- !u!95 &2106479962
@@ -47272,7 +47276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106479960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.37, y: -4.24, z: -3}
+  m_LocalPosition: {x: -9.5, y: -8.1, z: -3}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
