@@ -57,6 +57,8 @@ public class projectile_Script : MonoBehaviour
 
 	public GameObject zoom;
 
+	public int level;
+
 	void Start()
 	{
 		audioManager = GameObject.Find("AudioManager");
@@ -99,7 +101,12 @@ public class projectile_Script : MonoBehaviour
         }
         if (enemys.Length==0 & playerLifes >= 0)
         {
-            gameObject.SetActive(false);
+			if (PlayerPrefs.GetInt("levelReached2") <= level)
+			{
+				PlayerPrefs.SetInt("levelReached2", level + 1);
+				PlayerPrefs.Save();
+			}
+			gameObject.SetActive(false);
 			Time.timeScale = 0f;
 			audioManager.SetActive(false);
 			youWinCanvas.SetActive(true);
