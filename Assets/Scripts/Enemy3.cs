@@ -69,10 +69,11 @@ public class Enemy3 : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private IEnumerator OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("EnemyStructure") || collision.gameObject.CompareTag("enemy"))
         {
+            yield return new WaitForSeconds(0.15f);
             anim.SetBool("Attack", false);
         }
     }
