@@ -221,6 +221,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1172565
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +405,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!50 &35508659
 Rigidbody2D:
   serializedVersion: 4
@@ -550,6 +556,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &51292263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,6 +1020,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &177199544
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +1411,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &245162853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,6 +2268,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &359624485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,6 +3125,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &403902362
 GameObject:
   m_ObjectHideFlags: 0
@@ -38348,6 +38369,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &583025295
 GameObject:
   m_ObjectHideFlags: 0
@@ -38640,6 +38664,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &649880800
 GameObject:
   m_ObjectHideFlags: 0
@@ -40002,7 +40029,6 @@ MonoBehaviour:
   nextProjectile: {fileID: 455288810918092138}
   launchDelay: 0.1
   aimLimit: 2.5
-  nextProjectileDelay: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 455288810918092139}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}
@@ -40694,6 +40720,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &992357311
 GameObject:
   m_ObjectHideFlags: 0
@@ -41411,6 +41440,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!50 &1077220384
 Rigidbody2D:
   serializedVersion: 4
@@ -41722,6 +41754,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1174096999
 GameObject:
   m_ObjectHideFlags: 0
@@ -42485,6 +42520,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1309413357
 GameObject:
   m_ObjectHideFlags: 0
@@ -42681,6 +42719,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1319852770
 GameObject:
   m_ObjectHideFlags: 0
@@ -43341,6 +43382,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1433428558
 GameObject:
   m_ObjectHideFlags: 0
@@ -44323,6 +44367,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1527109085
 GameObject:
   m_ObjectHideFlags: 0
@@ -44520,6 +44567,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1548853492
 GameObject:
   m_ObjectHideFlags: 0
@@ -44620,6 +44670,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1572119262
 GameObject:
   m_ObjectHideFlags: 0
@@ -44720,6 +44773,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1575733154
 GameObject:
   m_ObjectHideFlags: 0
@@ -46215,6 +46271,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1811492509
 GameObject:
   m_ObjectHideFlags: 0
@@ -46507,6 +46566,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &1868785323
 GameObject:
   m_ObjectHideFlags: 0
@@ -48144,6 +48206,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!50 &1962742641
 Rigidbody2D:
   serializedVersion: 4
@@ -48861,6 +48926,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &2056212573
 GameObject:
   m_ObjectHideFlags: 0
@@ -49292,6 +49360,9 @@ MonoBehaviour:
   State1: {fileID: -7829082005100802108, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State2: {fileID: -8322343874013752151, guid: f81c926cab7ad794aaaf148165970039, type: 3}
   State3: {fileID: 6872169034452002816, guid: f81c926cab7ad794aaaf148165970039, type: 3}
+  Kill1: {fileID: 0}
+  Kill2: {fileID: 0}
+  Kill3: {fileID: 0}
 --- !u!1 &2112158438
 GameObject:
   m_ObjectHideFlags: 0
@@ -49873,7 +49944,6 @@ MonoBehaviour:
   nextProjectile: {fileID: 909747263}
   launchDelay: 0.1
   aimLimit: 2.5
-  nextProjectileDelay: 2.5
   playerLifes: 15
   nextProjectilCode: {fileID: 909747265}
   projectilePosition: {x: -9.43, y: -3.363, z: -4}

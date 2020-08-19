@@ -12,6 +12,8 @@ public class projectile_Script : MonoBehaviour
 
     public CircleCollider2D ColliderCircular;
 
+    private Animator anim;
+
 	public Rigidbody2D rigidBody;
 
 	public Rigidbody2D projectileBase;
@@ -58,6 +60,7 @@ public class projectile_Script : MonoBehaviour
 	void Start()
 	{
 		audioManager = GameObject.Find("AudioManager");
+        anim = GetComponent<Animator>();
 	}
 
 
@@ -70,7 +73,7 @@ public class projectile_Script : MonoBehaviour
 		{
 			Vector2 projectilePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-			if ( Vector3.Distance(projectilePosition, projectileBase.position) > aimLimit)
+			if (Vector3.Distance(projectilePosition, projectileBase.position) > aimLimit)
 			{
 				rigidBody.position = projectileBase.position + (projectilePosition - projectileBase.position).normalized * aimLimit;
 			}
@@ -144,11 +147,14 @@ public class projectile_Script : MonoBehaviour
             impactEffect = false;
             Instantiate(impacteffect);
         }
-		yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(0.39f);
+        anim.SetBool("Death", true);
+		yield return new WaitForSeconds(0.5f);
 		rigidBody.isKinematic = true;
 		springJoint.enabled = false;
 		gameObject.transform.position = tpAway;//Tp far away
-		rigidBody.constraints = RigidbodyConstraints2D.FreezeAll;
+        anim.SetBool("Death", false);
+        rigidBody.constraints = RigidbodyConstraints2D.FreezeAll;
         ColliderCircular.radius = 0.9f;
 		yield return new WaitForSeconds(1.5f);
 
@@ -157,7 +163,7 @@ public class projectile_Script : MonoBehaviour
 		nextProjectilCode.springJoint.enabled = false;
 		nextProjectilCode.rigidBody.constraints = RigidbodyConstraints2D.None;
 		nextProjectile.transform.position = projectilePosition;
-
+        
         nextProjectilCode.impactEffect = true;
         nextProjectilCode.launchEffect = true;
 		yield return new WaitForSeconds(1.5f);
