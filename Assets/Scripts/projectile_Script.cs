@@ -50,10 +50,18 @@ public class projectile_Script : MonoBehaviour
     private bool impactEffect = true;
     private bool launchEffect = true;
 
+	private GameObject audioManager;
+
 
 	public GameObject zoom;
 
-    void Update()
+	void Start()
+	{
+		audioManager = GameObject.Find("AudioManager");
+	}
+
+
+	void Update()
     {
 
 
@@ -80,7 +88,8 @@ public class projectile_Script : MonoBehaviour
 
 		if (playerLifes <= 0 & enemys.Length>0)//if projectiles left its 0 and the scene have more enemys, the player lose.
         {
-            gameObject.SetActive(false);
+			audioManager.SetActive(false);
+			gameObject.SetActive(false);
 			Time.timeScale = 0f;
 			gameOverCanvas.SetActive(true);
             
@@ -89,6 +98,7 @@ public class projectile_Script : MonoBehaviour
         {
             gameObject.SetActive(false);
 			Time.timeScale = 0f;
+			audioManager.SetActive(false);
 			youWinCanvas.SetActive(true);
         }
     }

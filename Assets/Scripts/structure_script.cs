@@ -11,7 +11,11 @@ public class structure_script : MonoBehaviour
 	public Sprite State1;
 	public Sprite State2;
 	public Sprite State3;
+	public Sprite Kill1;
+	public Sprite Kill2;
+	public Sprite Kill3;
 	private int counter = 0;
+	private bool kill = false; 
 
 
     private void Start()
@@ -24,11 +28,12 @@ public class structure_script : MonoBehaviour
     {
 		SpriteRenderer[] childrenSprites = GetComponentsInChildren<SpriteRenderer>();
 
-		if (maxHits <= counter)
+		if (maxHits <= counter && !kill)
 		{
-			Destroy(gameObject);
+			kill = true;
+			StartCoroutine(Kill(childrenSprites));
 		}
-		if (counter == 1)
+		if (counter == 1 && !kill)
 		{
 			for (int i = 0; i < childrenSprites.Length; i++)
 			{
@@ -36,7 +41,7 @@ public class structure_script : MonoBehaviour
 			}
 			//asignar sprite un hit
 		}
-		if (counter == 2)
+		if (counter == 2 && !kill)
 		{
 			for (int i = 0; i < childrenSprites.Length; i++)
 			{
@@ -44,7 +49,7 @@ public class structure_script : MonoBehaviour
 			}
 			//asignar sprite dos hit
 		}
-		if (counter == 3)
+		if (counter == 3 && !kill)
 		{
 			for (int i = 0; i < childrenSprites.Length; i++)
 			{
@@ -52,9 +57,33 @@ public class structure_script : MonoBehaviour
 			}
 			//asignar sprite tres hit
 		}
+
+
+
 	
 	}
 
+
+	IEnumerator Kill(SpriteRenderer [] childrenSprites)
+	{
+		yield return new WaitForSeconds(0.2f);
+		for (int i = 0; i < childrenSprites.Length; i++)
+		{
+			childrenSprites[i].sprite = Kill1;
+		}
+		yield return new WaitForSeconds(0.2f);
+		for (int i = 0; i < childrenSprites.Length; i++)
+		{
+			childrenSprites[i].sprite = Kill2;
+		}
+		yield return new WaitForSeconds(0.2f);
+		for (int i = 0; i < childrenSprites.Length; i++)
+		{
+
+			childrenSprites[i].sprite = Kill3;
+		}
+		Destroy(gameObject);
+	}
 
 
 

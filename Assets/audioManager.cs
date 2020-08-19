@@ -9,17 +9,19 @@ public class audioManager : MonoBehaviour
 
 
 	private AudioSource myAudio;
-	public AudioClip [] myMusic; 
+	public AudioClip [] myMusic;
+	private bool first;
 
 	void Start()
 	{
 		myAudio = gameObject.GetComponent<AudioSource>();
+		first = false;
 		playRandomMusic();
 	}
 
 	void Update()
 	{
-		if (!myAudio.isPlaying)
+		if (!myAudio.isPlaying && first)
 			playRandomMusic();
 	}
 
@@ -33,11 +35,7 @@ public class audioManager : MonoBehaviour
 		yield return new WaitForSeconds(2);
 		myAudio.clip = myMusic[new System.Random().Next(0, myMusic.Length)] as AudioClip;
 		myAudio.Play();
-	}
-
-	public void Destroy()
-	{
-		Destroy();
+		first = true;
 	}
 
 }

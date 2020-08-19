@@ -49,6 +49,12 @@ public class main_menu : MonoBehaviour
 	}
 
 
+	public void Game2Lvl1()
+	{
+		SceneManager.LoadScene("Nivel1G2");
+	}
+
+
 	public void Game2Lvl2()
 	{
 		SceneManager.LoadScene("Nivel2G2");
