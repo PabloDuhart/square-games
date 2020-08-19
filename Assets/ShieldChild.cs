@@ -22,10 +22,13 @@ public class ShieldChild : MonoBehaviour
             Color childrenColor = GetComponent<SpriteRenderer>().color;
             childrenColor.a -= 0.01f;
             GetComponent<SpriteRenderer>().color = childrenColor;
-            if (gameObject.transform.localScale.magnitude>0)
+            if (gameObject.transform.localScale.magnitude>0 )
             {
                 gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x - 0.1f, gameObject.transform.localScale.x - 0.1f, 0);
             }
+
+
+
 
         }
         else

@@ -25,7 +25,6 @@ public class Enemy3 : MonoBehaviour
         }
         if (collision.collider.CompareTag("EnemyStructure") && collision.relativeVelocity.magnitude>1f)
         {
-            Debug.Log(collision.relativeVelocity.magnitude);
             enemyContact -=0.2f;
             anim.SetBool("HitDamage3", true);
             anim.SetFloat("EnemyLife3", enemyContact);
