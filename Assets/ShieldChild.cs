@@ -27,9 +27,6 @@ public class ShieldChild : MonoBehaviour
                 gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x - 0.1f, gameObject.transform.localScale.x - 0.1f, 0);
             }
 
-
-
-
         }
         else
         {
