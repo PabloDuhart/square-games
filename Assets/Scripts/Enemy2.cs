@@ -6,12 +6,51 @@ public class Enemy2 : MonoBehaviour
 {
     private Animator anim;
     public float enemyContact = 3f;//enemy lifes
+    public float distance;
+    private List<GameObject> nearbyEnemies;
+    private bool deathBoy;
     void Start()
     {
         anim = GetComponent<Animator>();
         anim.SetFloat("EnemyLife2", enemyContact);
+        nearbyEnemies = new List<GameObject>();
+        deathBoy = false;
     }
+    private void Update()
+    {
+        var Enemys = GameObject.FindGameObjectsWithTag("enemy");
+        foreach (var enem in Enemys)
+        {
+            if (enem != gameObject)
+            {
+                if (Vector3.Distance(enem.transform.position, gameObject.transform.position) <= distance && !deathBoy)
+                {
+                    nearbyEnemies.Add(enem);
+                    var shield = enem.transform.GetChild(0).gameObject;
+                    shield.SetActive(true);
+                }
+                else
+                {
+                    if (nearbyEnemies.Contains(enem))
+                    {
+                        nearbyEnemies.Remove(enem);
+                        var shield = enem.transform.GetChild(0).gameObject;
+                        shield.SetActive(false);
+                    }
 
+                }
+                if (deathBoy)
+                {
+                    if (nearbyEnemies.Contains(enem))
+                    {
+                        nearbyEnemies.Remove(enem);
+                        var shield = enem.transform.GetChild(0).gameObject;
+                        shield.SetActive(false);
+                    }
+                }
+            }
+        }
+    }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("projectil"))
@@ -31,6 +70,7 @@ public class Enemy2 : MonoBehaviour
 
         if (enemyContact < 0.1f)
         {
+            deathBoy = true;
             //Enemy die, here you can put the animation.
             anim.SetFloat("EnemyLife2", enemyContact);
             yield return new WaitForSeconds(1.2f);

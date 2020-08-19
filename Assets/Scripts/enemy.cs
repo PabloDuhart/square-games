@@ -6,15 +6,36 @@ public class enemy : MonoBehaviour
 {
     private Animator anim;
     public float enemyContact = 2f;//enemy lifes
+    private bool canbedmged;
+    private GameObject shield;
     void Start()
     {
         anim = GetComponent<Animator>();
         anim.SetFloat("EnemyLife", enemyContact);
+        try
+        {
+            shield = transform.GetChild(0).gameObject;
+            var codechild = shield.GetComponent<littleEnemy>();
+            canbedmged = codechild.abletobedmg;
+        }
+        catch { canbedmged = true; }
     }
-   
+    private void Update()
+    {
+        var shield = transform.GetChild(0).gameObject;
+        if (shield.activeSelf)
+        {
+            var codechild = shield.GetComponent<littleEnemy>();
+            canbedmged = codechild.abletobedmg;
+        }
+        else
+        {
+            canbedmged = true;
+        }
+    }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
 	{
-	    if (collision.collider.CompareTag("projectil")){
+	    if (collision.collider.CompareTag("projectil") && canbedmged){
             //Enemy damaged, here you can put the animation.
             enemyContact--;
             anim.SetBool("HitDamage",true);
@@ -22,10 +43,13 @@ public class enemy : MonoBehaviour
         }
         else
         {
-            //Enemy damaged, here you can put the animation.
-            enemyContact -= 0.5f;
-            anim.SetBool("HitDamage", false);
-            anim.SetFloat("EnemyLife", enemyContact);
+            if (canbedmged)
+            {
+                //Enemy damaged, here you can put the animation.
+                enemyContact -= 0.5f;
+                anim.SetBool("HitDamage", false);
+                anim.SetFloat("EnemyLife", enemyContact);
+            }
         }
         if (enemyContact <= 0)
         {
