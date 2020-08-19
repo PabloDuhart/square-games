@@ -32,13 +32,11 @@ public class Shield : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Hola");
         var rb = collision.gameObject.GetComponent<Rigidbody2D>();
         if (rb != null && !(collision.gameObject.CompareTag("projectil")))
         {
             StartCoroutine(shieldActiveTime());
             objectsInRange.Add(rb);
-            Debug.Log("entro");
             for (int i = 0; i < gameObject.transform.childCount; i++)
             {
                 GameObject spaceshipshield = gameObject.transform.GetChild(i).gameObject;
@@ -52,7 +50,6 @@ public class Shield : MonoBehaviour
         if (rb != null && !(collider.gameObject.CompareTag("projectil")))
         {
             objectsInRange.Remove(rb);
-            Debug.Log("salio");
         }
     }
     private IEnumerator shieldActiveTime()

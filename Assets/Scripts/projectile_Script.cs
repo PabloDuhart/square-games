@@ -126,8 +126,6 @@ public class projectile_Script : MonoBehaviour
 		springJoint.enabled = false;
 		launching = true;
         rigidBody.velocity *= addForce;
-
-
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
@@ -136,20 +134,24 @@ public class projectile_Script : MonoBehaviour
             impactEffect = false;
             Instantiate(impacteffect);
         }
-		yield return new WaitForSeconds(fadingDelay);
-        gameObject.transform.position = tpAway;//Tp far away
+		yield return new WaitForSeconds(0.9f);
+		rigidBody.isKinematic = true;
+		springJoint.enabled = false;
+		gameObject.transform.position = tpAway;//Tp far away
+		rigidBody.constraints = RigidbodyConstraints2D.FreezeAll;
         ColliderCircular.radius = 0.9f;
-		yield return new WaitForSeconds(nextProjectileDelay);
+		yield return new WaitForSeconds(1.5f);
 
-		
-		
-        //Projectil respawn code
+		//Projectil respawn code
+		nextProjectilCode.rigidBody.isKinematic = true;
+		nextProjectilCode.springJoint.enabled = false;
+		nextProjectilCode.rigidBody.constraints = RigidbodyConstraints2D.None;
 		nextProjectile.transform.position = projectilePosition;
+
         nextProjectilCode.impactEffect = true;
         nextProjectilCode.launchEffect = true;
-		nextProjectilCode.rigidBody.isKinematic = true;
-		nextProjectilCode.springJoint.enabled = true;
 		yield return new WaitForSeconds(1.5f);
+		nextProjectilCode.springJoint.enabled = true;
 		nextProjectilCode.rigidBody.isKinematic = false;
 		nextProjectile.SetActive(true);
 
