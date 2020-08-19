@@ -55627,6 +55627,7 @@ MonoBehaviour:
     type: 3}
   actualposition: {x: 0, y: 0, z: 0}
   zoom: {fileID: 1322055722}
+  level: 3
 --- !u!231 &1025499083
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -65550,6 +65551,7 @@ MonoBehaviour:
     type: 3}
   actualposition: {x: 0, y: 0, z: 0}
   zoom: {fileID: 1322055722}
+  level: 3
 --- !u!231 &2079595572
 SpringJoint2D:
   m_ObjectHideFlags: 0
