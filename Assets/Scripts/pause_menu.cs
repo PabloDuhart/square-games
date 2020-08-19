@@ -28,6 +28,8 @@ public class pause_menu : MonoBehaviour
 	public void setVolume(float volume)
 	{
 		audioMixer.SetFloat("volume", volume);
+		PlayerPrefs.SetFloat("volume", volume);
+		PlayerPrefs.Save();
 	}
 
 	public void BackToMenu()

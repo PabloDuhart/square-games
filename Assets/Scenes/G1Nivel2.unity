@@ -2710,6 +2710,7 @@ MonoBehaviour:
     type: 3}
   impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
     type: 3}
+  actualposition: {x: 0, y: 0, z: 0}
   zoom: {fileID: 1639842024}
   level: 2
 --- !u!231 &400320714
@@ -4631,7 +4632,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: 'RESTART
+
+    LEVEL'
 --- !u!222 &665152385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6507,6 +6510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyContact: 5
+  distance: 0
 --- !u!50 &920470806
 Rigidbody2D:
   serializedVersion: 4
@@ -7394,6 +7398,7 @@ MonoBehaviour:
     type: 3}
   impacteffect: {fileID: 4282853004336761103, guid: 87eea8fce067b3842acb83f42afb1f2a,
     type: 3}
+  actualposition: {x: 0, y: 0, z: 0}
   zoom: {fileID: 1639842024}
   level: 2
 --- !u!231 &1091311950
@@ -57350,6 +57355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyContact: 7
   topCollider: {fileID: 5425077524968643035}
+  UpCollider: {fileID: 0}
 --- !u!95 &5425077524968643029
 Animator:
   serializedVersion: 3

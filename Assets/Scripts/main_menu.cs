@@ -12,18 +12,19 @@ public class main_menu : MonoBehaviour
 
 	public Slider slider;
 
-	public void Awake()
+	void Awake()
 	{
-		audioMixer.GetFloat("volume",out float value);
-		slider.value = value;
+		float volume = PlayerPrefs.GetFloat("volume", 0);	
+		audioMixer.SetFloat("volume", volume);
+		slider.value = volume;
 	}
 
 	public void setAudio(float volume)
 	{
 		audioMixer.SetFloat("volume", volume);
-		audioMixer.GetFloat("volume", out float value);
+		PlayerPrefs.SetFloat("volume", volume);
+		PlayerPrefs.Save();
 	}
-
 
 
 	public void LoadGame1Lvl1()

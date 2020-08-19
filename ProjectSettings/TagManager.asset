@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - EnemyStructure
   - Cup
+  - Death
   layers:
   - Default
   - TransparentFX

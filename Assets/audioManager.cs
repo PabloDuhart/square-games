@@ -17,6 +17,7 @@ public class audioManager : MonoBehaviour
 		myAudio = gameObject.GetComponent<AudioSource>();
 		first = false;
 		playRandomMusic();
+		myAudio.outputAudioMixerGroup.audioMixer.SetFloat("volume",PlayerPrefs.GetFloat("volume", 0));
 	}
 
 	void Update()
