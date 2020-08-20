@@ -52,6 +52,11 @@ public class enemy : MonoBehaviour
             if (canbedmged)
             {
                 //Enemy damaged, here you can put the animation.
+                if (collision.relativeVelocity.magnitude > 1.5f)
+				{
+                    soundEffects.clip = hitSound;
+                    soundEffects.Play();
+                }
                 enemyContact -= 0.5f;
                 anim.SetBool("HitDamage", false);
                 anim.SetFloat("EnemyLife", enemyContact);
@@ -60,6 +65,7 @@ public class enemy : MonoBehaviour
         if (enemyContact <= 0)
         {
             //Enemy die, here you can put the animation.
+            
             anim.SetFloat("EnemyLife", enemyContact);
             yield return new WaitForSeconds(0.58f);
             Destroy(gameObject);

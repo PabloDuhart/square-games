@@ -24,7 +24,7 @@ public class Enemy2 : MonoBehaviour
         var Enemys = GameObject.FindGameObjectsWithTag("enemy");
         foreach (var enem in Enemys)
         {
-            if (enem != gameObject)
+            if (enem != gameObject && enem.name != "Golem")
             {
                 if (Vector3.Distance(enem.transform.position, gameObject.transform.position) <= distance && !deathBoy)
                 {
@@ -67,6 +67,8 @@ public class Enemy2 : MonoBehaviour
         }
         if (collision.collider.CompareTag("EnemyStructure") && collision.relativeVelocity.magnitude > 1f)
         {
+            soundsEffects.clip = hitSound;
+            soundsEffects.Play();
             enemyContact -= 0.5f;
             anim.SetBool("HitDamage2", true);
             anim.SetFloat("EnemyLife2", enemyContact);

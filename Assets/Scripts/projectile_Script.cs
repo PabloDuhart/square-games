@@ -186,6 +186,7 @@ public class projectile_Script : MonoBehaviour
     }
     private IEnumerator OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (impactEffect)
         {
             impactEffect = false;
@@ -218,11 +219,11 @@ public class projectile_Script : MonoBehaviour
         gameObject.SetActive(false);
 
 
-
         aiming = false;
         launching = false;
         playerLifes--;
         nextProjectilCode.playerLifes--;
+        
     }
     private bool getLaunching()
     {

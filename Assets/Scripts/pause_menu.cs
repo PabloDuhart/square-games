@@ -10,7 +10,11 @@ public class pause_menu : MonoBehaviour
 
 	public AudioMixer audioMixer;
 	public string sceneName;
+	public GameObject LoadC;
+	public Slider load;
+	public Text loadText;
 	public Slider slider;
+
 
 	void Awake()
 	{
@@ -35,7 +39,26 @@ public class pause_menu : MonoBehaviour
 	public void BackToMenu()
 	{
 		Time.timeScale = 1f;
-		SceneManager.LoadScene("MenuPrincipal");
+		StartCoroutine(Load("MenuPrincipal"));
+	}
+
+	public IEnumerator Load(string sceneName)
+	{
+		LoadC.SetActive(true);
+		yield return new WaitForSeconds(0.2f);
+		AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
+		operation.allowSceneActivation = false;
+		while (load.value < 0.9f)
+		{
+			load.value += (operation.progress / 6f) + 0.01f;
+			loadText.text = string.Format("{0}%", load.value * 100);
+			yield return null;
+		}
+
+		loadText.text = "100%";
+		load.value = 1;
+		operation.allowSceneActivation = true;
+
 	}
 
 

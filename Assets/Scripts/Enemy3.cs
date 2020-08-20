@@ -47,6 +47,8 @@ public class Enemy3 : MonoBehaviour
             }
             if (collision.collider.CompareTag("EnemyStructure") && collision.relativeVelocity.magnitude > 1f && canBeD)
             {
+                soundEffects.clip = hitSound;
+                soundEffects.Play();
                 enemyContact -= 0.2f;
                 anim.SetBool("HitDamage3", true);
                 anim.SetFloat("EnemyLife3", enemyContact);
