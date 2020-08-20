@@ -7,11 +7,14 @@ public class Enemy2 : MonoBehaviour
     private Animator anim;
     public float enemyContact = 3f;//enemy lifes
     public float distance;
+    public AudioClip hitSound;
     private List<GameObject> nearbyEnemies;
     private bool deathBoy;
+    private AudioSource soundsEffects;
     void Start()
     {
         anim = GetComponent<Animator>();
+        soundsEffects = GetComponent<AudioSource>();
         anim.SetFloat("EnemyLife2", enemyContact);
         nearbyEnemies = new List<GameObject>();
         deathBoy = false;
@@ -56,6 +59,8 @@ public class Enemy2 : MonoBehaviour
         if (collision.collider.CompareTag("projectil"))
         {
             //Enemy damaged, here you can put the animation.
+            soundsEffects.clip = hitSound;
+            soundsEffects.Play();
             enemyContact--;
             anim.SetBool("HitDamage2", true);
             anim.SetFloat("EnemyLife2", enemyContact);

@@ -6,11 +6,15 @@ public class enemy : MonoBehaviour
 {
     private Animator anim;
     public float enemyContact = 2f;//enemy lifes
+    public AudioClip hitSound;
     private bool canbedmged;
     private GameObject shield;
+    private AudioSource soundEffects;
+
     void Start()
     {
         anim = GetComponent<Animator>();
+        soundEffects = GetComponent<AudioSource>();
         anim.SetFloat("EnemyLife", enemyContact);
         try
         {
@@ -37,6 +41,8 @@ public class enemy : MonoBehaviour
 	{
 	    if (collision.collider.CompareTag("projectil") && canbedmged){
             //Enemy damaged, here you can put the animation.
+            soundEffects.clip = hitSound;
+            soundEffects.Play();
             enemyContact--;
             anim.SetBool("HitDamage",true);
             anim.SetFloat("EnemyLife", enemyContact);

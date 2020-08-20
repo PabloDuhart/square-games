@@ -10,10 +10,13 @@ public class Enemy3 : MonoBehaviour
     private Rigidbody2D otherRb;
     private bool canBeDmged;
     private bool canBeD;
-    public EdgeCollider2D UpCollider;
+    private EdgeCollider2D UpCollider;
+    public AudioClip hitSound;
+    private AudioSource soundEffects;
     void Start()
     {
         anim = GetComponent<Animator>();
+        soundEffects = GetComponent<AudioSource>();
         anim.SetFloat("EnemyLife3", enemyContact);
     }
 
@@ -36,6 +39,8 @@ public class Enemy3 : MonoBehaviour
             if (collision.collider.CompareTag("projectil"))
             {
                 //Enemy damaged, here you can put the animation.
+                soundEffects.clip = hitSound;
+                soundEffects.Play();
                 enemyContact--;
                 anim.SetBool("HitDamage3", true);
                 anim.SetFloat("EnemyLife3", enemyContact);
@@ -88,6 +93,8 @@ public class Enemy3 : MonoBehaviour
             }
         }
         if (collision.CompareTag("projectil") && canBeD){
+            soundEffects.clip = hitSound;
+            soundEffects.Play();
             enemyContact--;
             anim.SetBool("HitDamage3", true);
             anim.SetFloat("EnemyLife3", enemyContact);

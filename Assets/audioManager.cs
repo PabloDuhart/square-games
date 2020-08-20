@@ -15,6 +15,7 @@ public class audioManager : MonoBehaviour
 	void Start()
 	{
 		myAudio = gameObject.GetComponent<AudioSource>();
+        myAudio.volume = 0.25f;
 		first = false;
 		playRandomMusic();
 		myAudio.outputAudioMixerGroup.audioMixer.SetFloat("volume",PlayerPrefs.GetFloat("volume", 0));
