@@ -112,7 +112,7 @@ public class main_menu : MonoBehaviour
 		while (load.value < 0.9f)
 		{
 			load.value += (operation.progress/6f) + 0.01f;
-			loadText.text = string.Format("{0}%", load.value * 100);
+			loadText.text = string.Format("{0}%", load.value * 100 + "%");
 			yield return null;
 		}
 

@@ -14,7 +14,11 @@ public class deathOutOfBounds : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-        Destroy(collision.collider.gameObject);
+        if (!collision.collider.CompareTag("projectil"))
+		{
+            Destroy(collision.collider.gameObject);
+        }
+            
 	}
 
 }
