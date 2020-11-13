@@ -27,6 +27,7 @@ public class main_menu : MonoBehaviour
 		float volume = PlayerPrefs.GetFloat("volume", 0);	
 		audioMixer.SetFloat("volume", volume);
 		slider.value = volume;
+		
 	}
 
 	public void setAudio(float volume)

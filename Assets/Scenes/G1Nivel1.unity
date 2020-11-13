@@ -69831,8 +69831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myMusic:
-  - {fileID: 8300000, guid: 0837f94ead4bab144b6095a187a157b3, type: 3}
-  - {fileID: 8300000, guid: 967b6c801132b764c9fb1d0af912e474, type: 3}
-  - {fileID: 8300000, guid: 8c98a471c94c643499510e74476fd84b, type: 3}
-  - {fileID: 8300000, guid: 223c9723bba72a440ac0452b2247851a, type: 3}
-  - {fileID: 8300000, guid: f814f5acc338fe146a321c744522ebdb, type: 3}
+  - {fileID: 8300000, guid: 2bf4efd00d9307145a47de8c858179ab, type: 3}
+  - {fileID: 8300000, guid: b134e57c8d146a446ac0785ff68f9aa7, type: 3}
+  - {fileID: 8300000, guid: 51300cd4c7a33634c8b563b17f622541, type: 3}
+  - {fileID: 8300000, guid: bfda7188f651a2648a6340167a977405, type: 3}
